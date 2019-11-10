@@ -1,0 +1,71 @@
+{
+  "BUFHCE": {
+    "bels": {
+      "BUFHCE": {
+        "type": "BUFHCE_BUFHCE",
+        "class": "BEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "CEINV_OUT"
+          },
+          "I": {
+            "dir": "INPUT",
+            "wire": "I"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "O"
+          }
+        }
+      },
+      "CEINV": {
+        "type": "BUFHCE_CEINV",
+        "class": "RBEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "CE"
+          },
+          "CE_B": {
+            "dir": "INPUT",
+            "wire": "CE"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CEINV_OUT"
+          }
+        }
+      }
+    },
+    "pips": [
+      {
+        "bel": "CEINV",
+        "from_pin": "CE",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CEINV",
+        "from_pin": "CE_B",
+        "to_pin": "OUT"
+      }
+    ],
+    "pins": {
+      "I": {
+        "primary": "I",
+        "wire": "I",
+        "dir": "INPUT"
+      },
+      "O": {
+        "primary": "O",
+        "wire": "O",
+        "dir": "OUTPUT"
+      },
+      "CE": {
+        "primary": "CE",
+        "wire": "CE",
+        "dir": "INPUT"
+      }
+    }
+  }
+}

@@ -1,0 +1,754 @@
+{
+  "IOB33M": {
+    "bels": {
+      "INBUF_EN": {
+        "type": "IOB33M_INBUF_EN",
+        "class": "BEL",
+        "pins": {
+          "DIFFI_IN": {
+            "dir": "INPUT",
+            "wire": "DIFFI_INUSED_OUT"
+          },
+          "IBUFDISABLE": {
+            "dir": "INPUT",
+            "wire": "IBUFDISABLE_SEL_OUT"
+          },
+          "INTERMDISABLE": {
+            "dir": "INPUT",
+            "wire": "INTERMDISABLE_SEL_OUT"
+          },
+          "PAD": {
+            "dir": "INPUT",
+            "wire": "OUTBUF_OUT"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "INBUF_EN_OUT"
+          }
+        }
+      },
+      "OUTBUF": {
+        "type": "IOB33M_OUTBUF",
+        "class": "BEL",
+        "pins": {
+          "IN": {
+            "dir": "INPUT",
+            "wire": "OUSED_OUT"
+          },
+          "TRI": {
+            "dir": "INPUT",
+            "wire": "TUSED_OUT"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "OUTBUF_OUT"
+          },
+          "OUTN": {
+            "dir": "OUTPUT",
+            "wire": "OUTBUF_OUTN"
+          }
+        }
+      },
+      "TERM_OVERRIDE": {
+        "type": "IOB33M_TERM_OVERRIDE",
+        "class": "BEL",
+        "pins": {
+          "DIFF_TERM_EN": {
+            "dir": "INPUT",
+            "wire": "DIFF_TERM_INT_EN"
+          },
+          "KEEPER_EN": {
+            "dir": "INPUT",
+            "wire": "KEEPER_INT_EN"
+          },
+          "PD_EN": {
+            "dir": "INPUT",
+            "wire": "PD_INT_EN"
+          },
+          "PU_EN": {
+            "dir": "INPUT",
+            "wire": "PU_INT_EN"
+          }
+        }
+      },
+      "PAD": {
+        "type": "PAD",
+        "class": "BEL",
+        "pins": {
+          "PAD": {
+            "dir": "BIDIR",
+            "wire": "OUTBUF_OUT"
+          }
+        }
+      },
+      "PULL": {
+        "type": "PULL_OR_KEEP1",
+        "class": "BEL",
+        "pins": {
+          "PAD": {
+            "dir": "BIDIR",
+            "wire": "OUTBUF_OUT"
+          }
+        }
+      },
+      "IBUFDISABLE_GND": {
+        "type": "HARD0",
+        "class": "BEL",
+        "pins": {
+          "0": {
+            "dir": "OUTPUT",
+            "wire": "IBUFDISABLE_GND_HARD0"
+          }
+        }
+      },
+      "INTERMDISABLE_GND": {
+        "type": "HARD0",
+        "class": "BEL",
+        "pins": {
+          "0": {
+            "dir": "OUTPUT",
+            "wire": "INTERMDISABLE_GND_HARD0"
+          }
+        }
+      },
+      "IUSED": {
+        "type": "IOB33M_IUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "INBUF_EN_OUT"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "I"
+          }
+        }
+      },
+      "DIFFI_INUSED": {
+        "type": "IOB33M_DIFFI_INUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "DIFFI_IN"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "DIFFI_INUSED_OUT"
+          }
+        }
+      },
+      "TUSED": {
+        "type": "IOB33M_TUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "T"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "TUSED_OUT"
+          }
+        }
+      },
+      "OUSED": {
+        "type": "IOB33M_OUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "O"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "OUSED_OUT"
+          }
+        }
+      },
+      "DIFFO_OUTUSED": {
+        "type": "IOB33M_DIFFO_OUTUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "OUTBUF_OUTN"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "DIFFO_OUT"
+          }
+        }
+      },
+      "O_OUTUSED": {
+        "type": "IOB33M_O_OUTUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "O"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "O_OUT"
+          }
+        }
+      },
+      "T_OUTUSED": {
+        "type": "IOB33M_T_OUTUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "T"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "T_OUT"
+          }
+        }
+      },
+      "IBUFDISABLE_SEL": {
+        "type": "IOB33M_IBUFDISABLE_SEL",
+        "class": "RBEL",
+        "pins": {
+          "GND": {
+            "dir": "INPUT",
+            "wire": "IBUFDISABLE_GND_HARD0"
+          },
+          "I": {
+            "dir": "INPUT",
+            "wire": "IBUFDISABLE"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "IBUFDISABLE_SEL_OUT"
+          }
+        }
+      },
+      "INTERMDISABLE_SEL": {
+        "type": "IOB33M_INTERMDISABLE_SEL",
+        "class": "RBEL",
+        "pins": {
+          "GND": {
+            "dir": "INPUT",
+            "wire": "INTERMDISABLE_GND_HARD0"
+          },
+          "I": {
+            "dir": "INPUT",
+            "wire": "INTERMDISABLE"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "INTERMDISABLE_SEL_OUT"
+          }
+        }
+      },
+      "PADOUTUSED": {
+        "type": "NULLMUX",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "OUTBUF_OUT"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "PADOUT"
+          }
+        }
+      }
+    },
+    "pips": [
+      {
+        "bel": "IUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DIFFI_INUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "TUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "OUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DIFFO_OUTUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "O_OUTUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "T_OUTUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "IBUFDISABLE_SEL",
+        "from_pin": "GND",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "IBUFDISABLE_SEL",
+        "from_pin": "I",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "INTERMDISABLE_SEL",
+        "from_pin": "GND",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "INTERMDISABLE_SEL",
+        "from_pin": "I",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "PADOUTUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      }
+    ],
+    "pins": {
+      "DIFF_TERM_INT_EN": {
+        "primary": "DIFF_TERM_INT_EN",
+        "wire": "DIFF_TERM_INT_EN",
+        "dir": "INPUT"
+      },
+      "KEEPER_INT_EN": {
+        "primary": "KEEPER_INT_EN",
+        "wire": "KEEPER_INT_EN",
+        "dir": "INPUT"
+      },
+      "PD_INT_EN": {
+        "primary": "PD_INT_EN",
+        "wire": "PD_INT_EN",
+        "dir": "INPUT"
+      },
+      "PU_INT_EN": {
+        "primary": "PU_INT_EN",
+        "wire": "PU_INT_EN",
+        "dir": "INPUT"
+      },
+      "I": {
+        "primary": "I",
+        "wire": "I",
+        "dir": "OUTPUT"
+      },
+      "DIFFI_IN": {
+        "primary": "DIFFI_IN",
+        "wire": "DIFFI_IN",
+        "dir": "INPUT"
+      },
+      "T": {
+        "primary": "T",
+        "wire": "T",
+        "dir": "INPUT"
+      },
+      "O": {
+        "primary": "O",
+        "wire": "O",
+        "dir": "INPUT"
+      },
+      "DIFFO_OUT": {
+        "primary": "DIFFO_OUT",
+        "wire": "DIFFO_OUT",
+        "dir": "OUTPUT"
+      },
+      "O_OUT": {
+        "primary": "O_OUT",
+        "wire": "O_OUT",
+        "dir": "OUTPUT"
+      },
+      "T_OUT": {
+        "primary": "T_OUT",
+        "wire": "T_OUT",
+        "dir": "OUTPUT"
+      },
+      "IBUFDISABLE": {
+        "primary": "IBUFDISABLE",
+        "wire": "IBUFDISABLE",
+        "dir": "INPUT"
+      },
+      "INTERMDISABLE": {
+        "primary": "INTERMDISABLE",
+        "wire": "INTERMDISABLE",
+        "dir": "INPUT"
+      },
+      "PADOUT": {
+        "primary": "PADOUT",
+        "wire": "PADOUT",
+        "dir": "OUTPUT"
+      }
+    }
+  },
+  "IOB33": {
+    "bels": {
+      "INBUF_EN": {
+        "type": "IOB33_INBUF_EN",
+        "class": "BEL",
+        "pins": {
+          "DIFFI_IN": {
+            "dir": "INPUT",
+            "wire": "DIFFI_INUSED_OUT"
+          },
+          "IBUFDISABLE": {
+            "dir": "INPUT",
+            "wire": "IBUFDISABLE_SEL_OUT"
+          },
+          "INTERMDISABLE": {
+            "dir": "INPUT",
+            "wire": "INTERMDISABLE_SEL_OUT"
+          },
+          "PAD": {
+            "dir": "INPUT",
+            "wire": "OUTBUF_OUT"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "INBUF_EN_OUT"
+          }
+        }
+      },
+      "OUTBUF": {
+        "type": "IOB33_OUTBUF",
+        "class": "BEL",
+        "pins": {
+          "IN": {
+            "dir": "INPUT",
+            "wire": "OUSED_OUT"
+          },
+          "TRI": {
+            "dir": "INPUT",
+            "wire": "TUSED_OUT"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "OUTBUF_OUT"
+          }
+        }
+      },
+      "TERM_OVERRIDE": {
+        "type": "IOB33_TERM_OVERRIDE",
+        "class": "BEL",
+        "pins": {
+          "DIFF_TERM_EN": {
+            "dir": "INPUT",
+            "wire": "DIFF_TERM_INT_EN"
+          },
+          "KEEPER_EN": {
+            "dir": "INPUT",
+            "wire": "KEEPER_INT_EN"
+          },
+          "PD_EN": {
+            "dir": "INPUT",
+            "wire": "PD_INT_EN"
+          },
+          "PU_EN": {
+            "dir": "INPUT",
+            "wire": "PU_INT_EN"
+          }
+        }
+      },
+      "PAD": {
+        "type": "PAD",
+        "class": "BEL",
+        "pins": {
+          "PAD": {
+            "dir": "BIDIR",
+            "wire": "OUTBUF_OUT"
+          }
+        }
+      },
+      "PULL": {
+        "type": "PULL_OR_KEEP1",
+        "class": "BEL",
+        "pins": {
+          "PAD": {
+            "dir": "BIDIR",
+            "wire": "OUTBUF_OUT"
+          }
+        }
+      },
+      "IBUFDISABLE_GND": {
+        "type": "HARD0",
+        "class": "BEL",
+        "pins": {
+          "0": {
+            "dir": "OUTPUT",
+            "wire": "IBUFDISABLE_GND_HARD0"
+          }
+        }
+      },
+      "INTERMDISABLE_GND": {
+        "type": "HARD0",
+        "class": "BEL",
+        "pins": {
+          "0": {
+            "dir": "OUTPUT",
+            "wire": "INTERMDISABLE_GND_HARD0"
+          }
+        }
+      },
+      "IUSED": {
+        "type": "IOB33_IUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "INBUF_EN_OUT"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "I"
+          }
+        }
+      },
+      "DIFFI_INUSED": {
+        "type": "IOB33_DIFFI_INUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "DIFFI_IN"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "DIFFI_INUSED_OUT"
+          }
+        }
+      },
+      "TUSED": {
+        "type": "IOB33_TUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "T"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "TUSED_OUT"
+          }
+        }
+      },
+      "OUSED": {
+        "type": "IOB33_OUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "O"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "OUSED_OUT"
+          }
+        }
+      },
+      "IBUFDISABLE_SEL": {
+        "type": "IOB33_IBUFDISABLE_SEL",
+        "class": "RBEL",
+        "pins": {
+          "GND": {
+            "dir": "INPUT",
+            "wire": "IBUFDISABLE_GND_HARD0"
+          },
+          "I": {
+            "dir": "INPUT",
+            "wire": "IBUFDISABLE"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "IBUFDISABLE_SEL_OUT"
+          }
+        }
+      },
+      "INTERMDISABLE_SEL": {
+        "type": "IOB33_INTERMDISABLE_SEL",
+        "class": "RBEL",
+        "pins": {
+          "GND": {
+            "dir": "INPUT",
+            "wire": "INTERMDISABLE_GND_HARD0"
+          },
+          "I": {
+            "dir": "INPUT",
+            "wire": "INTERMDISABLE"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "INTERMDISABLE_SEL_OUT"
+          }
+        }
+      },
+      "PADOUTUSED": {
+        "type": "NULLMUX",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "OUTBUF_OUT"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "PADOUT"
+          }
+        }
+      }
+    },
+    "pips": [
+      {
+        "bel": "IUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DIFFI_INUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "TUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "OUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "IBUFDISABLE_SEL",
+        "from_pin": "GND",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "IBUFDISABLE_SEL",
+        "from_pin": "I",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "INTERMDISABLE_SEL",
+        "from_pin": "GND",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "INTERMDISABLE_SEL",
+        "from_pin": "I",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "PADOUTUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      }
+    ],
+    "pins": {
+      "DIFF_TERM_INT_EN": {
+        "primary": "DIFF_TERM_INT_EN",
+        "wire": "DIFF_TERM_INT_EN",
+        "dir": "INPUT"
+      },
+      "KEEPER_INT_EN": {
+        "primary": "KEEPER_INT_EN",
+        "wire": "KEEPER_INT_EN",
+        "dir": "INPUT"
+      },
+      "PD_INT_EN": {
+        "primary": "PD_INT_EN",
+        "wire": "PD_INT_EN",
+        "dir": "INPUT"
+      },
+      "PU_INT_EN": {
+        "primary": "PU_INT_EN",
+        "wire": "PU_INT_EN",
+        "dir": "INPUT"
+      },
+      "I": {
+        "primary": "I",
+        "wire": "I",
+        "dir": "OUTPUT"
+      },
+      "DIFFI_IN": {
+        "primary": "DIFFI_IN",
+        "wire": "DIFFI_IN",
+        "dir": "INPUT"
+      },
+      "T": {
+        "primary": "T",
+        "wire": "T",
+        "dir": "INPUT"
+      },
+      "O": {
+        "primary": "O",
+        "wire": "O",
+        "dir": "INPUT"
+      },
+      "IBUFDISABLE": {
+        "primary": "IBUFDISABLE",
+        "wire": "IBUFDISABLE",
+        "dir": "INPUT"
+      },
+      "INTERMDISABLE": {
+        "primary": "INTERMDISABLE",
+        "wire": "INTERMDISABLE",
+        "dir": "INPUT"
+      },
+      "PADOUT": {
+        "primary": "PADOUT",
+        "wire": "PADOUT",
+        "dir": "OUTPUT"
+      }
+    }
+  },
+  "IPAD": {
+    "bels": {
+      "PAD": {
+        "type": "PAD",
+        "class": "BEL",
+        "pins": {
+          "PAD": {
+            "dir": "BIDIR",
+            "wire": "PAD_PAD"
+          }
+        }
+      },
+      "IPAD": {
+        "type": "BUFFER",
+        "class": "BEL",
+        "pins": {
+          "I": {
+            "dir": "INPUT",
+            "wire": "PAD_PAD"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "O"
+          }
+        }
+      }
+    },
+    "pips": [],
+    "pins": {
+      "O": {
+        "primary": "PADOUT",
+        "wire": "O",
+        "dir": "OUTPUT"
+      }
+    }
+  }
+}
