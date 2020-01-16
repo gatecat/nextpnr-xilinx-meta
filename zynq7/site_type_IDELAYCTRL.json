@@ -1,0 +1,78 @@
+{
+  "IDELAYCTRL": {
+    "bels": {
+      "IDELAYCTRL": {
+        "type": "IDELAYCTRL_IDELAYCTRL",
+        "class": "BEL",
+        "pins": {
+          "REFCLK": {
+            "dir": "INPUT",
+            "wire": "REFCLK"
+          },
+          "RST": {
+            "dir": "INPUT",
+            "wire": "RST"
+          },
+          "DNPULSEOUT": {
+            "dir": "OUTPUT",
+            "wire": "DNPULSEOUT"
+          },
+          "OUTN1": {
+            "dir": "OUTPUT",
+            "wire": "OUTN1"
+          },
+          "OUTN65": {
+            "dir": "OUTPUT",
+            "wire": "OUTN65"
+          },
+          "RDY": {
+            "dir": "OUTPUT",
+            "wire": "RDY"
+          },
+          "UPPULSEOUT": {
+            "dir": "OUTPUT",
+            "wire": "UPPULSEOUT"
+          }
+        }
+      }
+    },
+    "pips": [],
+    "pins": {
+      "REFCLK": {
+        "primary": "REFCLK",
+        "wire": "REFCLK",
+        "dir": "INPUT"
+      },
+      "RST": {
+        "primary": "RST",
+        "wire": "RST",
+        "dir": "INPUT"
+      },
+      "DNPULSEOUT": {
+        "primary": "DNPULSEOUT",
+        "wire": "DNPULSEOUT",
+        "dir": "OUTPUT"
+      },
+      "OUTN1": {
+        "primary": "OUTN1",
+        "wire": "OUTN1",
+        "dir": "OUTPUT"
+      },
+      "OUTN65": {
+        "primary": "OUTN65",
+        "wire": "OUTN65",
+        "dir": "OUTPUT"
+      },
+      "RDY": {
+        "primary": "RDY",
+        "wire": "RDY",
+        "dir": "OUTPUT"
+      },
+      "UPPULSEOUT": {
+        "primary": "UPPULSEOUT",
+        "wire": "UPPULSEOUT",
+        "dir": "OUTPUT"
+      }
+    }
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "BUFGCTRL": {
+    "bels": {
+      "BUFGCTRL": {
+        "type": "BUFGCTRL_BUFGCTRL",
+        "class": "BEL",
+        "pins": {
+          "CE0": {
+            "dir": "INPUT",
+            "wire": "CE0INV_OUT"
+          },
+          "CE1": {
+            "dir": "INPUT",
+            "wire": "CE1INV_OUT"
+          },
+          "I0": {
+            "dir": "INPUT",
+            "wire": "I0"
+          },
+          "I1": {
+            "dir": "INPUT",
+            "wire": "I1"
+          },
+          "IGNORE0": {
+            "dir": "INPUT",
+            "wire": "IGNORE0INV_OUT"
+          },
+          "IGNORE1": {
+            "dir": "INPUT",
+            "wire": "IGNORE1INV_OUT"
+          },
+          "S0": {
+            "dir": "INPUT",
+            "wire": "S0INV_OUT"
+          },
+          "S1": {
+            "dir": "INPUT",
+            "wire": "S1INV_OUT"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "O"
+          }
+        }
+      },
+      "IGNORE0INV": {
+        "type": "BUFGCTRL_IGNORE0INV",
+        "class": "RBEL",
+        "pins": {
+          "IGNORE0": {
+            "dir": "INPUT",
+            "wire": "IGNORE0"
+          },
+          "IGNORE0_B": {
+            "dir": "INPUT",
+            "wire": "IGNORE0"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "IGNORE0INV_OUT"
+          }
+        }
+      },
+      "CE0INV": {
+        "type": "BUFGCTRL_CE0INV",
+        "class": "RBEL",
+        "pins": {
+          "CE0": {
+            "dir": "INPUT",
+            "wire": "CE0"
+          },
+          "CE0_B": {
+            "dir": "INPUT",
+            "wire": "CE0"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CE0INV_OUT"
+          }
+        }
+      },
+      "S1INV": {
+        "type": "BUFGCTRL_S1INV",
+        "class": "RBEL",
+        "pins": {
+          "S1": {
+            "dir": "INPUT",
+            "wire": "S1"
+          },
+          "S1_B": {
+            "dir": "INPUT",
+            "wire": "S1"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "S1INV_OUT"
+          }
+        }
+      },
+      "IGNORE1INV": {
+        "type": "BUFGCTRL_IGNORE1INV",
+        "class": "RBEL",
+        "pins": {
+          "IGNORE1": {
+            "dir": "INPUT",
+            "wire": "IGNORE1"
+          },
+          "IGNORE1_B": {
+            "dir": "INPUT",
+            "wire": "IGNORE1"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "IGNORE1INV_OUT"
+          }
+        }
+      },
+      "CE1INV": {
+        "type": "BUFGCTRL_CE1INV",
+        "class": "RBEL",
+        "pins": {
+          "CE1": {
+            "dir": "INPUT",
+            "wire": "CE1"
+          },
+          "CE1_B": {
+            "dir": "INPUT",
+            "wire": "CE1"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CE1INV_OUT"
+          }
+        }
+      },
+      "S0INV": {
+        "type": "BUFGCTRL_S0INV",
+        "class": "RBEL",
+        "pins": {
+          "S0": {
+            "dir": "INPUT",
+            "wire": "S0"
+          },
+          "S0_B": {
+            "dir": "INPUT",
+            "wire": "S0"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "S0INV_OUT"
+          }
+        }
+      }
+    },
+    "pips": [
+      {
+        "bel": "IGNORE0INV",
+        "from_pin": "IGNORE0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "IGNORE0INV",
+        "from_pin": "IGNORE0_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CE0INV",
+        "from_pin": "CE0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CE0INV",
+        "from_pin": "CE0_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "S1INV",
+        "from_pin": "S1",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "S1INV",
+        "from_pin": "S1_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "IGNORE1INV",
+        "from_pin": "IGNORE1",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "IGNORE1INV",
+        "from_pin": "IGNORE1_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CE1INV",
+        "from_pin": "CE1",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CE1INV",
+        "from_pin": "CE1_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "S0INV",
+        "from_pin": "S0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "S0INV",
+        "from_pin": "S0_B",
+        "to_pin": "OUT"
+      }
+    ],
+    "pins": {
+      "I0": {
+        "primary": "I0",
+        "wire": "I0",
+        "dir": "INPUT"
+      },
+      "I1": {
+        "primary": "I1",
+        "wire": "I1",
+        "dir": "INPUT"
+      },
+      "O": {
+        "primary": "O",
+        "wire": "O",
+        "dir": "OUTPUT"
+      },
+      "IGNORE0": {
+        "primary": "IGNORE0",
+        "wire": "IGNORE0",
+        "dir": "INPUT"
+      },
+      "CE0": {
+        "primary": "CE0",
+        "wire": "CE0",
+        "dir": "INPUT"
+      },
+      "S1": {
+        "primary": "S1",
+        "wire": "S1",
+        "dir": "INPUT"
+      },
+      "IGNORE1": {
+        "primary": "IGNORE1",
+        "wire": "IGNORE1",
+        "dir": "INPUT"
+      },
+      "CE1": {
+        "primary": "CE1",
+        "wire": "CE1",
+        "dir": "INPUT"
+      },
+      "S0": {
+        "primary": "S0",
+        "wire": "S0",
+        "dir": "INPUT"
+      }
+    }
+  },
+  "BUFG": {
+    "bels": {
+      "BUFG": {
+        "type": "BUFG_BUFG",
+        "class": "BEL",
+        "pins": {
+          "I0": {
+            "dir": "INPUT",
+            "wire": "I0"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "O"
+          }
+        }
+      }
+    },
+    "pips": [],
+    "pins": {
+      "I0": {
+        "primary": "I0",
+        "wire": "I0",
+        "dir": "INPUT"
+      },
+      "O": {
+        "primary": "O",
+        "wire": "O",
+        "dir": "OUTPUT"
+      }
+    }
+  }
+}
