@@ -1,0 +1,2915 @@
+{
+  "SLICEM": {
+    "bels": {
+      "SRUSEDGND": {
+        "type": "HARD0",
+        "class": "BEL",
+        "pins": {
+          "0": {
+            "dir": "OUTPUT",
+            "wire": "SRUSEDGND_HARD0"
+          }
+        }
+      },
+      "CYINITGND": {
+        "type": "HARD0",
+        "class": "BEL",
+        "pins": {
+          "0": {
+            "dir": "OUTPUT",
+            "wire": "CYINITGND_HARD0"
+          }
+        }
+      },
+      "CEUSEDVCC": {
+        "type": "HARD1",
+        "class": "BEL",
+        "pins": {
+          "1": {
+            "dir": "OUTPUT",
+            "wire": "CEUSEDVCC_HARD1"
+          }
+        }
+      },
+      "CYINITVCC": {
+        "type": "HARD1",
+        "class": "BEL",
+        "pins": {
+          "1": {
+            "dir": "OUTPUT",
+            "wire": "CYINITVCC_HARD1"
+          }
+        }
+      },
+      "D5FF": {
+        "type": "FF_INIT",
+        "class": "BEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "CEUSEDMUX_OUT"
+          },
+          "CK": {
+            "dir": "INPUT",
+            "wire": "CLKINV_OUT"
+          },
+          "D": {
+            "dir": "INPUT",
+            "wire": "D5FFMUX_OUT"
+          },
+          "SR": {
+            "dir": "INPUT",
+            "wire": "SRUSEDMUX_OUT"
+          },
+          "Q": {
+            "dir": "OUTPUT",
+            "wire": "D5FF_Q"
+          }
+        }
+      },
+      "C5FF": {
+        "type": "FF_INIT",
+        "class": "BEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "CEUSEDMUX_OUT"
+          },
+          "CK": {
+            "dir": "INPUT",
+            "wire": "CLKINV_OUT"
+          },
+          "D": {
+            "dir": "INPUT",
+            "wire": "C5FFMUX_OUT"
+          },
+          "SR": {
+            "dir": "INPUT",
+            "wire": "SRUSEDMUX_OUT"
+          },
+          "Q": {
+            "dir": "OUTPUT",
+            "wire": "C5FF_Q"
+          }
+        }
+      },
+      "B5FF": {
+        "type": "FF_INIT",
+        "class": "BEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "CEUSEDMUX_OUT"
+          },
+          "CK": {
+            "dir": "INPUT",
+            "wire": "CLKINV_OUT"
+          },
+          "D": {
+            "dir": "INPUT",
+            "wire": "B5FFMUX_OUT"
+          },
+          "SR": {
+            "dir": "INPUT",
+            "wire": "SRUSEDMUX_OUT"
+          },
+          "Q": {
+            "dir": "OUTPUT",
+            "wire": "B5FF_Q"
+          }
+        }
+      },
+      "A5FF": {
+        "type": "FF_INIT",
+        "class": "BEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "CEUSEDMUX_OUT"
+          },
+          "CK": {
+            "dir": "INPUT",
+            "wire": "CLKINV_OUT"
+          },
+          "D": {
+            "dir": "INPUT",
+            "wire": "A5FFMUX_OUT"
+          },
+          "SR": {
+            "dir": "INPUT",
+            "wire": "SRUSEDMUX_OUT"
+          },
+          "Q": {
+            "dir": "OUTPUT",
+            "wire": "A5FF_Q"
+          }
+        }
+      },
+      "D6LUT": {
+        "type": "LUT_OR_MEM6",
+        "class": "BEL",
+        "pins": {
+          "A1": {
+            "dir": "INPUT",
+            "wire": "D1"
+          },
+          "A2": {
+            "dir": "INPUT",
+            "wire": "D2"
+          },
+          "A3": {
+            "dir": "INPUT",
+            "wire": "D3"
+          },
+          "A4": {
+            "dir": "INPUT",
+            "wire": "D4"
+          },
+          "A5": {
+            "dir": "INPUT",
+            "wire": "D5"
+          },
+          "A6": {
+            "dir": "INPUT",
+            "wire": "D6"
+          },
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "CLKINV_OUT"
+          },
+          "DI1": {
+            "dir": "INPUT",
+            "wire": "DI"
+          },
+          "DI2": {
+            "dir": "INPUT",
+            "wire": "DX"
+          },
+          "WA1": {
+            "dir": "INPUT",
+            "wire": "D1"
+          },
+          "WA2": {
+            "dir": "INPUT",
+            "wire": "D2"
+          },
+          "WA3": {
+            "dir": "INPUT",
+            "wire": "D3"
+          },
+          "WA4": {
+            "dir": "INPUT",
+            "wire": "D4"
+          },
+          "WA5": {
+            "dir": "INPUT",
+            "wire": "D5"
+          },
+          "WA6": {
+            "dir": "INPUT",
+            "wire": "D6"
+          },
+          "WA7": {
+            "dir": "INPUT",
+            "wire": "WA7USED_OUT"
+          },
+          "WA8": {
+            "dir": "INPUT",
+            "wire": "WA8USED_OUT"
+          },
+          "WE": {
+            "dir": "INPUT",
+            "wire": "WEMUX_OUT"
+          },
+          "MC31": {
+            "dir": "OUTPUT",
+            "wire": "D6LUT_MC31"
+          },
+          "O6": {
+            "dir": "OUTPUT",
+            "wire": "D6LUT_O6"
+          }
+        }
+      },
+      "D5LUT": {
+        "type": "LUT_OR_MEM5",
+        "class": "BEL",
+        "pins": {
+          "A1": {
+            "dir": "INPUT",
+            "wire": "D1"
+          },
+          "A2": {
+            "dir": "INPUT",
+            "wire": "D2"
+          },
+          "A3": {
+            "dir": "INPUT",
+            "wire": "D3"
+          },
+          "A4": {
+            "dir": "INPUT",
+            "wire": "D4"
+          },
+          "A5": {
+            "dir": "INPUT",
+            "wire": "D5"
+          },
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "CLKINV_OUT"
+          },
+          "DI1": {
+            "dir": "INPUT",
+            "wire": "DI"
+          },
+          "WA1": {
+            "dir": "INPUT",
+            "wire": "D1"
+          },
+          "WA2": {
+            "dir": "INPUT",
+            "wire": "D2"
+          },
+          "WA3": {
+            "dir": "INPUT",
+            "wire": "D3"
+          },
+          "WA4": {
+            "dir": "INPUT",
+            "wire": "D4"
+          },
+          "WA5": {
+            "dir": "INPUT",
+            "wire": "D5"
+          },
+          "WE": {
+            "dir": "INPUT",
+            "wire": "WEMUX_OUT"
+          },
+          "O5": {
+            "dir": "OUTPUT",
+            "wire": "D5LUT_O5"
+          }
+        }
+      },
+      "C6LUT": {
+        "type": "LUT_OR_MEM6",
+        "class": "BEL",
+        "pins": {
+          "A1": {
+            "dir": "INPUT",
+            "wire": "C1"
+          },
+          "A2": {
+            "dir": "INPUT",
+            "wire": "C2"
+          },
+          "A3": {
+            "dir": "INPUT",
+            "wire": "C3"
+          },
+          "A4": {
+            "dir": "INPUT",
+            "wire": "C4"
+          },
+          "A5": {
+            "dir": "INPUT",
+            "wire": "C5"
+          },
+          "A6": {
+            "dir": "INPUT",
+            "wire": "C6"
+          },
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "CLKINV_OUT"
+          },
+          "DI1": {
+            "dir": "INPUT",
+            "wire": "CDI1MUX_OUT"
+          },
+          "DI2": {
+            "dir": "INPUT",
+            "wire": "CX"
+          },
+          "WA1": {
+            "dir": "INPUT",
+            "wire": "D1"
+          },
+          "WA2": {
+            "dir": "INPUT",
+            "wire": "D2"
+          },
+          "WA3": {
+            "dir": "INPUT",
+            "wire": "D3"
+          },
+          "WA4": {
+            "dir": "INPUT",
+            "wire": "D4"
+          },
+          "WA5": {
+            "dir": "INPUT",
+            "wire": "D5"
+          },
+          "WA6": {
+            "dir": "INPUT",
+            "wire": "D6"
+          },
+          "WA7": {
+            "dir": "INPUT",
+            "wire": "WA7USED_OUT"
+          },
+          "WA8": {
+            "dir": "INPUT",
+            "wire": "WA8USED_OUT"
+          },
+          "WE": {
+            "dir": "INPUT",
+            "wire": "WEMUX_OUT"
+          },
+          "MC31": {
+            "dir": "OUTPUT",
+            "wire": "C6LUT_MC31"
+          },
+          "O6": {
+            "dir": "OUTPUT",
+            "wire": "C6LUT_O6"
+          }
+        }
+      },
+      "C5LUT": {
+        "type": "LUT_OR_MEM5",
+        "class": "BEL",
+        "pins": {
+          "A1": {
+            "dir": "INPUT",
+            "wire": "C1"
+          },
+          "A2": {
+            "dir": "INPUT",
+            "wire": "C2"
+          },
+          "A3": {
+            "dir": "INPUT",
+            "wire": "C3"
+          },
+          "A4": {
+            "dir": "INPUT",
+            "wire": "C4"
+          },
+          "A5": {
+            "dir": "INPUT",
+            "wire": "C5"
+          },
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "CLKINV_OUT"
+          },
+          "DI1": {
+            "dir": "INPUT",
+            "wire": "CDI1MUX_OUT"
+          },
+          "WA1": {
+            "dir": "INPUT",
+            "wire": "D1"
+          },
+          "WA2": {
+            "dir": "INPUT",
+            "wire": "D2"
+          },
+          "WA3": {
+            "dir": "INPUT",
+            "wire": "D3"
+          },
+          "WA4": {
+            "dir": "INPUT",
+            "wire": "D4"
+          },
+          "WA5": {
+            "dir": "INPUT",
+            "wire": "D5"
+          },
+          "WE": {
+            "dir": "INPUT",
+            "wire": "WEMUX_OUT"
+          },
+          "O5": {
+            "dir": "OUTPUT",
+            "wire": "C5LUT_O5"
+          }
+        }
+      },
+      "B6LUT": {
+        "type": "LUT_OR_MEM6",
+        "class": "BEL",
+        "pins": {
+          "A1": {
+            "dir": "INPUT",
+            "wire": "B1"
+          },
+          "A2": {
+            "dir": "INPUT",
+            "wire": "B2"
+          },
+          "A3": {
+            "dir": "INPUT",
+            "wire": "B3"
+          },
+          "A4": {
+            "dir": "INPUT",
+            "wire": "B4"
+          },
+          "A5": {
+            "dir": "INPUT",
+            "wire": "B5"
+          },
+          "A6": {
+            "dir": "INPUT",
+            "wire": "B6"
+          },
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "CLKINV_OUT"
+          },
+          "DI1": {
+            "dir": "INPUT",
+            "wire": "BDI1MUX_OUT"
+          },
+          "DI2": {
+            "dir": "INPUT",
+            "wire": "BX"
+          },
+          "WA1": {
+            "dir": "INPUT",
+            "wire": "D1"
+          },
+          "WA2": {
+            "dir": "INPUT",
+            "wire": "D2"
+          },
+          "WA3": {
+            "dir": "INPUT",
+            "wire": "D3"
+          },
+          "WA4": {
+            "dir": "INPUT",
+            "wire": "D4"
+          },
+          "WA5": {
+            "dir": "INPUT",
+            "wire": "D5"
+          },
+          "WA6": {
+            "dir": "INPUT",
+            "wire": "D6"
+          },
+          "WA7": {
+            "dir": "INPUT",
+            "wire": "WA7USED_OUT"
+          },
+          "WA8": {
+            "dir": "INPUT",
+            "wire": "WA8USED_OUT"
+          },
+          "WE": {
+            "dir": "INPUT",
+            "wire": "WEMUX_OUT"
+          },
+          "MC31": {
+            "dir": "OUTPUT",
+            "wire": "B6LUT_MC31"
+          },
+          "O6": {
+            "dir": "OUTPUT",
+            "wire": "B6LUT_O6"
+          }
+        }
+      },
+      "B5LUT": {
+        "type": "LUT_OR_MEM5",
+        "class": "BEL",
+        "pins": {
+          "A1": {
+            "dir": "INPUT",
+            "wire": "B1"
+          },
+          "A2": {
+            "dir": "INPUT",
+            "wire": "B2"
+          },
+          "A3": {
+            "dir": "INPUT",
+            "wire": "B3"
+          },
+          "A4": {
+            "dir": "INPUT",
+            "wire": "B4"
+          },
+          "A5": {
+            "dir": "INPUT",
+            "wire": "B5"
+          },
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "CLKINV_OUT"
+          },
+          "DI1": {
+            "dir": "INPUT",
+            "wire": "BDI1MUX_OUT"
+          },
+          "WA1": {
+            "dir": "INPUT",
+            "wire": "D1"
+          },
+          "WA2": {
+            "dir": "INPUT",
+            "wire": "D2"
+          },
+          "WA3": {
+            "dir": "INPUT",
+            "wire": "D3"
+          },
+          "WA4": {
+            "dir": "INPUT",
+            "wire": "D4"
+          },
+          "WA5": {
+            "dir": "INPUT",
+            "wire": "D5"
+          },
+          "WE": {
+            "dir": "INPUT",
+            "wire": "WEMUX_OUT"
+          },
+          "O5": {
+            "dir": "OUTPUT",
+            "wire": "B5LUT_O5"
+          }
+        }
+      },
+      "A6LUT": {
+        "type": "LUT_OR_MEM6",
+        "class": "BEL",
+        "pins": {
+          "A1": {
+            "dir": "INPUT",
+            "wire": "A1"
+          },
+          "A2": {
+            "dir": "INPUT",
+            "wire": "A2"
+          },
+          "A3": {
+            "dir": "INPUT",
+            "wire": "A3"
+          },
+          "A4": {
+            "dir": "INPUT",
+            "wire": "A4"
+          },
+          "A5": {
+            "dir": "INPUT",
+            "wire": "A5"
+          },
+          "A6": {
+            "dir": "INPUT",
+            "wire": "A6"
+          },
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "CLKINV_OUT"
+          },
+          "DI1": {
+            "dir": "INPUT",
+            "wire": "ADI1MUX_OUT"
+          },
+          "DI2": {
+            "dir": "INPUT",
+            "wire": "AX"
+          },
+          "WA1": {
+            "dir": "INPUT",
+            "wire": "D1"
+          },
+          "WA2": {
+            "dir": "INPUT",
+            "wire": "D2"
+          },
+          "WA3": {
+            "dir": "INPUT",
+            "wire": "D3"
+          },
+          "WA4": {
+            "dir": "INPUT",
+            "wire": "D4"
+          },
+          "WA5": {
+            "dir": "INPUT",
+            "wire": "D5"
+          },
+          "WA6": {
+            "dir": "INPUT",
+            "wire": "D6"
+          },
+          "WA7": {
+            "dir": "INPUT",
+            "wire": "WA7USED_OUT"
+          },
+          "WA8": {
+            "dir": "INPUT",
+            "wire": "WA8USED_OUT"
+          },
+          "WE": {
+            "dir": "INPUT",
+            "wire": "WEMUX_OUT"
+          },
+          "MC31": {
+            "dir": "OUTPUT",
+            "wire": "A6LUT_MC31"
+          },
+          "O6": {
+            "dir": "OUTPUT",
+            "wire": "A6LUT_O6"
+          }
+        }
+      },
+      "A5LUT": {
+        "type": "LUT_OR_MEM5",
+        "class": "BEL",
+        "pins": {
+          "A1": {
+            "dir": "INPUT",
+            "wire": "A1"
+          },
+          "A2": {
+            "dir": "INPUT",
+            "wire": "A2"
+          },
+          "A3": {
+            "dir": "INPUT",
+            "wire": "A3"
+          },
+          "A4": {
+            "dir": "INPUT",
+            "wire": "A4"
+          },
+          "A5": {
+            "dir": "INPUT",
+            "wire": "A5"
+          },
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "CLKINV_OUT"
+          },
+          "DI1": {
+            "dir": "INPUT",
+            "wire": "ADI1MUX_OUT"
+          },
+          "WA1": {
+            "dir": "INPUT",
+            "wire": "D1"
+          },
+          "WA2": {
+            "dir": "INPUT",
+            "wire": "D2"
+          },
+          "WA3": {
+            "dir": "INPUT",
+            "wire": "D3"
+          },
+          "WA4": {
+            "dir": "INPUT",
+            "wire": "D4"
+          },
+          "WA5": {
+            "dir": "INPUT",
+            "wire": "D5"
+          },
+          "WE": {
+            "dir": "INPUT",
+            "wire": "WEMUX_OUT"
+          },
+          "O5": {
+            "dir": "OUTPUT",
+            "wire": "A5LUT_O5"
+          }
+        }
+      },
+      "CARRY4": {
+        "type": "CARRY4",
+        "class": "BEL",
+        "pins": {
+          "CIN": {
+            "dir": "INPUT",
+            "wire": "CIN"
+          },
+          "CYINIT": {
+            "dir": "INPUT",
+            "wire": "PRECYINIT_OUT"
+          },
+          "DI0": {
+            "dir": "INPUT",
+            "wire": "ACY0_OUT"
+          },
+          "DI1": {
+            "dir": "INPUT",
+            "wire": "BCY0_OUT"
+          },
+          "DI2": {
+            "dir": "INPUT",
+            "wire": "CCY0_OUT"
+          },
+          "DI3": {
+            "dir": "INPUT",
+            "wire": "DCY0_OUT"
+          },
+          "S0": {
+            "dir": "INPUT",
+            "wire": "A6LUT_O6"
+          },
+          "S1": {
+            "dir": "INPUT",
+            "wire": "B6LUT_O6"
+          },
+          "S2": {
+            "dir": "INPUT",
+            "wire": "C6LUT_O6"
+          },
+          "S3": {
+            "dir": "INPUT",
+            "wire": "D6LUT_O6"
+          },
+          "CO0": {
+            "dir": "OUTPUT",
+            "wire": "CARRY4_CO0"
+          },
+          "CO1": {
+            "dir": "OUTPUT",
+            "wire": "CARRY4_CO1"
+          },
+          "CO2": {
+            "dir": "OUTPUT",
+            "wire": "CARRY4_CO2"
+          },
+          "CO3": {
+            "dir": "OUTPUT",
+            "wire": "CARRY4_CO3"
+          },
+          "O0": {
+            "dir": "OUTPUT",
+            "wire": "CARRY4_O0"
+          },
+          "O1": {
+            "dir": "OUTPUT",
+            "wire": "CARRY4_O1"
+          },
+          "O2": {
+            "dir": "OUTPUT",
+            "wire": "CARRY4_O2"
+          },
+          "O3": {
+            "dir": "OUTPUT",
+            "wire": "CARRY4_O3"
+          }
+        }
+      },
+      "F8MUX": {
+        "type": "SELMUX2_1",
+        "class": "BEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "F7BMUX_OUT"
+          },
+          "1": {
+            "dir": "INPUT",
+            "wire": "F7AMUX_OUT"
+          },
+          "S0": {
+            "dir": "INPUT",
+            "wire": "BX"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "F8MUX_OUT"
+          }
+        }
+      },
+      "F7BMUX": {
+        "type": "SELMUX2_1",
+        "class": "BEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "D6LUT_O6"
+          },
+          "1": {
+            "dir": "INPUT",
+            "wire": "C6LUT_O6"
+          },
+          "S0": {
+            "dir": "INPUT",
+            "wire": "CX"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "F7BMUX_OUT"
+          }
+        }
+      },
+      "F7AMUX": {
+        "type": "SELMUX2_1",
+        "class": "BEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "B6LUT_O6"
+          },
+          "1": {
+            "dir": "INPUT",
+            "wire": "A6LUT_O6"
+          },
+          "S0": {
+            "dir": "INPUT",
+            "wire": "AX"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "F7AMUX_OUT"
+          }
+        }
+      },
+      "DFF": {
+        "type": "REG_INIT",
+        "class": "BEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "CEUSEDMUX_OUT"
+          },
+          "CK": {
+            "dir": "INPUT",
+            "wire": "CLKINV_OUT"
+          },
+          "D": {
+            "dir": "INPUT",
+            "wire": "DFFMUX_OUT"
+          },
+          "SR": {
+            "dir": "INPUT",
+            "wire": "SRUSEDMUX_OUT"
+          },
+          "Q": {
+            "dir": "OUTPUT",
+            "wire": "DQ"
+          }
+        }
+      },
+      "CFF": {
+        "type": "REG_INIT",
+        "class": "BEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "CEUSEDMUX_OUT"
+          },
+          "CK": {
+            "dir": "INPUT",
+            "wire": "CLKINV_OUT"
+          },
+          "D": {
+            "dir": "INPUT",
+            "wire": "CFFMUX_OUT"
+          },
+          "SR": {
+            "dir": "INPUT",
+            "wire": "SRUSEDMUX_OUT"
+          },
+          "Q": {
+            "dir": "OUTPUT",
+            "wire": "CQ"
+          }
+        }
+      },
+      "BFF": {
+        "type": "REG_INIT",
+        "class": "BEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "CEUSEDMUX_OUT"
+          },
+          "CK": {
+            "dir": "INPUT",
+            "wire": "CLKINV_OUT"
+          },
+          "D": {
+            "dir": "INPUT",
+            "wire": "BFFMUX_OUT"
+          },
+          "SR": {
+            "dir": "INPUT",
+            "wire": "SRUSEDMUX_OUT"
+          },
+          "Q": {
+            "dir": "OUTPUT",
+            "wire": "BQ"
+          }
+        }
+      },
+      "AFF": {
+        "type": "REG_INIT",
+        "class": "BEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "CEUSEDMUX_OUT"
+          },
+          "CK": {
+            "dir": "INPUT",
+            "wire": "CLKINV_OUT"
+          },
+          "D": {
+            "dir": "INPUT",
+            "wire": "AFFMUX_OUT"
+          },
+          "SR": {
+            "dir": "INPUT",
+            "wire": "SRUSEDMUX_OUT"
+          },
+          "Q": {
+            "dir": "OUTPUT",
+            "wire": "AQ"
+          }
+        }
+      },
+      "CARRY4_AXOR": {
+        "type": "SLICEM_CARRY4_AXOR",
+        "class": "BEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "A6LUT_O6"
+          },
+          "1": {
+            "dir": "INPUT",
+            "wire": "PRECYINIT_OUT"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "CARRY4_AXOR_O"
+          }
+        }
+      },
+      "CARRY4_BXOR": {
+        "type": "SLICEM_CARRY4_BXOR",
+        "class": "BEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "B6LUT_O6"
+          },
+          "1": {
+            "dir": "INPUT",
+            "wire": "CARRY4_AMUX_OUT"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "CARRY4_BXOR_O"
+          }
+        }
+      },
+      "CARRY4_CXOR": {
+        "type": "SLICEM_CARRY4_CXOR",
+        "class": "BEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "C6LUT_O6"
+          },
+          "1": {
+            "dir": "INPUT",
+            "wire": "CARRY4_BMUX_OUT"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "CARRY4_CXOR_O"
+          }
+        }
+      },
+      "CARRY4_DXOR": {
+        "type": "SLICEM_CARRY4_DXOR",
+        "class": "BEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "D6LUT_O6"
+          },
+          "1": {
+            "dir": "INPUT",
+            "wire": "CARRY4_CMUX_OUT"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "CARRY4_DXOR_O"
+          }
+        }
+      },
+      "CARRY4_AMUX": {
+        "type": "SLICEM_CARRY4_AMUX",
+        "class": "BEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "ACY0_OUT"
+          },
+          "1": {
+            "dir": "INPUT",
+            "wire": "PRECYINIT_OUT"
+          },
+          "S0": {
+            "dir": "INPUT",
+            "wire": "A6LUT_O6"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CARRY4_AMUX_OUT"
+          }
+        }
+      },
+      "CARRY4_BMUX": {
+        "type": "SLICEM_CARRY4_BMUX",
+        "class": "BEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "BCY0_OUT"
+          },
+          "1": {
+            "dir": "INPUT",
+            "wire": "CARRY4_AMUX_OUT"
+          },
+          "S0": {
+            "dir": "INPUT",
+            "wire": "B6LUT_O6"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CARRY4_BMUX_OUT"
+          }
+        }
+      },
+      "CARRY4_CMUX": {
+        "type": "SLICEM_CARRY4_CMUX",
+        "class": "BEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "CCY0_OUT"
+          },
+          "1": {
+            "dir": "INPUT",
+            "wire": "CARRY4_BMUX_OUT"
+          },
+          "S0": {
+            "dir": "INPUT",
+            "wire": "C6LUT_O6"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CARRY4_CMUX_OUT"
+          }
+        }
+      },
+      "CARRY4_DMUX": {
+        "type": "SLICEM_CARRY4_DMUX",
+        "class": "BEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "DCY0_OUT"
+          },
+          "1": {
+            "dir": "INPUT",
+            "wire": "CARRY4_CMUX_OUT"
+          },
+          "S0": {
+            "dir": "INPUT",
+            "wire": "D6LUT_O6"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CARRY4_DMUX_OUT"
+          }
+        }
+      },
+      "WA8USED": {
+        "type": "SLICEM_WA8USED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "BX"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "WA8USED_OUT"
+          }
+        }
+      },
+      "WA7USED": {
+        "type": "SLICEM_WA7USED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "CX"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "WA7USED_OUT"
+          }
+        }
+      },
+      "PRECYINIT": {
+        "type": "SLICEM_PRECYINIT",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "CYINITGND_HARD0"
+          },
+          "CIN": {
+            "dir": "INPUT",
+            "wire": "CIN"
+          },
+          "1": {
+            "dir": "INPUT",
+            "wire": "CYINITVCC_HARD1"
+          },
+          "AX": {
+            "dir": "INPUT",
+            "wire": "AX"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "PRECYINIT_OUT"
+          }
+        }
+      },
+      "DUSED": {
+        "type": "SLICEM_DUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "D6LUT_O6"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "D"
+          }
+        }
+      },
+      "CUSED": {
+        "type": "SLICEM_CUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "C6LUT_O6"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "C"
+          }
+        }
+      },
+      "BUSED": {
+        "type": "SLICEM_BUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "B6LUT_O6"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "B"
+          }
+        }
+      },
+      "AUSED": {
+        "type": "SLICEM_AUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "A6LUT_O6"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "A"
+          }
+        }
+      },
+      "SRUSEDMUX": {
+        "type": "SLICEM_SRUSEDMUX",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "SRUSEDGND_HARD0"
+          },
+          "IN": {
+            "dir": "INPUT",
+            "wire": "SR"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "SRUSEDMUX_OUT"
+          }
+        }
+      },
+      "CEUSEDMUX": {
+        "type": "SLICEM_CEUSEDMUX",
+        "class": "RBEL",
+        "pins": {
+          "1": {
+            "dir": "INPUT",
+            "wire": "CEUSEDVCC_HARD1"
+          },
+          "IN": {
+            "dir": "INPUT",
+            "wire": "CE"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CEUSEDMUX_OUT"
+          }
+        }
+      },
+      "A5FFMUX": {
+        "type": "SLICEM_A5FFMUX",
+        "class": "RBEL",
+        "pins": {
+          "IN_A": {
+            "dir": "INPUT",
+            "wire": "A5LUT_O5"
+          },
+          "IN_B": {
+            "dir": "INPUT",
+            "wire": "AX"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "A5FFMUX_OUT"
+          }
+        }
+      },
+      "B5FFMUX": {
+        "type": "SLICEM_B5FFMUX",
+        "class": "RBEL",
+        "pins": {
+          "IN_A": {
+            "dir": "INPUT",
+            "wire": "B5LUT_O5"
+          },
+          "IN_B": {
+            "dir": "INPUT",
+            "wire": "BX"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "B5FFMUX_OUT"
+          }
+        }
+      },
+      "D5FFMUX": {
+        "type": "SLICEM_D5FFMUX",
+        "class": "RBEL",
+        "pins": {
+          "IN_A": {
+            "dir": "INPUT",
+            "wire": "D5LUT_O5"
+          },
+          "IN_B": {
+            "dir": "INPUT",
+            "wire": "DX"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "D5FFMUX_OUT"
+          }
+        }
+      },
+      "C5FFMUX": {
+        "type": "SLICEM_C5FFMUX",
+        "class": "RBEL",
+        "pins": {
+          "IN_A": {
+            "dir": "INPUT",
+            "wire": "C5LUT_O5"
+          },
+          "IN_B": {
+            "dir": "INPUT",
+            "wire": "CX"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "C5FFMUX_OUT"
+          }
+        }
+      },
+      "WEMUX": {
+        "type": "SLICEM_WEMUX",
+        "class": "RBEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "CE"
+          },
+          "WE": {
+            "dir": "INPUT",
+            "wire": "WE"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "WEMUX_OUT"
+          }
+        }
+      },
+      "DCY0": {
+        "type": "SLICEM_DCY0",
+        "class": "RBEL",
+        "pins": {
+          "DX": {
+            "dir": "INPUT",
+            "wire": "DX"
+          },
+          "O5": {
+            "dir": "INPUT",
+            "wire": "D5LUT_O5"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "DCY0_OUT"
+          }
+        }
+      },
+      "COUTUSED": {
+        "type": "SLICEM_COUTUSED",
+        "class": "RBEL",
+        "pins": {
+          "CARRY4_0": {
+            "dir": "INPUT",
+            "wire": "CARRY4_DMUX_OUT"
+          },
+          "0": {
+            "dir": "INPUT",
+            "wire": "CARRY4_CO3"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "COUT"
+          }
+        }
+      },
+      "CLKINV": {
+        "type": "SLICEM_CLKINV",
+        "class": "RBEL",
+        "pins": {
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "CLK"
+          },
+          "CLK_B": {
+            "dir": "INPUT",
+            "wire": "CLK"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CLKINV_OUT"
+          }
+        }
+      },
+      "CCY0": {
+        "type": "SLICEM_CCY0",
+        "class": "RBEL",
+        "pins": {
+          "CX": {
+            "dir": "INPUT",
+            "wire": "CX"
+          },
+          "O5": {
+            "dir": "INPUT",
+            "wire": "C5LUT_O5"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CCY0_OUT"
+          }
+        }
+      },
+      "BCY0": {
+        "type": "SLICEM_BCY0",
+        "class": "RBEL",
+        "pins": {
+          "BX": {
+            "dir": "INPUT",
+            "wire": "BX"
+          },
+          "O5": {
+            "dir": "INPUT",
+            "wire": "B5LUT_O5"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "BCY0_OUT"
+          }
+        }
+      },
+      "ACY0": {
+        "type": "SLICEM_ACY0",
+        "class": "RBEL",
+        "pins": {
+          "AX": {
+            "dir": "INPUT",
+            "wire": "AX"
+          },
+          "O5": {
+            "dir": "INPUT",
+            "wire": "A5LUT_O5"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "ACY0_OUT"
+          }
+        }
+      },
+      "CDI1MUX": {
+        "type": "SLICEM_CDI1MUX",
+        "class": "RBEL",
+        "pins": {
+          "CI": {
+            "dir": "INPUT",
+            "wire": "CI"
+          },
+          "DI": {
+            "dir": "INPUT",
+            "wire": "DI"
+          },
+          "DMC31": {
+            "dir": "INPUT",
+            "wire": "D6LUT_MC31"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CDI1MUX_OUT"
+          }
+        }
+      },
+      "BDI1MUX": {
+        "type": "SLICEM_BDI1MUX",
+        "class": "RBEL",
+        "pins": {
+          "BI": {
+            "dir": "INPUT",
+            "wire": "BI"
+          },
+          "CMC31": {
+            "dir": "INPUT",
+            "wire": "C6LUT_MC31"
+          },
+          "DI": {
+            "dir": "INPUT",
+            "wire": "DI"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "BDI1MUX_OUT"
+          }
+        }
+      },
+      "ADI1MUX": {
+        "type": "SLICEM_ADI1MUX",
+        "class": "RBEL",
+        "pins": {
+          "AI": {
+            "dir": "INPUT",
+            "wire": "AI"
+          },
+          "BDI1": {
+            "dir": "INPUT",
+            "wire": "BDI1MUX_OUT"
+          },
+          "BMC31": {
+            "dir": "INPUT",
+            "wire": "B6LUT_MC31"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "ADI1MUX_OUT"
+          }
+        }
+      },
+      "DOUTMUX": {
+        "type": "SLICEM_DOUTMUX",
+        "class": "RBEL",
+        "pins": {
+          "CY": {
+            "dir": "INPUT",
+            "wire": "CARRY4_CO3"
+          },
+          "CARRY4_MUX": {
+            "dir": "INPUT",
+            "wire": "CARRY4_DMUX_OUT"
+          },
+          "CARRY4_XOR": {
+            "dir": "INPUT",
+            "wire": "CARRY4_DXOR_O"
+          },
+          "D5Q": {
+            "dir": "INPUT",
+            "wire": "D5FF_Q"
+          },
+          "MC31": {
+            "dir": "INPUT",
+            "wire": "A6LUT_MC31"
+          },
+          "O5": {
+            "dir": "INPUT",
+            "wire": "D5LUT_O5"
+          },
+          "O6": {
+            "dir": "INPUT",
+            "wire": "D6LUT_O6"
+          },
+          "XOR": {
+            "dir": "INPUT",
+            "wire": "CARRY4_O3"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "DMUX"
+          }
+        }
+      },
+      "DFFMUX": {
+        "type": "SLICEM_DFFMUX",
+        "class": "RBEL",
+        "pins": {
+          "CY": {
+            "dir": "INPUT",
+            "wire": "CARRY4_CO3"
+          },
+          "CARRY4_MUX": {
+            "dir": "INPUT",
+            "wire": "CARRY4_DMUX_OUT"
+          },
+          "CARRY4_XOR": {
+            "dir": "INPUT",
+            "wire": "CARRY4_DXOR_O"
+          },
+          "DX": {
+            "dir": "INPUT",
+            "wire": "DX"
+          },
+          "MC31": {
+            "dir": "INPUT",
+            "wire": "A6LUT_MC31"
+          },
+          "O5": {
+            "dir": "INPUT",
+            "wire": "D5LUT_O5"
+          },
+          "O6": {
+            "dir": "INPUT",
+            "wire": "D6LUT_O6"
+          },
+          "XOR": {
+            "dir": "INPUT",
+            "wire": "CARRY4_O3"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "DFFMUX_OUT"
+          }
+        }
+      },
+      "COUTMUX": {
+        "type": "SLICEM_COUTMUX",
+        "class": "RBEL",
+        "pins": {
+          "C5Q": {
+            "dir": "INPUT",
+            "wire": "C5FF_Q"
+          },
+          "CARRY4_MUX": {
+            "dir": "INPUT",
+            "wire": "CARRY4_CMUX_OUT"
+          },
+          "CARRY4_XOR": {
+            "dir": "INPUT",
+            "wire": "CARRY4_CXOR_O"
+          },
+          "CY": {
+            "dir": "INPUT",
+            "wire": "CARRY4_CO2"
+          },
+          "F7": {
+            "dir": "INPUT",
+            "wire": "F7BMUX_OUT"
+          },
+          "O5": {
+            "dir": "INPUT",
+            "wire": "C5LUT_O5"
+          },
+          "O6": {
+            "dir": "INPUT",
+            "wire": "C6LUT_O6"
+          },
+          "XOR": {
+            "dir": "INPUT",
+            "wire": "CARRY4_O2"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CMUX"
+          }
+        }
+      },
+      "CFFMUX": {
+        "type": "SLICEM_CFFMUX",
+        "class": "RBEL",
+        "pins": {
+          "CX": {
+            "dir": "INPUT",
+            "wire": "CX"
+          },
+          "CARRY4_MUX": {
+            "dir": "INPUT",
+            "wire": "CARRY4_CMUX_OUT"
+          },
+          "CARRY4_XOR": {
+            "dir": "INPUT",
+            "wire": "CARRY4_CXOR_O"
+          },
+          "CY": {
+            "dir": "INPUT",
+            "wire": "CARRY4_CO2"
+          },
+          "F7": {
+            "dir": "INPUT",
+            "wire": "F7BMUX_OUT"
+          },
+          "O5": {
+            "dir": "INPUT",
+            "wire": "C5LUT_O5"
+          },
+          "O6": {
+            "dir": "INPUT",
+            "wire": "C6LUT_O6"
+          },
+          "XOR": {
+            "dir": "INPUT",
+            "wire": "CARRY4_O2"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CFFMUX_OUT"
+          }
+        }
+      },
+      "BOUTMUX": {
+        "type": "SLICEM_BOUTMUX",
+        "class": "RBEL",
+        "pins": {
+          "B5Q": {
+            "dir": "INPUT",
+            "wire": "B5FF_Q"
+          },
+          "CARRY4_MUX": {
+            "dir": "INPUT",
+            "wire": "CARRY4_BMUX_OUT"
+          },
+          "CARRY4_XOR": {
+            "dir": "INPUT",
+            "wire": "CARRY4_BXOR_O"
+          },
+          "CY": {
+            "dir": "INPUT",
+            "wire": "CARRY4_CO1"
+          },
+          "F8": {
+            "dir": "INPUT",
+            "wire": "F8MUX_OUT"
+          },
+          "O5": {
+            "dir": "INPUT",
+            "wire": "B5LUT_O5"
+          },
+          "O6": {
+            "dir": "INPUT",
+            "wire": "B6LUT_O6"
+          },
+          "XOR": {
+            "dir": "INPUT",
+            "wire": "CARRY4_O1"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "BMUX"
+          }
+        }
+      },
+      "BFFMUX": {
+        "type": "SLICEM_BFFMUX",
+        "class": "RBEL",
+        "pins": {
+          "BX": {
+            "dir": "INPUT",
+            "wire": "BX"
+          },
+          "CARRY4_MUX": {
+            "dir": "INPUT",
+            "wire": "CARRY4_BMUX_OUT"
+          },
+          "CARRY4_XOR": {
+            "dir": "INPUT",
+            "wire": "CARRY4_BXOR_O"
+          },
+          "CY": {
+            "dir": "INPUT",
+            "wire": "CARRY4_CO1"
+          },
+          "F8": {
+            "dir": "INPUT",
+            "wire": "F8MUX_OUT"
+          },
+          "O5": {
+            "dir": "INPUT",
+            "wire": "B5LUT_O5"
+          },
+          "O6": {
+            "dir": "INPUT",
+            "wire": "B6LUT_O6"
+          },
+          "XOR": {
+            "dir": "INPUT",
+            "wire": "CARRY4_O1"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "BFFMUX_OUT"
+          }
+        }
+      },
+      "AOUTMUX": {
+        "type": "SLICEM_AOUTMUX",
+        "class": "RBEL",
+        "pins": {
+          "A5Q": {
+            "dir": "INPUT",
+            "wire": "A5FF_Q"
+          },
+          "CARRY4_MUX": {
+            "dir": "INPUT",
+            "wire": "CARRY4_AMUX_OUT"
+          },
+          "CARRY4_XOR": {
+            "dir": "INPUT",
+            "wire": "CARRY4_AXOR_O"
+          },
+          "CY": {
+            "dir": "INPUT",
+            "wire": "CARRY4_CO0"
+          },
+          "F7": {
+            "dir": "INPUT",
+            "wire": "F7AMUX_OUT"
+          },
+          "O5": {
+            "dir": "INPUT",
+            "wire": "A5LUT_O5"
+          },
+          "O6": {
+            "dir": "INPUT",
+            "wire": "A6LUT_O6"
+          },
+          "XOR": {
+            "dir": "INPUT",
+            "wire": "CARRY4_O0"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "AMUX"
+          }
+        }
+      },
+      "AFFMUX": {
+        "type": "SLICEM_AFFMUX",
+        "class": "RBEL",
+        "pins": {
+          "AX": {
+            "dir": "INPUT",
+            "wire": "AX"
+          },
+          "CARRY4_MUX": {
+            "dir": "INPUT",
+            "wire": "CARRY4_AMUX_OUT"
+          },
+          "CARRY4_XOR": {
+            "dir": "INPUT",
+            "wire": "CARRY4_AXOR_O"
+          },
+          "CY": {
+            "dir": "INPUT",
+            "wire": "CARRY4_CO0"
+          },
+          "F7": {
+            "dir": "INPUT",
+            "wire": "F7AMUX_OUT"
+          },
+          "O5": {
+            "dir": "INPUT",
+            "wire": "A5LUT_O5"
+          },
+          "O6": {
+            "dir": "INPUT",
+            "wire": "A6LUT_O6"
+          },
+          "XOR": {
+            "dir": "INPUT",
+            "wire": "CARRY4_O0"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "AFFMUX_OUT"
+          }
+        }
+      }
+    },
+    "pips": [
+      {
+        "bel": "D6LUT",
+        "from_pin": "A1",
+        "to_pin": "O6"
+      },
+      {
+        "bel": "D6LUT",
+        "from_pin": "A2",
+        "to_pin": "O6"
+      },
+      {
+        "bel": "D6LUT",
+        "from_pin": "A3",
+        "to_pin": "O6"
+      },
+      {
+        "bel": "D6LUT",
+        "from_pin": "A4",
+        "to_pin": "O6"
+      },
+      {
+        "bel": "D6LUT",
+        "from_pin": "A5",
+        "to_pin": "O6"
+      },
+      {
+        "bel": "D6LUT",
+        "from_pin": "A6",
+        "to_pin": "O6"
+      },
+      {
+        "bel": "D5LUT",
+        "from_pin": "A1",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "D5LUT",
+        "from_pin": "A2",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "D5LUT",
+        "from_pin": "A3",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "D5LUT",
+        "from_pin": "A4",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "D5LUT",
+        "from_pin": "A5",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "C6LUT",
+        "from_pin": "A1",
+        "to_pin": "O6"
+      },
+      {
+        "bel": "C6LUT",
+        "from_pin": "A2",
+        "to_pin": "O6"
+      },
+      {
+        "bel": "C6LUT",
+        "from_pin": "A3",
+        "to_pin": "O6"
+      },
+      {
+        "bel": "C6LUT",
+        "from_pin": "A4",
+        "to_pin": "O6"
+      },
+      {
+        "bel": "C6LUT",
+        "from_pin": "A5",
+        "to_pin": "O6"
+      },
+      {
+        "bel": "C6LUT",
+        "from_pin": "A6",
+        "to_pin": "O6"
+      },
+      {
+        "bel": "C5LUT",
+        "from_pin": "A1",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "C5LUT",
+        "from_pin": "A2",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "C5LUT",
+        "from_pin": "A3",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "C5LUT",
+        "from_pin": "A4",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "C5LUT",
+        "from_pin": "A5",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "B6LUT",
+        "from_pin": "A1",
+        "to_pin": "O6"
+      },
+      {
+        "bel": "B6LUT",
+        "from_pin": "A2",
+        "to_pin": "O6"
+      },
+      {
+        "bel": "B6LUT",
+        "from_pin": "A3",
+        "to_pin": "O6"
+      },
+      {
+        "bel": "B6LUT",
+        "from_pin": "A4",
+        "to_pin": "O6"
+      },
+      {
+        "bel": "B6LUT",
+        "from_pin": "A5",
+        "to_pin": "O6"
+      },
+      {
+        "bel": "B6LUT",
+        "from_pin": "A6",
+        "to_pin": "O6"
+      },
+      {
+        "bel": "B5LUT",
+        "from_pin": "A1",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "B5LUT",
+        "from_pin": "A2",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "B5LUT",
+        "from_pin": "A3",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "B5LUT",
+        "from_pin": "A4",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "B5LUT",
+        "from_pin": "A5",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "A6LUT",
+        "from_pin": "A1",
+        "to_pin": "O6"
+      },
+      {
+        "bel": "A6LUT",
+        "from_pin": "A2",
+        "to_pin": "O6"
+      },
+      {
+        "bel": "A6LUT",
+        "from_pin": "A3",
+        "to_pin": "O6"
+      },
+      {
+        "bel": "A6LUT",
+        "from_pin": "A4",
+        "to_pin": "O6"
+      },
+      {
+        "bel": "A6LUT",
+        "from_pin": "A5",
+        "to_pin": "O6"
+      },
+      {
+        "bel": "A6LUT",
+        "from_pin": "A6",
+        "to_pin": "O6"
+      },
+      {
+        "bel": "A5LUT",
+        "from_pin": "A1",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "A5LUT",
+        "from_pin": "A2",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "A5LUT",
+        "from_pin": "A3",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "A5LUT",
+        "from_pin": "A4",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "A5LUT",
+        "from_pin": "A5",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "WA8USED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "WA7USED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "PRECYINIT",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "PRECYINIT",
+        "from_pin": "CIN",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "PRECYINIT",
+        "from_pin": "1",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "PRECYINIT",
+        "from_pin": "AX",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "BUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "AUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "SRUSEDMUX",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "SRUSEDMUX",
+        "from_pin": "IN",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CEUSEDMUX",
+        "from_pin": "1",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CEUSEDMUX",
+        "from_pin": "IN",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "A5FFMUX",
+        "from_pin": "IN_A",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "A5FFMUX",
+        "from_pin": "IN_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "B5FFMUX",
+        "from_pin": "IN_A",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "B5FFMUX",
+        "from_pin": "IN_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D5FFMUX",
+        "from_pin": "IN_A",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D5FFMUX",
+        "from_pin": "IN_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "C5FFMUX",
+        "from_pin": "IN_A",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "C5FFMUX",
+        "from_pin": "IN_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "WEMUX",
+        "from_pin": "CE",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "WEMUX",
+        "from_pin": "WE",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DCY0",
+        "from_pin": "DX",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DCY0",
+        "from_pin": "O5",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "COUTUSED",
+        "from_pin": "CARRY4_0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "COUTUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKINV",
+        "from_pin": "CLK",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKINV",
+        "from_pin": "CLK_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CCY0",
+        "from_pin": "CX",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CCY0",
+        "from_pin": "O5",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "BCY0",
+        "from_pin": "BX",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "BCY0",
+        "from_pin": "O5",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "ACY0",
+        "from_pin": "AX",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "ACY0",
+        "from_pin": "O5",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CDI1MUX",
+        "from_pin": "CI",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CDI1MUX",
+        "from_pin": "DI",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CDI1MUX",
+        "from_pin": "DMC31",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "BDI1MUX",
+        "from_pin": "BI",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "BDI1MUX",
+        "from_pin": "CMC31",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "BDI1MUX",
+        "from_pin": "DI",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "ADI1MUX",
+        "from_pin": "AI",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "ADI1MUX",
+        "from_pin": "BDI1",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "ADI1MUX",
+        "from_pin": "BMC31",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DOUTMUX",
+        "from_pin": "CY",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DOUTMUX",
+        "from_pin": "CARRY4_MUX",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DOUTMUX",
+        "from_pin": "CARRY4_XOR",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DOUTMUX",
+        "from_pin": "D5Q",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DOUTMUX",
+        "from_pin": "MC31",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DOUTMUX",
+        "from_pin": "O5",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DOUTMUX",
+        "from_pin": "O6",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DOUTMUX",
+        "from_pin": "XOR",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DFFMUX",
+        "from_pin": "CY",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DFFMUX",
+        "from_pin": "CARRY4_MUX",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DFFMUX",
+        "from_pin": "CARRY4_XOR",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DFFMUX",
+        "from_pin": "DX",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DFFMUX",
+        "from_pin": "MC31",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DFFMUX",
+        "from_pin": "O5",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DFFMUX",
+        "from_pin": "O6",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DFFMUX",
+        "from_pin": "XOR",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "COUTMUX",
+        "from_pin": "C5Q",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "COUTMUX",
+        "from_pin": "CARRY4_MUX",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "COUTMUX",
+        "from_pin": "CARRY4_XOR",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "COUTMUX",
+        "from_pin": "CY",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "COUTMUX",
+        "from_pin": "F7",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "COUTMUX",
+        "from_pin": "O5",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "COUTMUX",
+        "from_pin": "O6",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "COUTMUX",
+        "from_pin": "XOR",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CFFMUX",
+        "from_pin": "CX",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CFFMUX",
+        "from_pin": "CARRY4_MUX",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CFFMUX",
+        "from_pin": "CARRY4_XOR",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CFFMUX",
+        "from_pin": "CY",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CFFMUX",
+        "from_pin": "F7",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CFFMUX",
+        "from_pin": "O5",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CFFMUX",
+        "from_pin": "O6",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CFFMUX",
+        "from_pin": "XOR",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "BOUTMUX",
+        "from_pin": "B5Q",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "BOUTMUX",
+        "from_pin": "CARRY4_MUX",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "BOUTMUX",
+        "from_pin": "CARRY4_XOR",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "BOUTMUX",
+        "from_pin": "CY",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "BOUTMUX",
+        "from_pin": "F8",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "BOUTMUX",
+        "from_pin": "O5",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "BOUTMUX",
+        "from_pin": "O6",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "BOUTMUX",
+        "from_pin": "XOR",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "BFFMUX",
+        "from_pin": "BX",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "BFFMUX",
+        "from_pin": "CARRY4_MUX",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "BFFMUX",
+        "from_pin": "CARRY4_XOR",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "BFFMUX",
+        "from_pin": "CY",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "BFFMUX",
+        "from_pin": "F8",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "BFFMUX",
+        "from_pin": "O5",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "BFFMUX",
+        "from_pin": "O6",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "BFFMUX",
+        "from_pin": "XOR",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "AOUTMUX",
+        "from_pin": "A5Q",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "AOUTMUX",
+        "from_pin": "CARRY4_MUX",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "AOUTMUX",
+        "from_pin": "CARRY4_XOR",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "AOUTMUX",
+        "from_pin": "CY",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "AOUTMUX",
+        "from_pin": "F7",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "AOUTMUX",
+        "from_pin": "O5",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "AOUTMUX",
+        "from_pin": "O6",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "AOUTMUX",
+        "from_pin": "XOR",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "AFFMUX",
+        "from_pin": "AX",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "AFFMUX",
+        "from_pin": "CARRY4_MUX",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "AFFMUX",
+        "from_pin": "CARRY4_XOR",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "AFFMUX",
+        "from_pin": "CY",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "AFFMUX",
+        "from_pin": "F7",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "AFFMUX",
+        "from_pin": "O5",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "AFFMUX",
+        "from_pin": "O6",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "AFFMUX",
+        "from_pin": "XOR",
+        "to_pin": "OUT"
+      }
+    ],
+    "pins": {
+      "D1": {
+        "primary": "D1",
+        "wire": "D1",
+        "dir": "INPUT"
+      },
+      "D2": {
+        "primary": "D2",
+        "wire": "D2",
+        "dir": "INPUT"
+      },
+      "D3": {
+        "primary": "D3",
+        "wire": "D3",
+        "dir": "INPUT"
+      },
+      "D4": {
+        "primary": "D4",
+        "wire": "D4",
+        "dir": "INPUT"
+      },
+      "D5": {
+        "primary": "D5",
+        "wire": "D5",
+        "dir": "INPUT"
+      },
+      "D6": {
+        "primary": "D6",
+        "wire": "D6",
+        "dir": "INPUT"
+      },
+      "DI": {
+        "primary": "DI",
+        "wire": "DI",
+        "dir": "INPUT"
+      },
+      "DX": {
+        "primary": "DX",
+        "wire": "DX",
+        "dir": "INPUT"
+      },
+      "C1": {
+        "primary": "C1",
+        "wire": "C1",
+        "dir": "INPUT"
+      },
+      "C2": {
+        "primary": "C2",
+        "wire": "C2",
+        "dir": "INPUT"
+      },
+      "C3": {
+        "primary": "C3",
+        "wire": "C3",
+        "dir": "INPUT"
+      },
+      "C4": {
+        "primary": "C4",
+        "wire": "C4",
+        "dir": "INPUT"
+      },
+      "C5": {
+        "primary": "C5",
+        "wire": "C5",
+        "dir": "INPUT"
+      },
+      "C6": {
+        "primary": "C6",
+        "wire": "C6",
+        "dir": "INPUT"
+      },
+      "CX": {
+        "primary": "CX",
+        "wire": "CX",
+        "dir": "INPUT"
+      },
+      "B1": {
+        "primary": "B1",
+        "wire": "B1",
+        "dir": "INPUT"
+      },
+      "B2": {
+        "primary": "B2",
+        "wire": "B2",
+        "dir": "INPUT"
+      },
+      "B3": {
+        "primary": "B3",
+        "wire": "B3",
+        "dir": "INPUT"
+      },
+      "B4": {
+        "primary": "B4",
+        "wire": "B4",
+        "dir": "INPUT"
+      },
+      "B5": {
+        "primary": "B5",
+        "wire": "B5",
+        "dir": "INPUT"
+      },
+      "B6": {
+        "primary": "B6",
+        "wire": "B6",
+        "dir": "INPUT"
+      },
+      "BX": {
+        "primary": "BX",
+        "wire": "BX",
+        "dir": "INPUT"
+      },
+      "A1": {
+        "primary": "A1",
+        "wire": "A1",
+        "dir": "INPUT"
+      },
+      "A2": {
+        "primary": "A2",
+        "wire": "A2",
+        "dir": "INPUT"
+      },
+      "A3": {
+        "primary": "A3",
+        "wire": "A3",
+        "dir": "INPUT"
+      },
+      "A4": {
+        "primary": "A4",
+        "wire": "A4",
+        "dir": "INPUT"
+      },
+      "A5": {
+        "primary": "A5",
+        "wire": "A5",
+        "dir": "INPUT"
+      },
+      "A6": {
+        "primary": "A6",
+        "wire": "A6",
+        "dir": "INPUT"
+      },
+      "AX": {
+        "primary": "AX",
+        "wire": "AX",
+        "dir": "INPUT"
+      },
+      "CIN": {
+        "primary": "CIN",
+        "wire": "CIN",
+        "dir": "INPUT"
+      },
+      "DQ": {
+        "primary": "DQ",
+        "wire": "DQ",
+        "dir": "OUTPUT"
+      },
+      "CQ": {
+        "primary": "CQ",
+        "wire": "CQ",
+        "dir": "OUTPUT"
+      },
+      "BQ": {
+        "primary": "BQ",
+        "wire": "BQ",
+        "dir": "OUTPUT"
+      },
+      "AQ": {
+        "primary": "AQ",
+        "wire": "AQ",
+        "dir": "OUTPUT"
+      },
+      "D": {
+        "primary": "D",
+        "wire": "D",
+        "dir": "OUTPUT"
+      },
+      "C": {
+        "primary": "C",
+        "wire": "C",
+        "dir": "OUTPUT"
+      },
+      "B": {
+        "primary": "B",
+        "wire": "B",
+        "dir": "OUTPUT"
+      },
+      "A": {
+        "primary": "A",
+        "wire": "A",
+        "dir": "OUTPUT"
+      },
+      "SR": {
+        "primary": "SR",
+        "wire": "SR",
+        "dir": "INPUT"
+      },
+      "CE": {
+        "primary": "CE",
+        "wire": "CE",
+        "dir": "INPUT"
+      },
+      "WE": {
+        "primary": "WE",
+        "wire": "WE",
+        "dir": "INPUT"
+      },
+      "COUT": {
+        "primary": "COUT",
+        "wire": "COUT",
+        "dir": "OUTPUT"
+      },
+      "CLK": {
+        "primary": "CLK",
+        "wire": "CLK",
+        "dir": "INPUT"
+      },
+      "CI": {
+        "primary": "CI",
+        "wire": "CI",
+        "dir": "INPUT"
+      },
+      "BI": {
+        "primary": "BI",
+        "wire": "BI",
+        "dir": "INPUT"
+      },
+      "AI": {
+        "primary": "AI",
+        "wire": "AI",
+        "dir": "INPUT"
+      },
+      "DMUX": {
+        "primary": "DMUX",
+        "wire": "DMUX",
+        "dir": "OUTPUT"
+      },
+      "CMUX": {
+        "primary": "CMUX",
+        "wire": "CMUX",
+        "dir": "OUTPUT"
+      },
+      "BMUX": {
+        "primary": "BMUX",
+        "wire": "BMUX",
+        "dir": "OUTPUT"
+      },
+      "AMUX": {
+        "primary": "AMUX",
+        "wire": "AMUX",
+        "dir": "OUTPUT"
+      }
+    }
+  }
+}

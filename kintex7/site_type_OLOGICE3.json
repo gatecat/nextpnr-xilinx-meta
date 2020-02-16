@@ -1,0 +1,1966 @@
+{
+  "OLOGICE3": {
+    "bels": {
+      "TFF": {
+        "type": "OLOGICE3_TFF",
+        "class": "BEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "TCEUSED_OUT"
+          },
+          "CK": {
+            "dir": "INPUT",
+            "wire": "CLKINV_OUT"
+          },
+          "D1": {
+            "dir": "INPUT",
+            "wire": "T1INV_OUT"
+          },
+          "D2": {
+            "dir": "INPUT",
+            "wire": "T2INV_OUT"
+          },
+          "REV": {
+            "dir": "INPUT",
+            "wire": "TREVUSED_OUT"
+          },
+          "SR": {
+            "dir": "INPUT",
+            "wire": "TSRUSED_OUT"
+          },
+          "Q": {
+            "dir": "OUTPUT",
+            "wire": "TFF_Q"
+          }
+        }
+      },
+      "OUTFF": {
+        "type": "OLOGICE3_OUTFF",
+        "class": "BEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "OCEUSED_OUT"
+          },
+          "CK": {
+            "dir": "INPUT",
+            "wire": "CLKINV_OUT"
+          },
+          "D1": {
+            "dir": "INPUT",
+            "wire": "D1INV_OUT"
+          },
+          "D2": {
+            "dir": "INPUT",
+            "wire": "D2INV_OUT"
+          },
+          "REV": {
+            "dir": "INPUT",
+            "wire": "OREVUSED_OUT"
+          },
+          "SR": {
+            "dir": "INPUT",
+            "wire": "OSRUSED_OUT"
+          },
+          "Q": {
+            "dir": "OUTPUT",
+            "wire": "OUTFF_Q"
+          }
+        }
+      },
+      "MISR": {
+        "type": "OLOGICE3_MISR",
+        "class": "BEL",
+        "pins": {
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "CLKINV_OUT"
+          },
+          "D": {
+            "dir": "INPUT",
+            "wire": "OMUX_OUT"
+          }
+        }
+      },
+      "TMUX": {
+        "type": "OLOGICE3_TMUX",
+        "class": "RBEL",
+        "pins": {
+          "T1": {
+            "dir": "INPUT",
+            "wire": "T1USED_OUT"
+          },
+          "TFF": {
+            "dir": "INPUT",
+            "wire": "TFF_Q"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "TMUX_OUT"
+          }
+        }
+      },
+      "OMUX": {
+        "type": "OLOGICE3_OMUX",
+        "class": "RBEL",
+        "pins": {
+          "D1": {
+            "dir": "INPUT",
+            "wire": "O1USED_OUT"
+          },
+          "OUTFF": {
+            "dir": "INPUT",
+            "wire": "OUTFF_Q"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "OMUX_OUT"
+          }
+        }
+      },
+      "TCEUSED": {
+        "type": "OLOGICE3_TCEUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "TCE"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "TCEUSED_OUT"
+          }
+        }
+      },
+      "OCEUSED": {
+        "type": "OLOGICE3_OCEUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "OCE"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "OCEUSED_OUT"
+          }
+        }
+      },
+      "T1USED": {
+        "type": "OLOGICE3_T1USED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "T1INV_OUT"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "T1USED_OUT"
+          }
+        }
+      },
+      "O1USED": {
+        "type": "OLOGICE3_O1USED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "D1INV_OUT"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "O1USED_OUT"
+          }
+        }
+      },
+      "TQUSED": {
+        "type": "OLOGICE3_TQUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "TMUX_OUT"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "TQ"
+          }
+        }
+      },
+      "OQUSED": {
+        "type": "OLOGICE3_OQUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "OMUX_OUT"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "OQ"
+          }
+        }
+      },
+      "T1INV": {
+        "type": "OLOGICE3_T1INV",
+        "class": "RBEL",
+        "pins": {
+          "T1": {
+            "dir": "INPUT",
+            "wire": "T1"
+          },
+          "T1_B": {
+            "dir": "INPUT",
+            "wire": "T1"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "T1INV_OUT"
+          }
+        }
+      },
+      "T2INV": {
+        "type": "OLOGICE3_T2INV",
+        "class": "RBEL",
+        "pins": {
+          "T2": {
+            "dir": "INPUT",
+            "wire": "T2"
+          },
+          "T2_B": {
+            "dir": "INPUT",
+            "wire": "T2"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "T2INV_OUT"
+          }
+        }
+      },
+      "CLKINV": {
+        "type": "OLOGICE3_CLKINV",
+        "class": "RBEL",
+        "pins": {
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "CLK"
+          },
+          "CLK_B": {
+            "dir": "INPUT",
+            "wire": "CLK"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CLKINV_OUT"
+          }
+        }
+      },
+      "TSRUSED": {
+        "type": "OLOGICE3_TSRUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "SR"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "TSRUSED_OUT"
+          }
+        }
+      },
+      "TREVUSED": {
+        "type": "OLOGICE3_TREVUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "REV"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "TREVUSED_OUT"
+          }
+        }
+      },
+      "OREVUSED": {
+        "type": "OLOGICE3_OREVUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "REV"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "OREVUSED_OUT"
+          }
+        }
+      },
+      "OSRUSED": {
+        "type": "OLOGICE3_OSRUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "SR"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "OSRUSED_OUT"
+          }
+        }
+      },
+      "D1INV": {
+        "type": "OLOGICE3_D1INV",
+        "class": "RBEL",
+        "pins": {
+          "D1": {
+            "dir": "INPUT",
+            "wire": "D1"
+          },
+          "D1_B": {
+            "dir": "INPUT",
+            "wire": "D1"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "D1INV_OUT"
+          }
+        }
+      },
+      "D2INV": {
+        "type": "OLOGICE3_D2INV",
+        "class": "RBEL",
+        "pins": {
+          "D2": {
+            "dir": "INPUT",
+            "wire": "D2"
+          },
+          "D2_B": {
+            "dir": "INPUT",
+            "wire": "D2"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "D2INV_OUT"
+          }
+        }
+      },
+      "OFBUSED": {
+        "type": "OLOGICE3_OFBUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "OMUX_OUT"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "OFB"
+          }
+        }
+      },
+      "TFBUSED": {
+        "type": "OLOGICE3_TFBUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "TMUX_OUT"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "TFB"
+          }
+        }
+      }
+    },
+    "pips": [
+      {
+        "bel": "TMUX",
+        "from_pin": "T1",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "TMUX",
+        "from_pin": "TFF",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "OMUX",
+        "from_pin": "D1",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "OMUX",
+        "from_pin": "OUTFF",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "TCEUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "OCEUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "T1USED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "O1USED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "TQUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "OQUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "T1INV",
+        "from_pin": "T1",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "T1INV",
+        "from_pin": "T1_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "T2INV",
+        "from_pin": "T2",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "T2INV",
+        "from_pin": "T2_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKINV",
+        "from_pin": "CLK",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKINV",
+        "from_pin": "CLK_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "TSRUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "TREVUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "OREVUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "OSRUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D1INV",
+        "from_pin": "D1",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D1INV",
+        "from_pin": "D1_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D2INV",
+        "from_pin": "D2",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D2INV",
+        "from_pin": "D2_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "OFBUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "TFBUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      }
+    ],
+    "pins": {
+      "TCE": {
+        "primary": "TCE",
+        "wire": "TCE",
+        "dir": "INPUT"
+      },
+      "OCE": {
+        "primary": "OCE",
+        "wire": "OCE",
+        "dir": "INPUT"
+      },
+      "TQ": {
+        "primary": "TQ",
+        "wire": "TQ",
+        "dir": "OUTPUT"
+      },
+      "OQ": {
+        "primary": "OQ",
+        "wire": "OQ",
+        "dir": "OUTPUT"
+      },
+      "T1": {
+        "primary": "T1",
+        "wire": "T1",
+        "dir": "INPUT"
+      },
+      "T2": {
+        "primary": "T2",
+        "wire": "T2",
+        "dir": "INPUT"
+      },
+      "CLK": {
+        "primary": "CLK",
+        "wire": "CLK",
+        "dir": "INPUT"
+      },
+      "SR": {
+        "primary": "SR",
+        "wire": "SR",
+        "dir": "INPUT"
+      },
+      "REV": {
+        "primary": "REV",
+        "wire": "REV",
+        "dir": "INPUT"
+      },
+      "D1": {
+        "primary": "D1",
+        "wire": "D1",
+        "dir": "INPUT"
+      },
+      "D2": {
+        "primary": "D2",
+        "wire": "D2",
+        "dir": "INPUT"
+      },
+      "OFB": {
+        "primary": "OFB",
+        "wire": "OFB",
+        "dir": "OUTPUT"
+      },
+      "TFB": {
+        "primary": "TFB",
+        "wire": "TFB",
+        "dir": "OUTPUT"
+      }
+    }
+  },
+  "OLOGICE2": {
+    "bels": {
+      "TFF": {
+        "type": "OLOGICE2_TFF",
+        "class": "BEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "TCEUSED_OUT"
+          },
+          "CK": {
+            "dir": "INPUT",
+            "wire": "CLKINV_OUT"
+          },
+          "D1": {
+            "dir": "INPUT",
+            "wire": "T1INV_OUT"
+          },
+          "D2": {
+            "dir": "INPUT",
+            "wire": "T2INV_OUT"
+          },
+          "REV": {
+            "dir": "INPUT",
+            "wire": "TREVUSED_OUT"
+          },
+          "SR": {
+            "dir": "INPUT",
+            "wire": "TSRUSED_OUT"
+          },
+          "Q": {
+            "dir": "OUTPUT",
+            "wire": "TFF_Q"
+          }
+        }
+      },
+      "OUTFF": {
+        "type": "OLOGICE2_OUTFF",
+        "class": "BEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "OCEUSED_OUT"
+          },
+          "CK": {
+            "dir": "INPUT",
+            "wire": "CLKINV_OUT"
+          },
+          "D1": {
+            "dir": "INPUT",
+            "wire": "D1INV_OUT"
+          },
+          "D2": {
+            "dir": "INPUT",
+            "wire": "D2INV_OUT"
+          },
+          "REV": {
+            "dir": "INPUT",
+            "wire": "OREVUSED_OUT"
+          },
+          "SR": {
+            "dir": "INPUT",
+            "wire": "OSRUSED_OUT"
+          },
+          "Q": {
+            "dir": "OUTPUT",
+            "wire": "OUTFF_Q"
+          }
+        }
+      },
+      "MISR": {
+        "type": "OLOGICE2_MISR",
+        "class": "BEL",
+        "pins": {
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "CLKINV_OUT"
+          },
+          "D": {
+            "dir": "INPUT",
+            "wire": "OMUX_OUT"
+          }
+        }
+      },
+      "TMUX": {
+        "type": "OLOGICE2_TMUX",
+        "class": "RBEL",
+        "pins": {
+          "T1": {
+            "dir": "INPUT",
+            "wire": "T1USED_OUT"
+          },
+          "TFF": {
+            "dir": "INPUT",
+            "wire": "TFF_Q"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "TMUX_OUT"
+          }
+        }
+      },
+      "OMUX": {
+        "type": "OLOGICE2_OMUX",
+        "class": "RBEL",
+        "pins": {
+          "D1": {
+            "dir": "INPUT",
+            "wire": "O1USED_OUT"
+          },
+          "OUTFF": {
+            "dir": "INPUT",
+            "wire": "OUTFF_Q"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "OMUX_OUT"
+          }
+        }
+      },
+      "TCEUSED": {
+        "type": "OLOGICE2_TCEUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "TCE"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "TCEUSED_OUT"
+          }
+        }
+      },
+      "OCEUSED": {
+        "type": "OLOGICE2_OCEUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "OCE"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "OCEUSED_OUT"
+          }
+        }
+      },
+      "T1USED": {
+        "type": "OLOGICE2_T1USED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "T1INV_OUT"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "T1USED_OUT"
+          }
+        }
+      },
+      "O1USED": {
+        "type": "OLOGICE2_O1USED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "D1INV_OUT"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "O1USED_OUT"
+          }
+        }
+      },
+      "TQUSED": {
+        "type": "OLOGICE2_TQUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "TMUX_OUT"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "TQ"
+          }
+        }
+      },
+      "OQUSED": {
+        "type": "OLOGICE2_OQUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "OMUX_OUT"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "OQ"
+          }
+        }
+      },
+      "T1INV": {
+        "type": "OLOGICE2_T1INV",
+        "class": "RBEL",
+        "pins": {
+          "T1": {
+            "dir": "INPUT",
+            "wire": "T1"
+          },
+          "T1_B": {
+            "dir": "INPUT",
+            "wire": "T1"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "T1INV_OUT"
+          }
+        }
+      },
+      "T2INV": {
+        "type": "OLOGICE2_T2INV",
+        "class": "RBEL",
+        "pins": {
+          "T2": {
+            "dir": "INPUT",
+            "wire": "T2"
+          },
+          "T2_B": {
+            "dir": "INPUT",
+            "wire": "T2"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "T2INV_OUT"
+          }
+        }
+      },
+      "CLKINV": {
+        "type": "OLOGICE2_CLKINV",
+        "class": "RBEL",
+        "pins": {
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "CLK"
+          },
+          "CLK_B": {
+            "dir": "INPUT",
+            "wire": "CLK"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CLKINV_OUT"
+          }
+        }
+      },
+      "TSRUSED": {
+        "type": "OLOGICE2_TSRUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "SR"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "TSRUSED_OUT"
+          }
+        }
+      },
+      "TREVUSED": {
+        "type": "OLOGICE2_TREVUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "REV"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "TREVUSED_OUT"
+          }
+        }
+      },
+      "OREVUSED": {
+        "type": "OLOGICE2_OREVUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "REV"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "OREVUSED_OUT"
+          }
+        }
+      },
+      "OSRUSED": {
+        "type": "OLOGICE2_OSRUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "SR"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "OSRUSED_OUT"
+          }
+        }
+      },
+      "D1INV": {
+        "type": "OLOGICE2_D1INV",
+        "class": "RBEL",
+        "pins": {
+          "D1": {
+            "dir": "INPUT",
+            "wire": "D1"
+          },
+          "D1_B": {
+            "dir": "INPUT",
+            "wire": "D1"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "D1INV_OUT"
+          }
+        }
+      },
+      "D2INV": {
+        "type": "OLOGICE2_D2INV",
+        "class": "RBEL",
+        "pins": {
+          "D2": {
+            "dir": "INPUT",
+            "wire": "D2"
+          },
+          "D2_B": {
+            "dir": "INPUT",
+            "wire": "D2"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "D2INV_OUT"
+          }
+        }
+      },
+      "OFBUSED": {
+        "type": "OLOGICE2_OFBUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "OMUX_OUT"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "OFB"
+          }
+        }
+      },
+      "TFBUSED": {
+        "type": "OLOGICE2_TFBUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "TMUX_OUT"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "TFB"
+          }
+        }
+      }
+    },
+    "pips": [
+      {
+        "bel": "TMUX",
+        "from_pin": "T1",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "TMUX",
+        "from_pin": "TFF",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "OMUX",
+        "from_pin": "D1",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "OMUX",
+        "from_pin": "OUTFF",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "TCEUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "OCEUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "T1USED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "O1USED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "TQUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "OQUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "T1INV",
+        "from_pin": "T1",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "T1INV",
+        "from_pin": "T1_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "T2INV",
+        "from_pin": "T2",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "T2INV",
+        "from_pin": "T2_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKINV",
+        "from_pin": "CLK",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKINV",
+        "from_pin": "CLK_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "TSRUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "TREVUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "OREVUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "OSRUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D1INV",
+        "from_pin": "D1",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D1INV",
+        "from_pin": "D1_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D2INV",
+        "from_pin": "D2",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D2INV",
+        "from_pin": "D2_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "OFBUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "TFBUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      }
+    ],
+    "pins": {
+      "TCE": {
+        "primary": "TCE",
+        "wire": "TCE",
+        "dir": "INPUT"
+      },
+      "OCE": {
+        "primary": "OCE",
+        "wire": "OCE",
+        "dir": "INPUT"
+      },
+      "TQ": {
+        "primary": "TQ",
+        "wire": "TQ",
+        "dir": "OUTPUT"
+      },
+      "OQ": {
+        "primary": "OQ",
+        "wire": "OQ",
+        "dir": "OUTPUT"
+      },
+      "T1": {
+        "primary": "T1",
+        "wire": "T1",
+        "dir": "INPUT"
+      },
+      "T2": {
+        "primary": "T2",
+        "wire": "T2",
+        "dir": "INPUT"
+      },
+      "CLK": {
+        "primary": "CLK",
+        "wire": "CLK",
+        "dir": "INPUT"
+      },
+      "SR": {
+        "primary": "SR",
+        "wire": "SR",
+        "dir": "INPUT"
+      },
+      "REV": {
+        "primary": "REV",
+        "wire": "REV",
+        "dir": "INPUT"
+      },
+      "D1": {
+        "primary": "D1",
+        "wire": "D1",
+        "dir": "INPUT"
+      },
+      "D2": {
+        "primary": "D2",
+        "wire": "D2",
+        "dir": "INPUT"
+      },
+      "OFB": {
+        "primary": "OFB",
+        "wire": "OFB",
+        "dir": "OUTPUT"
+      },
+      "TFB": {
+        "primary": "TFB",
+        "wire": "TFB",
+        "dir": "OUTPUT"
+      }
+    }
+  },
+  "OSERDESE2": {
+    "bels": {
+      "OSERDESE2": {
+        "type": "OSERDESE2_OSERDESE2",
+        "class": "BEL",
+        "pins": {
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "CLKINV_OUT"
+          },
+          "CLKB": {
+            "dir": "INPUT",
+            "wire": "CLKBINV_OUT"
+          },
+          "CLKDIV": {
+            "dir": "INPUT",
+            "wire": "CLKDIVINV_OUT"
+          },
+          "CLKDIVB": {
+            "dir": "INPUT",
+            "wire": "CLKDIVBINV_OUT"
+          },
+          "CLKDIVF": {
+            "dir": "INPUT",
+            "wire": "CLKDIVFINV_OUT"
+          },
+          "CLKDIVFB": {
+            "dir": "INPUT",
+            "wire": "CLKDIVFBINV_OUT"
+          },
+          "D1": {
+            "dir": "INPUT",
+            "wire": "D1INV_OUT"
+          },
+          "D2": {
+            "dir": "INPUT",
+            "wire": "D2INV_OUT"
+          },
+          "D3": {
+            "dir": "INPUT",
+            "wire": "D3INV_OUT"
+          },
+          "D4": {
+            "dir": "INPUT",
+            "wire": "D4INV_OUT"
+          },
+          "D5": {
+            "dir": "INPUT",
+            "wire": "D5INV_OUT"
+          },
+          "D6": {
+            "dir": "INPUT",
+            "wire": "D6INV_OUT"
+          },
+          "D7": {
+            "dir": "INPUT",
+            "wire": "D7INV_OUT"
+          },
+          "D8": {
+            "dir": "INPUT",
+            "wire": "D8INV_OUT"
+          },
+          "OCE": {
+            "dir": "INPUT",
+            "wire": "OCE"
+          },
+          "RST": {
+            "dir": "INPUT",
+            "wire": "RST"
+          },
+          "SHIFTIN1": {
+            "dir": "INPUT",
+            "wire": "SHIFTIN1"
+          },
+          "SHIFTIN2": {
+            "dir": "INPUT",
+            "wire": "SHIFTIN2"
+          },
+          "T1": {
+            "dir": "INPUT",
+            "wire": "T1INV_OUT"
+          },
+          "T2": {
+            "dir": "INPUT",
+            "wire": "T2INV_OUT"
+          },
+          "T3": {
+            "dir": "INPUT",
+            "wire": "T3INV_OUT"
+          },
+          "T4": {
+            "dir": "INPUT",
+            "wire": "T4INV_OUT"
+          },
+          "TBYTEIN": {
+            "dir": "INPUT",
+            "wire": "TBYTEIN"
+          },
+          "TCE": {
+            "dir": "INPUT",
+            "wire": "TCE"
+          },
+          "IOCLKGLITCH": {
+            "dir": "OUTPUT",
+            "wire": "IOCLKGLITCH"
+          },
+          "OFB": {
+            "dir": "OUTPUT",
+            "wire": "OFB"
+          },
+          "OQ": {
+            "dir": "OUTPUT",
+            "wire": "OQ"
+          },
+          "SHIFTOUT1": {
+            "dir": "OUTPUT",
+            "wire": "SHIFTOUT1"
+          },
+          "SHIFTOUT2": {
+            "dir": "OUTPUT",
+            "wire": "SHIFTOUT2"
+          },
+          "TBYTEOUT": {
+            "dir": "OUTPUT",
+            "wire": "TBYTEOUT"
+          },
+          "TFB": {
+            "dir": "OUTPUT",
+            "wire": "TFB"
+          },
+          "TQ": {
+            "dir": "OUTPUT",
+            "wire": "TQ"
+          }
+        }
+      },
+      "CLKINV": {
+        "type": "OSERDESE2_CLKINV",
+        "class": "RBEL",
+        "pins": {
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "CLK"
+          },
+          "CLK_B": {
+            "dir": "INPUT",
+            "wire": "CLK"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CLKINV_OUT"
+          }
+        }
+      },
+      "CLKBINV": {
+        "type": "OSERDESE2_CLKBINV",
+        "class": "RBEL",
+        "pins": {
+          "CLKB": {
+            "dir": "INPUT",
+            "wire": "CLKB"
+          },
+          "CLKB_B": {
+            "dir": "INPUT",
+            "wire": "CLKB"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CLKBINV_OUT"
+          }
+        }
+      },
+      "CLKDIVINV": {
+        "type": "OSERDESE2_CLKDIVINV",
+        "class": "RBEL",
+        "pins": {
+          "CLKDIV": {
+            "dir": "INPUT",
+            "wire": "CLKDIV"
+          },
+          "CLKDIV_B": {
+            "dir": "INPUT",
+            "wire": "CLKDIV"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CLKDIVINV_OUT"
+          }
+        }
+      },
+      "CLKDIVBINV": {
+        "type": "OSERDESE2_CLKDIVBINV",
+        "class": "RBEL",
+        "pins": {
+          "CLKDIVB": {
+            "dir": "INPUT",
+            "wire": "CLKDIVB"
+          },
+          "CLKDIVB_B": {
+            "dir": "INPUT",
+            "wire": "CLKDIVB"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CLKDIVBINV_OUT"
+          }
+        }
+      },
+      "CLKDIVFINV": {
+        "type": "OSERDESE2_CLKDIVFINV",
+        "class": "RBEL",
+        "pins": {
+          "CLKDIVF": {
+            "dir": "INPUT",
+            "wire": "CLKDIVF"
+          },
+          "CLKDIVF_B": {
+            "dir": "INPUT",
+            "wire": "CLKDIVF"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CLKDIVFINV_OUT"
+          }
+        }
+      },
+      "CLKDIVFBINV": {
+        "type": "OSERDESE2_CLKDIVFBINV",
+        "class": "RBEL",
+        "pins": {
+          "CLKDIVFB": {
+            "dir": "INPUT",
+            "wire": "CLKDIVFB"
+          },
+          "CLKDIVFB_B": {
+            "dir": "INPUT",
+            "wire": "CLKDIVFB"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CLKDIVFBINV_OUT"
+          }
+        }
+      },
+      "D1INV": {
+        "type": "OSERDESE2_D1INV",
+        "class": "RBEL",
+        "pins": {
+          "D1": {
+            "dir": "INPUT",
+            "wire": "D1"
+          },
+          "D1_B": {
+            "dir": "INPUT",
+            "wire": "D1"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "D1INV_OUT"
+          }
+        }
+      },
+      "D2INV": {
+        "type": "OSERDESE2_D2INV",
+        "class": "RBEL",
+        "pins": {
+          "D2": {
+            "dir": "INPUT",
+            "wire": "D2"
+          },
+          "D2_B": {
+            "dir": "INPUT",
+            "wire": "D2"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "D2INV_OUT"
+          }
+        }
+      },
+      "D3INV": {
+        "type": "OSERDESE2_D3INV",
+        "class": "RBEL",
+        "pins": {
+          "D3": {
+            "dir": "INPUT",
+            "wire": "D3"
+          },
+          "D3_B": {
+            "dir": "INPUT",
+            "wire": "D3"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "D3INV_OUT"
+          }
+        }
+      },
+      "D4INV": {
+        "type": "OSERDESE2_D4INV",
+        "class": "RBEL",
+        "pins": {
+          "D4": {
+            "dir": "INPUT",
+            "wire": "D4"
+          },
+          "D4_B": {
+            "dir": "INPUT",
+            "wire": "D4"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "D4INV_OUT"
+          }
+        }
+      },
+      "D5INV": {
+        "type": "OSERDESE2_D5INV",
+        "class": "RBEL",
+        "pins": {
+          "D5": {
+            "dir": "INPUT",
+            "wire": "D5"
+          },
+          "D5_B": {
+            "dir": "INPUT",
+            "wire": "D5"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "D5INV_OUT"
+          }
+        }
+      },
+      "D6INV": {
+        "type": "OSERDESE2_D6INV",
+        "class": "RBEL",
+        "pins": {
+          "D6": {
+            "dir": "INPUT",
+            "wire": "D6"
+          },
+          "D6_B": {
+            "dir": "INPUT",
+            "wire": "D6"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "D6INV_OUT"
+          }
+        }
+      },
+      "D7INV": {
+        "type": "OSERDESE2_D7INV",
+        "class": "RBEL",
+        "pins": {
+          "D7": {
+            "dir": "INPUT",
+            "wire": "D7"
+          },
+          "D7_B": {
+            "dir": "INPUT",
+            "wire": "D7"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "D7INV_OUT"
+          }
+        }
+      },
+      "D8INV": {
+        "type": "OSERDESE2_D8INV",
+        "class": "RBEL",
+        "pins": {
+          "D8": {
+            "dir": "INPUT",
+            "wire": "D8"
+          },
+          "D8_B": {
+            "dir": "INPUT",
+            "wire": "D8"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "D8INV_OUT"
+          }
+        }
+      },
+      "T1INV": {
+        "type": "OSERDESE2_T1INV",
+        "class": "RBEL",
+        "pins": {
+          "T1": {
+            "dir": "INPUT",
+            "wire": "T1"
+          },
+          "T1_B": {
+            "dir": "INPUT",
+            "wire": "T1"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "T1INV_OUT"
+          }
+        }
+      },
+      "T2INV": {
+        "type": "OSERDESE2_T2INV",
+        "class": "RBEL",
+        "pins": {
+          "T2": {
+            "dir": "INPUT",
+            "wire": "T2"
+          },
+          "T2_B": {
+            "dir": "INPUT",
+            "wire": "T2"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "T2INV_OUT"
+          }
+        }
+      },
+      "T3INV": {
+        "type": "OSERDESE2_T3INV",
+        "class": "RBEL",
+        "pins": {
+          "T3": {
+            "dir": "INPUT",
+            "wire": "T3"
+          },
+          "T3_B": {
+            "dir": "INPUT",
+            "wire": "T3"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "T3INV_OUT"
+          }
+        }
+      },
+      "T4INV": {
+        "type": "OSERDESE2_T4INV",
+        "class": "RBEL",
+        "pins": {
+          "T4": {
+            "dir": "INPUT",
+            "wire": "T4"
+          },
+          "T4_B": {
+            "dir": "INPUT",
+            "wire": "T4"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "T4INV_OUT"
+          }
+        }
+      }
+    },
+    "pips": [
+      {
+        "bel": "CLKINV",
+        "from_pin": "CLK",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKINV",
+        "from_pin": "CLK_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKBINV",
+        "from_pin": "CLKB",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKBINV",
+        "from_pin": "CLKB_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKDIVINV",
+        "from_pin": "CLKDIV",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKDIVINV",
+        "from_pin": "CLKDIV_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKDIVBINV",
+        "from_pin": "CLKDIVB",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKDIVBINV",
+        "from_pin": "CLKDIVB_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKDIVFINV",
+        "from_pin": "CLKDIVF",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKDIVFINV",
+        "from_pin": "CLKDIVF_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKDIVFBINV",
+        "from_pin": "CLKDIVFB",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKDIVFBINV",
+        "from_pin": "CLKDIVFB_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D1INV",
+        "from_pin": "D1",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D1INV",
+        "from_pin": "D1_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D2INV",
+        "from_pin": "D2",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D2INV",
+        "from_pin": "D2_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D3INV",
+        "from_pin": "D3",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D3INV",
+        "from_pin": "D3_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D4INV",
+        "from_pin": "D4",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D4INV",
+        "from_pin": "D4_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D5INV",
+        "from_pin": "D5",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D5INV",
+        "from_pin": "D5_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D6INV",
+        "from_pin": "D6",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D6INV",
+        "from_pin": "D6_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D7INV",
+        "from_pin": "D7",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D7INV",
+        "from_pin": "D7_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D8INV",
+        "from_pin": "D8",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D8INV",
+        "from_pin": "D8_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "T1INV",
+        "from_pin": "T1",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "T1INV",
+        "from_pin": "T1_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "T2INV",
+        "from_pin": "T2",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "T2INV",
+        "from_pin": "T2_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "T3INV",
+        "from_pin": "T3",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "T3INV",
+        "from_pin": "T3_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "T4INV",
+        "from_pin": "T4",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "T4INV",
+        "from_pin": "T4_B",
+        "to_pin": "OUT"
+      }
+    ],
+    "pins": {
+      "OCE": {
+        "primary": "OCE",
+        "wire": "OCE",
+        "dir": "INPUT"
+      },
+      "RST": {
+        "primary": "SR",
+        "wire": "RST",
+        "dir": "INPUT"
+      },
+      "SHIFTIN1": {
+        "primary": "SHIFTIN1",
+        "wire": "SHIFTIN1",
+        "dir": "INPUT"
+      },
+      "SHIFTIN2": {
+        "primary": "SHIFTIN2",
+        "wire": "SHIFTIN2",
+        "dir": "INPUT"
+      },
+      "TBYTEIN": {
+        "primary": "TBYTEIN",
+        "wire": "TBYTEIN",
+        "dir": "INPUT"
+      },
+      "TCE": {
+        "primary": "TCE",
+        "wire": "TCE",
+        "dir": "INPUT"
+      },
+      "IOCLKGLITCH": {
+        "primary": "IOCLKGLITCH",
+        "wire": "IOCLKGLITCH",
+        "dir": "OUTPUT"
+      },
+      "OFB": {
+        "primary": "OFB",
+        "wire": "OFB",
+        "dir": "OUTPUT"
+      },
+      "OQ": {
+        "primary": "OQ",
+        "wire": "OQ",
+        "dir": "OUTPUT"
+      },
+      "SHIFTOUT1": {
+        "primary": "SHIFTOUT1",
+        "wire": "SHIFTOUT1",
+        "dir": "OUTPUT"
+      },
+      "SHIFTOUT2": {
+        "primary": "SHIFTOUT2",
+        "wire": "SHIFTOUT2",
+        "dir": "OUTPUT"
+      },
+      "TBYTEOUT": {
+        "primary": "TBYTEOUT",
+        "wire": "TBYTEOUT",
+        "dir": "OUTPUT"
+      },
+      "TFB": {
+        "primary": "TFB",
+        "wire": "TFB",
+        "dir": "OUTPUT"
+      },
+      "TQ": {
+        "primary": "TQ",
+        "wire": "TQ",
+        "dir": "OUTPUT"
+      },
+      "CLK": {
+        "primary": "CLK",
+        "wire": "CLK",
+        "dir": "INPUT"
+      },
+      "CLKB": {
+        "primary": "CLKB",
+        "wire": "CLKB",
+        "dir": "INPUT"
+      },
+      "CLKDIV": {
+        "primary": "CLKDIV",
+        "wire": "CLKDIV",
+        "dir": "INPUT"
+      },
+      "CLKDIVB": {
+        "primary": "CLKDIVB",
+        "wire": "CLKDIVB",
+        "dir": "INPUT"
+      },
+      "CLKDIVF": {
+        "primary": "CLKDIVF",
+        "wire": "CLKDIVF",
+        "dir": "INPUT"
+      },
+      "CLKDIVFB": {
+        "primary": "CLKDIVFB",
+        "wire": "CLKDIVFB",
+        "dir": "INPUT"
+      },
+      "D1": {
+        "primary": "D1",
+        "wire": "D1",
+        "dir": "INPUT"
+      },
+      "D2": {
+        "primary": "D2",
+        "wire": "D2",
+        "dir": "INPUT"
+      },
+      "D3": {
+        "primary": "D3",
+        "wire": "D3",
+        "dir": "INPUT"
+      },
+      "D4": {
+        "primary": "D4",
+        "wire": "D4",
+        "dir": "INPUT"
+      },
+      "D5": {
+        "primary": "D5",
+        "wire": "D5",
+        "dir": "INPUT"
+      },
+      "D6": {
+        "primary": "D6",
+        "wire": "D6",
+        "dir": "INPUT"
+      },
+      "D7": {
+        "primary": "D7",
+        "wire": "D7",
+        "dir": "INPUT"
+      },
+      "D8": {
+        "primary": "D8",
+        "wire": "D8",
+        "dir": "INPUT"
+      },
+      "T1": {
+        "primary": "T1",
+        "wire": "T1",
+        "dir": "INPUT"
+      },
+      "T2": {
+        "primary": "T2",
+        "wire": "T2",
+        "dir": "INPUT"
+      },
+      "T3": {
+        "primary": "T3",
+        "wire": "T3",
+        "dir": "INPUT"
+      },
+      "T4": {
+        "primary": "T4",
+        "wire": "T4",
+        "dir": "INPUT"
+      }
+    }
+  }
+}
