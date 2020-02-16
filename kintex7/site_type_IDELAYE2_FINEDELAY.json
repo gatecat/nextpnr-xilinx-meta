@@ -1,0 +1,585 @@
+{
+  "IDELAYE2_FINEDELAY": {
+    "bels": {
+      "IDELAYE2_FINEDELAY": {
+        "type": "IDELAYE2_FINEDELAY_IDELAYE2_FINEDELAY",
+        "class": "BEL",
+        "pins": {
+          "C": {
+            "dir": "INPUT",
+            "wire": "CINV_OUT"
+          },
+          "CE": {
+            "dir": "INPUT",
+            "wire": "CE"
+          },
+          "CINVCTRL": {
+            "dir": "INPUT",
+            "wire": "CINVCTRL"
+          },
+          "CNTVALUEIN0": {
+            "dir": "INPUT",
+            "wire": "CNTVALUEIN0"
+          },
+          "CNTVALUEIN1": {
+            "dir": "INPUT",
+            "wire": "CNTVALUEIN1"
+          },
+          "CNTVALUEIN2": {
+            "dir": "INPUT",
+            "wire": "CNTVALUEIN2"
+          },
+          "CNTVALUEIN3": {
+            "dir": "INPUT",
+            "wire": "CNTVALUEIN3"
+          },
+          "CNTVALUEIN4": {
+            "dir": "INPUT",
+            "wire": "CNTVALUEIN4"
+          },
+          "DATAIN": {
+            "dir": "INPUT",
+            "wire": "DATAININV_OUT"
+          },
+          "IDATAIN": {
+            "dir": "INPUT",
+            "wire": "IDATAININV_OUT"
+          },
+          "IFDLY0": {
+            "dir": "INPUT",
+            "wire": "IFDLY0"
+          },
+          "IFDLY1": {
+            "dir": "INPUT",
+            "wire": "IFDLY1"
+          },
+          "IFDLY2": {
+            "dir": "INPUT",
+            "wire": "IFDLY2"
+          },
+          "INC": {
+            "dir": "INPUT",
+            "wire": "INC"
+          },
+          "LD": {
+            "dir": "INPUT",
+            "wire": "LD"
+          },
+          "LDPIPEEN": {
+            "dir": "INPUT",
+            "wire": "LDPIPEEN"
+          },
+          "REGRST": {
+            "dir": "INPUT",
+            "wire": "REGRST"
+          },
+          "CNTVALUEOUT0": {
+            "dir": "OUTPUT",
+            "wire": "CNTVALUEOUT0"
+          },
+          "CNTVALUEOUT1": {
+            "dir": "OUTPUT",
+            "wire": "CNTVALUEOUT1"
+          },
+          "CNTVALUEOUT2": {
+            "dir": "OUTPUT",
+            "wire": "CNTVALUEOUT2"
+          },
+          "CNTVALUEOUT3": {
+            "dir": "OUTPUT",
+            "wire": "CNTVALUEOUT3"
+          },
+          "CNTVALUEOUT4": {
+            "dir": "OUTPUT",
+            "wire": "CNTVALUEOUT4"
+          },
+          "DATAOUT": {
+            "dir": "OUTPUT",
+            "wire": "DATAOUT"
+          }
+        }
+      },
+      "IDATAININV": {
+        "type": "IDELAYE2_FINEDELAY_IDATAININV",
+        "class": "RBEL",
+        "pins": {
+          "IDATAIN": {
+            "dir": "INPUT",
+            "wire": "IDATAIN"
+          },
+          "IDATAIN_B": {
+            "dir": "INPUT",
+            "wire": "IDATAIN"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "IDATAININV_OUT"
+          }
+        }
+      },
+      "DATAININV": {
+        "type": "IDELAYE2_FINEDELAY_DATAININV",
+        "class": "RBEL",
+        "pins": {
+          "DATAIN": {
+            "dir": "INPUT",
+            "wire": "DATAIN"
+          },
+          "DATAIN_B": {
+            "dir": "INPUT",
+            "wire": "DATAIN"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "DATAININV_OUT"
+          }
+        }
+      },
+      "CINV": {
+        "type": "IDELAYE2_FINEDELAY_CINV",
+        "class": "RBEL",
+        "pins": {
+          "C": {
+            "dir": "INPUT",
+            "wire": "C"
+          },
+          "C_B": {
+            "dir": "INPUT",
+            "wire": "C"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CINV_OUT"
+          }
+        }
+      }
+    },
+    "pips": [
+      {
+        "bel": "IDATAININV",
+        "from_pin": "IDATAIN",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "IDATAININV",
+        "from_pin": "IDATAIN_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DATAININV",
+        "from_pin": "DATAIN",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DATAININV",
+        "from_pin": "DATAIN_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CINV",
+        "from_pin": "C",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CINV",
+        "from_pin": "C_B",
+        "to_pin": "OUT"
+      }
+    ],
+    "pins": {
+      "CE": {
+        "primary": "CE",
+        "wire": "CE",
+        "dir": "INPUT"
+      },
+      "CINVCTRL": {
+        "primary": "CINVCTRL",
+        "wire": "CINVCTRL",
+        "dir": "INPUT"
+      },
+      "CNTVALUEIN0": {
+        "primary": "CNTVALUEIN0",
+        "wire": "CNTVALUEIN0",
+        "dir": "INPUT"
+      },
+      "CNTVALUEIN1": {
+        "primary": "CNTVALUEIN1",
+        "wire": "CNTVALUEIN1",
+        "dir": "INPUT"
+      },
+      "CNTVALUEIN2": {
+        "primary": "CNTVALUEIN2",
+        "wire": "CNTVALUEIN2",
+        "dir": "INPUT"
+      },
+      "CNTVALUEIN3": {
+        "primary": "CNTVALUEIN3",
+        "wire": "CNTVALUEIN3",
+        "dir": "INPUT"
+      },
+      "CNTVALUEIN4": {
+        "primary": "CNTVALUEIN4",
+        "wire": "CNTVALUEIN4",
+        "dir": "INPUT"
+      },
+      "IFDLY0": {
+        "primary": "IFDLY0",
+        "wire": "IFDLY0",
+        "dir": "INPUT"
+      },
+      "IFDLY1": {
+        "primary": "IFDLY1",
+        "wire": "IFDLY1",
+        "dir": "INPUT"
+      },
+      "IFDLY2": {
+        "primary": "IFDLY2",
+        "wire": "IFDLY2",
+        "dir": "INPUT"
+      },
+      "INC": {
+        "primary": "INC",
+        "wire": "INC",
+        "dir": "INPUT"
+      },
+      "LD": {
+        "primary": "LD",
+        "wire": "LD",
+        "dir": "INPUT"
+      },
+      "LDPIPEEN": {
+        "primary": "LDPIPEEN",
+        "wire": "LDPIPEEN",
+        "dir": "INPUT"
+      },
+      "REGRST": {
+        "primary": "REGRST",
+        "wire": "REGRST",
+        "dir": "INPUT"
+      },
+      "CNTVALUEOUT0": {
+        "primary": "CNTVALUEOUT0",
+        "wire": "CNTVALUEOUT0",
+        "dir": "OUTPUT"
+      },
+      "CNTVALUEOUT1": {
+        "primary": "CNTVALUEOUT1",
+        "wire": "CNTVALUEOUT1",
+        "dir": "OUTPUT"
+      },
+      "CNTVALUEOUT2": {
+        "primary": "CNTVALUEOUT2",
+        "wire": "CNTVALUEOUT2",
+        "dir": "OUTPUT"
+      },
+      "CNTVALUEOUT3": {
+        "primary": "CNTVALUEOUT3",
+        "wire": "CNTVALUEOUT3",
+        "dir": "OUTPUT"
+      },
+      "CNTVALUEOUT4": {
+        "primary": "CNTVALUEOUT4",
+        "wire": "CNTVALUEOUT4",
+        "dir": "OUTPUT"
+      },
+      "DATAOUT": {
+        "primary": "DATAOUT",
+        "wire": "DATAOUT",
+        "dir": "OUTPUT"
+      },
+      "IDATAIN": {
+        "primary": "IDATAIN",
+        "wire": "IDATAIN",
+        "dir": "INPUT"
+      },
+      "DATAIN": {
+        "primary": "DATAIN",
+        "wire": "DATAIN",
+        "dir": "INPUT"
+      },
+      "C": {
+        "primary": "C",
+        "wire": "C",
+        "dir": "INPUT"
+      }
+    }
+  },
+  "IDELAYE2": {
+    "bels": {
+      "IDELAYE2": {
+        "type": "IDELAYE2_IDELAYE2",
+        "class": "BEL",
+        "pins": {
+          "C": {
+            "dir": "INPUT",
+            "wire": "CINV_OUT"
+          },
+          "CE": {
+            "dir": "INPUT",
+            "wire": "CE"
+          },
+          "CINVCTRL": {
+            "dir": "INPUT",
+            "wire": "CINVCTRL"
+          },
+          "CNTVALUEIN0": {
+            "dir": "INPUT",
+            "wire": "CNTVALUEIN0"
+          },
+          "CNTVALUEIN1": {
+            "dir": "INPUT",
+            "wire": "CNTVALUEIN1"
+          },
+          "CNTVALUEIN2": {
+            "dir": "INPUT",
+            "wire": "CNTVALUEIN2"
+          },
+          "CNTVALUEIN3": {
+            "dir": "INPUT",
+            "wire": "CNTVALUEIN3"
+          },
+          "CNTVALUEIN4": {
+            "dir": "INPUT",
+            "wire": "CNTVALUEIN4"
+          },
+          "DATAIN": {
+            "dir": "INPUT",
+            "wire": "DATAININV_OUT"
+          },
+          "IDATAIN": {
+            "dir": "INPUT",
+            "wire": "IDATAININV_OUT"
+          },
+          "INC": {
+            "dir": "INPUT",
+            "wire": "INC"
+          },
+          "LD": {
+            "dir": "INPUT",
+            "wire": "LD"
+          },
+          "LDPIPEEN": {
+            "dir": "INPUT",
+            "wire": "LDPIPEEN"
+          },
+          "REGRST": {
+            "dir": "INPUT",
+            "wire": "REGRST"
+          },
+          "CNTVALUEOUT0": {
+            "dir": "OUTPUT",
+            "wire": "CNTVALUEOUT0"
+          },
+          "CNTVALUEOUT1": {
+            "dir": "OUTPUT",
+            "wire": "CNTVALUEOUT1"
+          },
+          "CNTVALUEOUT2": {
+            "dir": "OUTPUT",
+            "wire": "CNTVALUEOUT2"
+          },
+          "CNTVALUEOUT3": {
+            "dir": "OUTPUT",
+            "wire": "CNTVALUEOUT3"
+          },
+          "CNTVALUEOUT4": {
+            "dir": "OUTPUT",
+            "wire": "CNTVALUEOUT4"
+          },
+          "DATAOUT": {
+            "dir": "OUTPUT",
+            "wire": "DATAOUT"
+          }
+        }
+      },
+      "IDATAININV": {
+        "type": "IDELAYE2_IDATAININV",
+        "class": "RBEL",
+        "pins": {
+          "IDATAIN": {
+            "dir": "INPUT",
+            "wire": "IDATAIN"
+          },
+          "IDATAIN_B": {
+            "dir": "INPUT",
+            "wire": "IDATAIN"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "IDATAININV_OUT"
+          }
+        }
+      },
+      "DATAININV": {
+        "type": "IDELAYE2_DATAININV",
+        "class": "RBEL",
+        "pins": {
+          "DATAIN": {
+            "dir": "INPUT",
+            "wire": "DATAIN"
+          },
+          "DATAIN_B": {
+            "dir": "INPUT",
+            "wire": "DATAIN"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "DATAININV_OUT"
+          }
+        }
+      },
+      "CINV": {
+        "type": "IDELAYE2_CINV",
+        "class": "RBEL",
+        "pins": {
+          "C": {
+            "dir": "INPUT",
+            "wire": "C"
+          },
+          "C_B": {
+            "dir": "INPUT",
+            "wire": "C"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CINV_OUT"
+          }
+        }
+      }
+    },
+    "pips": [
+      {
+        "bel": "IDATAININV",
+        "from_pin": "IDATAIN",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "IDATAININV",
+        "from_pin": "IDATAIN_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DATAININV",
+        "from_pin": "DATAIN",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DATAININV",
+        "from_pin": "DATAIN_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CINV",
+        "from_pin": "C",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CINV",
+        "from_pin": "C_B",
+        "to_pin": "OUT"
+      }
+    ],
+    "pins": {
+      "CE": {
+        "primary": "CE",
+        "wire": "CE",
+        "dir": "INPUT"
+      },
+      "CINVCTRL": {
+        "primary": "CINVCTRL",
+        "wire": "CINVCTRL",
+        "dir": "INPUT"
+      },
+      "CNTVALUEIN0": {
+        "primary": "CNTVALUEIN0",
+        "wire": "CNTVALUEIN0",
+        "dir": "INPUT"
+      },
+      "CNTVALUEIN1": {
+        "primary": "CNTVALUEIN1",
+        "wire": "CNTVALUEIN1",
+        "dir": "INPUT"
+      },
+      "CNTVALUEIN2": {
+        "primary": "CNTVALUEIN2",
+        "wire": "CNTVALUEIN2",
+        "dir": "INPUT"
+      },
+      "CNTVALUEIN3": {
+        "primary": "CNTVALUEIN3",
+        "wire": "CNTVALUEIN3",
+        "dir": "INPUT"
+      },
+      "CNTVALUEIN4": {
+        "primary": "CNTVALUEIN4",
+        "wire": "CNTVALUEIN4",
+        "dir": "INPUT"
+      },
+      "INC": {
+        "primary": "INC",
+        "wire": "INC",
+        "dir": "INPUT"
+      },
+      "LD": {
+        "primary": "LD",
+        "wire": "LD",
+        "dir": "INPUT"
+      },
+      "LDPIPEEN": {
+        "primary": "LDPIPEEN",
+        "wire": "LDPIPEEN",
+        "dir": "INPUT"
+      },
+      "REGRST": {
+        "primary": "REGRST",
+        "wire": "REGRST",
+        "dir": "INPUT"
+      },
+      "CNTVALUEOUT0": {
+        "primary": "CNTVALUEOUT0",
+        "wire": "CNTVALUEOUT0",
+        "dir": "OUTPUT"
+      },
+      "CNTVALUEOUT1": {
+        "primary": "CNTVALUEOUT1",
+        "wire": "CNTVALUEOUT1",
+        "dir": "OUTPUT"
+      },
+      "CNTVALUEOUT2": {
+        "primary": "CNTVALUEOUT2",
+        "wire": "CNTVALUEOUT2",
+        "dir": "OUTPUT"
+      },
+      "CNTVALUEOUT3": {
+        "primary": "CNTVALUEOUT3",
+        "wire": "CNTVALUEOUT3",
+        "dir": "OUTPUT"
+      },
+      "CNTVALUEOUT4": {
+        "primary": "CNTVALUEOUT4",
+        "wire": "CNTVALUEOUT4",
+        "dir": "OUTPUT"
+      },
+      "DATAOUT": {
+        "primary": "DATAOUT",
+        "wire": "DATAOUT",
+        "dir": "OUTPUT"
+      },
+      "IDATAIN": {
+        "primary": "IDATAIN",
+        "wire": "IDATAIN",
+        "dir": "INPUT"
+      },
+      "DATAIN": {
+        "primary": "DATAIN",
+        "wire": "DATAIN",
+        "dir": "INPUT"
+      },
+      "C": {
+        "primary": "C",
+        "wire": "C",
+        "dir": "INPUT"
+      }
+    }
+  }
+}
