@@ -1,0 +1,961 @@
+{
+  "ILOGICE2": {
+    "bels": {
+      "IFF": {
+        "type": "ILOGICE2_IFF",
+        "class": "BEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "CE1USED_OUT"
+          },
+          "CK": {
+            "dir": "INPUT",
+            "wire": "CLKINV_OUT"
+          },
+          "CKB": {
+            "dir": "INPUT",
+            "wire": "CLKBINV_OUT"
+          },
+          "D": {
+            "dir": "INPUT",
+            "wire": "IFFMUX_OUT"
+          },
+          "REV": {
+            "dir": "INPUT",
+            "wire": "REVUSED_OUT"
+          },
+          "SR": {
+            "dir": "INPUT",
+            "wire": "SRUSED_OUT"
+          },
+          "Q1": {
+            "dir": "OUTPUT",
+            "wire": "Q1"
+          },
+          "Q2": {
+            "dir": "OUTPUT",
+            "wire": "Q2"
+          }
+        }
+      },
+      "D2OBYP_TSMUX_GND": {
+        "type": "HARD0",
+        "class": "BEL",
+        "pins": {
+          "0": {
+            "dir": "OUTPUT",
+            "wire": "D2OBYP_TSMUX_GND_HARD0"
+          }
+        }
+      },
+      "D2OFFBYP_TSMUX_GND": {
+        "type": "HARD0",
+        "class": "BEL",
+        "pins": {
+          "0": {
+            "dir": "OUTPUT",
+            "wire": "D2OFFBYP_TSMUX_GND_HARD0"
+          }
+        }
+      },
+      "D2OBYP_SRC": {
+        "type": "SELMUX2_1",
+        "class": "BEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "IDELMUX_OUT"
+          },
+          "1": {
+            "dir": "INPUT",
+            "wire": "OFB"
+          },
+          "S0": {
+            "dir": "INPUT",
+            "wire": "D2OBYP_SEL_OUT"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "D2OBYP_SRC_OUT"
+          }
+        }
+      },
+      "D2OFFBYP_SRC": {
+        "type": "SELMUX2_1",
+        "class": "BEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "IFFDELMUX_OUT"
+          },
+          "1": {
+            "dir": "INPUT",
+            "wire": "OFB"
+          },
+          "S0": {
+            "dir": "INPUT",
+            "wire": "D2OFFBYP_SEL_OUT"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "D2OFFBYP_SRC_OUT"
+          }
+        }
+      },
+      "DINV": {
+        "type": "ILOGICE2_DINV",
+        "class": "RBEL",
+        "pins": {
+          "D": {
+            "dir": "INPUT",
+            "wire": "D"
+          },
+          "D_B": {
+            "dir": "INPUT",
+            "wire": "D"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "DINV_OUT"
+          }
+        }
+      },
+      "CLKINV": {
+        "type": "ILOGICE2_CLKINV",
+        "class": "RBEL",
+        "pins": {
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "CLK"
+          },
+          "CLK_B": {
+            "dir": "INPUT",
+            "wire": "CLK"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CLKINV_OUT"
+          }
+        }
+      },
+      "CLKBINV": {
+        "type": "ILOGICE2_CLKBINV",
+        "class": "RBEL",
+        "pins": {
+          "CLKB": {
+            "dir": "INPUT",
+            "wire": "CLKB"
+          },
+          "CLKB_B": {
+            "dir": "INPUT",
+            "wire": "CLKB"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CLKBINV_OUT"
+          }
+        }
+      },
+      "D2OBYP_SEL": {
+        "type": "ILOGICE2_D2OBYP_SEL",
+        "class": "RBEL",
+        "pins": {
+          "GND": {
+            "dir": "INPUT",
+            "wire": "D2OBYP_TSMUX_GND_HARD0"
+          },
+          "T": {
+            "dir": "INPUT",
+            "wire": "TFB"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "D2OBYP_SEL_OUT"
+          }
+        }
+      },
+      "D2OFFBYP_SEL": {
+        "type": "ILOGICE2_D2OFFBYP_SEL",
+        "class": "RBEL",
+        "pins": {
+          "GND": {
+            "dir": "INPUT",
+            "wire": "D2OFFBYP_TSMUX_GND_HARD0"
+          },
+          "T": {
+            "dir": "INPUT",
+            "wire": "TFB"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "D2OFFBYP_SEL_OUT"
+          }
+        }
+      },
+      "IMUX": {
+        "type": "ILOGICE2_IMUX",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "D2OBYP_SRC_OUT"
+          },
+          "1": {
+            "dir": "INPUT",
+            "wire": "IDELMUX_OUT"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "O"
+          }
+        }
+      },
+      "IFFMUX": {
+        "type": "ILOGICE2_IFFMUX",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "D2OFFBYP_SRC_OUT"
+          },
+          "1": {
+            "dir": "INPUT",
+            "wire": "IFFDELMUX_OUT"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "IFFMUX_OUT"
+          }
+        }
+      },
+      "CE1USED": {
+        "type": "ILOGICE2_CE1USED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "CE1"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CE1USED_OUT"
+          }
+        }
+      },
+      "SRUSED": {
+        "type": "ILOGICE2_SRUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "SR"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "SRUSED_OUT"
+          }
+        }
+      },
+      "REVUSED": {
+        "type": "ILOGICE2_REVUSED",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "REV"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "REVUSED_OUT"
+          }
+        }
+      },
+      "IDELMUX": {
+        "type": "ILOGICE2_IDELMUX",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "DDLY"
+          },
+          "1": {
+            "dir": "INPUT",
+            "wire": "DINV_OUT"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "IDELMUX_OUT"
+          }
+        }
+      },
+      "IFFDELMUX": {
+        "type": "ILOGICE2_IFFDELMUX",
+        "class": "RBEL",
+        "pins": {
+          "0": {
+            "dir": "INPUT",
+            "wire": "DDLY"
+          },
+          "1": {
+            "dir": "INPUT",
+            "wire": "DINV_OUT"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "IFFDELMUX_OUT"
+          }
+        }
+      }
+    },
+    "pips": [
+      {
+        "bel": "DINV",
+        "from_pin": "D",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DINV",
+        "from_pin": "D_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKINV",
+        "from_pin": "CLK",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKINV",
+        "from_pin": "CLK_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKBINV",
+        "from_pin": "CLKB",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKBINV",
+        "from_pin": "CLKB_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D2OBYP_SEL",
+        "from_pin": "GND",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D2OBYP_SEL",
+        "from_pin": "T",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D2OFFBYP_SEL",
+        "from_pin": "GND",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "D2OFFBYP_SEL",
+        "from_pin": "T",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "IMUX",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "IMUX",
+        "from_pin": "1",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "IFFMUX",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "IFFMUX",
+        "from_pin": "1",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CE1USED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "SRUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "REVUSED",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "IDELMUX",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "IDELMUX",
+        "from_pin": "1",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "IFFDELMUX",
+        "from_pin": "0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "IFFDELMUX",
+        "from_pin": "1",
+        "to_pin": "OUT"
+      }
+    ],
+    "pins": {
+      "Q1": {
+        "primary": "Q1",
+        "wire": "Q1",
+        "dir": "OUTPUT"
+      },
+      "Q2": {
+        "primary": "Q2",
+        "wire": "Q2",
+        "dir": "OUTPUT"
+      },
+      "OFB": {
+        "primary": "OFB",
+        "wire": "OFB",
+        "dir": "INPUT"
+      },
+      "D": {
+        "primary": "D",
+        "wire": "D",
+        "dir": "INPUT"
+      },
+      "CLK": {
+        "primary": "CLK",
+        "wire": "CLK",
+        "dir": "INPUT"
+      },
+      "CLKB": {
+        "primary": "CLKB",
+        "wire": "CLKB",
+        "dir": "INPUT"
+      },
+      "TFB": {
+        "primary": "TFB",
+        "wire": "TFB",
+        "dir": "INPUT"
+      },
+      "O": {
+        "primary": "O",
+        "wire": "O",
+        "dir": "OUTPUT"
+      },
+      "CE1": {
+        "primary": "CE1",
+        "wire": "CE1",
+        "dir": "INPUT"
+      },
+      "SR": {
+        "primary": "SR",
+        "wire": "SR",
+        "dir": "INPUT"
+      },
+      "REV": {
+        "primary": "REV",
+        "wire": "REV",
+        "dir": "INPUT"
+      },
+      "DDLY": {
+        "primary": "DDLY",
+        "wire": "DDLY",
+        "dir": "INPUT"
+      }
+    }
+  },
+  "ISERDESE2": {
+    "bels": {
+      "ISERDESE2": {
+        "type": "ISERDESE2_ISERDESE2",
+        "class": "BEL",
+        "pins": {
+          "BITSLIP": {
+            "dir": "INPUT",
+            "wire": "BITSLIP"
+          },
+          "CE1": {
+            "dir": "INPUT",
+            "wire": "CE1"
+          },
+          "CE2": {
+            "dir": "INPUT",
+            "wire": "CE2"
+          },
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "CLKINV_OUT"
+          },
+          "CLKB": {
+            "dir": "INPUT",
+            "wire": "CLKBINV_OUT"
+          },
+          "CLKDIV": {
+            "dir": "INPUT",
+            "wire": "CLKDIVINV_OUT"
+          },
+          "CLKDIVP": {
+            "dir": "INPUT",
+            "wire": "CLKDIVPINV_OUT"
+          },
+          "D": {
+            "dir": "INPUT",
+            "wire": "DINV_OUT"
+          },
+          "DDLY": {
+            "dir": "INPUT",
+            "wire": "DDLY"
+          },
+          "DYNCLKDIVPSEL": {
+            "dir": "INPUT",
+            "wire": "DYNCLKDIVPSEL"
+          },
+          "DYNCLKDIVSEL": {
+            "dir": "INPUT",
+            "wire": "DYNCLKDIVSEL"
+          },
+          "DYNCLKSEL": {
+            "dir": "INPUT",
+            "wire": "DYNCLKSEL"
+          },
+          "OCLK": {
+            "dir": "INPUT",
+            "wire": "OCLKINV_OUT"
+          },
+          "OCLKB": {
+            "dir": "INPUT",
+            "wire": "OCLKBINV_OUT"
+          },
+          "OFB": {
+            "dir": "INPUT",
+            "wire": "OFB"
+          },
+          "RST": {
+            "dir": "INPUT",
+            "wire": "RST"
+          },
+          "SHIFTIN1": {
+            "dir": "INPUT",
+            "wire": "SHIFTIN1"
+          },
+          "SHIFTIN2": {
+            "dir": "INPUT",
+            "wire": "SHIFTIN2"
+          },
+          "TFB": {
+            "dir": "INPUT",
+            "wire": "TFB"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "O"
+          },
+          "Q1": {
+            "dir": "OUTPUT",
+            "wire": "Q1"
+          },
+          "Q2": {
+            "dir": "OUTPUT",
+            "wire": "Q2"
+          },
+          "Q3": {
+            "dir": "OUTPUT",
+            "wire": "Q3"
+          },
+          "Q4": {
+            "dir": "OUTPUT",
+            "wire": "Q4"
+          },
+          "Q5": {
+            "dir": "OUTPUT",
+            "wire": "Q5"
+          },
+          "Q6": {
+            "dir": "OUTPUT",
+            "wire": "Q6"
+          },
+          "Q7": {
+            "dir": "OUTPUT",
+            "wire": "Q7"
+          },
+          "Q8": {
+            "dir": "OUTPUT",
+            "wire": "Q8"
+          },
+          "SHIFTOUT1": {
+            "dir": "OUTPUT",
+            "wire": "SHIFTOUT1"
+          },
+          "SHIFTOUT2": {
+            "dir": "OUTPUT",
+            "wire": "SHIFTOUT2"
+          }
+        }
+      },
+      "OCLKBINV": {
+        "type": "ISERDESE2_OCLKBINV",
+        "class": "RBEL",
+        "pins": {
+          "OCLKB": {
+            "dir": "INPUT",
+            "wire": "OCLKB"
+          },
+          "OCLKB_B": {
+            "dir": "INPUT",
+            "wire": "OCLKB"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "OCLKBINV_OUT"
+          }
+        }
+      },
+      "OCLKINV": {
+        "type": "ISERDESE2_OCLKINV",
+        "class": "RBEL",
+        "pins": {
+          "OCLK": {
+            "dir": "INPUT",
+            "wire": "OCLK"
+          },
+          "OCLK_B": {
+            "dir": "INPUT",
+            "wire": "OCLK"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "OCLKINV_OUT"
+          }
+        }
+      },
+      "DINV": {
+        "type": "ISERDESE2_DINV",
+        "class": "RBEL",
+        "pins": {
+          "D": {
+            "dir": "INPUT",
+            "wire": "D"
+          },
+          "D_B": {
+            "dir": "INPUT",
+            "wire": "D"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "DINV_OUT"
+          }
+        }
+      },
+      "CLKDIVPINV": {
+        "type": "ISERDESE2_CLKDIVPINV",
+        "class": "RBEL",
+        "pins": {
+          "CLKDIVP": {
+            "dir": "INPUT",
+            "wire": "CLKDIVP"
+          },
+          "CLKDIVP_B": {
+            "dir": "INPUT",
+            "wire": "CLKDIVP"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CLKDIVPINV_OUT"
+          }
+        }
+      },
+      "CLKDIVINV": {
+        "type": "ISERDESE2_CLKDIVINV",
+        "class": "RBEL",
+        "pins": {
+          "CLKDIV": {
+            "dir": "INPUT",
+            "wire": "CLKDIV"
+          },
+          "CLKDIV_B": {
+            "dir": "INPUT",
+            "wire": "CLKDIV"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CLKDIVINV_OUT"
+          }
+        }
+      },
+      "CLKBINV": {
+        "type": "ISERDESE2_CLKBINV",
+        "class": "RBEL",
+        "pins": {
+          "CLKB": {
+            "dir": "INPUT",
+            "wire": "CLKB"
+          },
+          "CLKB_B": {
+            "dir": "INPUT",
+            "wire": "CLKB"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CLKBINV_OUT"
+          }
+        }
+      },
+      "CLKINV": {
+        "type": "ISERDESE2_CLKINV",
+        "class": "RBEL",
+        "pins": {
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "CLK"
+          },
+          "CLK_B": {
+            "dir": "INPUT",
+            "wire": "CLK"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CLKINV_OUT"
+          }
+        }
+      }
+    },
+    "pips": [
+      {
+        "bel": "OCLKBINV",
+        "from_pin": "OCLKB",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "OCLKBINV",
+        "from_pin": "OCLKB_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "OCLKINV",
+        "from_pin": "OCLK",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "OCLKINV",
+        "from_pin": "OCLK_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DINV",
+        "from_pin": "D",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DINV",
+        "from_pin": "D_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKDIVPINV",
+        "from_pin": "CLKDIVP",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKDIVPINV",
+        "from_pin": "CLKDIVP_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKDIVINV",
+        "from_pin": "CLKDIV",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKDIVINV",
+        "from_pin": "CLKDIV_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKBINV",
+        "from_pin": "CLKB",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKBINV",
+        "from_pin": "CLKB_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKINV",
+        "from_pin": "CLK",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKINV",
+        "from_pin": "CLK_B",
+        "to_pin": "OUT"
+      }
+    ],
+    "pins": {
+      "BITSLIP": {
+        "primary": "BITSLIP",
+        "wire": "BITSLIP",
+        "dir": "INPUT"
+      },
+      "CE1": {
+        "primary": "CE1",
+        "wire": "CE1",
+        "dir": "INPUT"
+      },
+      "CE2": {
+        "primary": "CE2",
+        "wire": "CE2",
+        "dir": "INPUT"
+      },
+      "DDLY": {
+        "primary": "DDLY",
+        "wire": "DDLY",
+        "dir": "INPUT"
+      },
+      "DYNCLKDIVPSEL": {
+        "primary": "DYNCLKDIVPSEL",
+        "wire": "DYNCLKDIVPSEL",
+        "dir": "INPUT"
+      },
+      "DYNCLKDIVSEL": {
+        "primary": "DYNCLKDIVSEL",
+        "wire": "DYNCLKDIVSEL",
+        "dir": "INPUT"
+      },
+      "DYNCLKSEL": {
+        "primary": "DYNCLKSEL",
+        "wire": "DYNCLKSEL",
+        "dir": "INPUT"
+      },
+      "OFB": {
+        "primary": "OFB",
+        "wire": "OFB",
+        "dir": "INPUT"
+      },
+      "RST": {
+        "primary": "SR",
+        "wire": "RST",
+        "dir": "INPUT"
+      },
+      "SHIFTIN1": {
+        "primary": "SHIFTIN1",
+        "wire": "SHIFTIN1",
+        "dir": "INPUT"
+      },
+      "SHIFTIN2": {
+        "primary": "SHIFTIN2",
+        "wire": "SHIFTIN2",
+        "dir": "INPUT"
+      },
+      "TFB": {
+        "primary": "TFB",
+        "wire": "TFB",
+        "dir": "INPUT"
+      },
+      "O": {
+        "primary": "O",
+        "wire": "O",
+        "dir": "OUTPUT"
+      },
+      "Q1": {
+        "primary": "Q1",
+        "wire": "Q1",
+        "dir": "OUTPUT"
+      },
+      "Q2": {
+        "primary": "Q2",
+        "wire": "Q2",
+        "dir": "OUTPUT"
+      },
+      "Q3": {
+        "primary": "Q3",
+        "wire": "Q3",
+        "dir": "OUTPUT"
+      },
+      "Q4": {
+        "primary": "Q4",
+        "wire": "Q4",
+        "dir": "OUTPUT"
+      },
+      "Q5": {
+        "primary": "Q5",
+        "wire": "Q5",
+        "dir": "OUTPUT"
+      },
+      "Q6": {
+        "primary": "Q6",
+        "wire": "Q6",
+        "dir": "OUTPUT"
+      },
+      "Q7": {
+        "primary": "Q7",
+        "wire": "Q7",
+        "dir": "OUTPUT"
+      },
+      "Q8": {
+        "primary": "Q8",
+        "wire": "Q8",
+        "dir": "OUTPUT"
+      },
+      "SHIFTOUT1": {
+        "primary": "SHIFTOUT1",
+        "wire": "SHIFTOUT1",
+        "dir": "OUTPUT"
+      },
+      "SHIFTOUT2": {
+        "primary": "SHIFTOUT2",
+        "wire": "SHIFTOUT2",
+        "dir": "OUTPUT"
+      },
+      "OCLKB": {
+        "primary": "OCLKB",
+        "wire": "OCLKB",
+        "dir": "INPUT"
+      },
+      "OCLK": {
+        "primary": "OCLK",
+        "wire": "OCLK",
+        "dir": "INPUT"
+      },
+      "D": {
+        "primary": "D",
+        "wire": "D",
+        "dir": "INPUT"
+      },
+      "CLKDIVP": {
+        "primary": "CLKDIVP",
+        "wire": "CLKDIVP",
+        "dir": "INPUT"
+      },
+      "CLKDIV": {
+        "primary": "CLKDIV",
+        "wire": "CLKDIV",
+        "dir": "INPUT"
+      },
+      "CLKB": {
+        "primary": "CLKB",
+        "wire": "CLKB",
+        "dir": "INPUT"
+      },
+      "CLK": {
+        "primary": "CLK",
+        "wire": "CLK",
+        "dir": "INPUT"
+      }
+    }
+  }
+}
