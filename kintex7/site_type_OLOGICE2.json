@@ -65,7 +65,7 @@
           },
           "Q": {
             "dir": "OUTPUT",
-            "wire": "OUTFF_Q"
+            "wire": "OQ"
           }
         }
       },
