@@ -111,7 +111,7 @@
           },
           "OUTFF": {
             "dir": "INPUT",
-            "wire": "OUTFF_Q"
+            "wire": "OQ"
           },
           "OUT": {
             "dir": "OUTPUT",
@@ -690,7 +690,7 @@
           },
           "OUTFF": {
             "dir": "INPUT",
-            "wire": "OUTFF_Q"
+            "wire": "OQ"
           },
           "OUT": {
             "dir": "OUTPUT",
