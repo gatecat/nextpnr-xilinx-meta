@@ -1,0 +1,33 @@
+{
+  "BUFIO": {
+    "bels": {
+      "BUFIO": {
+        "type": "BUFIO_BUFIO",
+        "class": "BEL",
+        "pins": {
+          "I": {
+            "dir": "INPUT",
+            "wire": "I"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "O"
+          }
+        }
+      }
+    },
+    "pips": [],
+    "pins": {
+      "I": {
+        "primary": "I",
+        "wire": "I",
+        "dir": "INPUT"
+      },
+      "O": {
+        "primary": "O",
+        "wire": "O",
+        "dir": "OUTPUT"
+      }
+    }
+  }
+}
