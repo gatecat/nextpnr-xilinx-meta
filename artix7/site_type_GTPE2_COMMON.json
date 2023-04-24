@@ -71,7 +71,7 @@
                 "wire": "PLL0LOCKDETCLK_OUT"
             }
         },
-        "type": "PGTPE2_COMMON_PLLLOCKDETCLK"
+        "type": "GTPE2_COMMON_PLLLOCKDETCLK"
       },
       "PLL1LOCKDETCLKINV": {
         "class": "RBEL",
@@ -89,7 +89,7 @@
                 "wire": "PLL1LOCKDETCLK_OUT"
             }
         },
-        "type": "PGTPE2_COMMON_PLL1LOCKDETCLKINV"
+        "type": "GTPE2_COMMON_PLL1LOCKDETCLKINV"
       },
       "GTGREFCLK0INV": {
         "class": "RBEL",
@@ -107,7 +107,7 @@
                 "wire": "GTGREFCLK0_OUT"
             }
         },
-        "type": "PGTPE2_COMMON_GTGREFCLK0INV"
+        "type": "GTPE2_COMMON_GTGREFCLK0INV"
       },
       "GTGREFCLK1INV": {
         "class": "RBEL",
@@ -125,7 +125,7 @@
                 "wire": "GTGREFCLK1_OUT"
             }
         },
-        "type": "PGTPE2_COMMON_GTGREFCLK1INV"
+        "type": "GTPE2_COMMON_GTGREFCLK1INV"
       },
       "DRPCLKINV": {
         "class": "RBEL",
@@ -143,7 +143,7 @@
                 "wire": "DRPCLK_OUT"
             }
         },
-        "type": "PGTPE2_COMMON_DRPCLKINV"
+        "type": "GTPE2_COMMON_DRPCLKINV"
       },
       "GTPE2_COMMON": {
         "class": "BEL",
@@ -712,7 +712,8 @@
               "dir": "OUTPUT",
               "wire": "REFCLKOUTMONITOR1"
           }
-        }
+        },
+        "type": "GTPE2_COMMON"
       }
     },
     "pips": [],
