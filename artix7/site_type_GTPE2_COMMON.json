@@ -716,7 +716,88 @@
         "type": "GTPE2_COMMON"
       }
     },
-    "pips": [],
+    "pips": [
+      {
+        "bel": "PMASCANCLK0INV",
+        "from_pin": "PMASCANCLK0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "PMASCANCLK0INV",
+        "from_pin": "PMASCANCLK0_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "PMASCANCLK1INV",
+        "from_pin": "PMASCANCLK1",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "PMASCANCLK1INV",
+        "from_pin": "PMASCANCLK1_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "PLLCLKSPAREINV",
+        "from_pin": "PLLCLKSPARE",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "PLLCLKSPAREINV",
+        "from_pin": "PLLCLKSPARE_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "PLL0LOCKDETCLKINV",
+        "from_pin": "PLL0LOCKDETCLK",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "PLL0LOCKDETCLKINV",
+        "from_pin": "PLL0LOCKDETCLK_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "PLL1LOCKDETCLKINV",
+        "from_pin": "PLL1LOCKDETCLK",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "PLL1LOCKDETCLKINV",
+        "from_pin": "PLL1LOCKDETCLK_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "GTGREFCLK0INV",
+        "from_pin": "GTGREFCLK0",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "GTGREFCLK0INV",
+        "from_pin": "GTGREFCLK0_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "GTGREFCLK1INV",
+        "from_pin": "GTGREFCLK1",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "GTGREFCLK1INV",
+        "from_pin": "GTGREFCLK1_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DRPCLKINV",
+        "from_pin": "DRPCLK",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "DRPCLKINV",
+        "from_pin": "DRPCLK_B",
+        "to_pin": "OUT"
+      }
+    ],
     "pins": {
       "BGBYPASSB": {
         "primary": "BGBYPASSB",
@@ -1502,7 +1583,7 @@
         "primary": "REFCLKOUTMONITOR1",
         "dir": "OUTPUT",
         "wire": "GTPE2_COMMON_REFCLKOUTMONITOR1"
-      }    
+      }
     }
   }
 }
