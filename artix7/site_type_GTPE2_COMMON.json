@@ -160,23 +160,23 @@
               "dir": "INPUT",
               "wire": "BGPDB"
           },
-          "BGRCALOVRD0": {
+          "BGRCALOVRD[0]": {
               "dir": "INPUT",
               "wire": "BGRCALOVRD0"
           },
-          "BGRCALOVRD1": {
+          "BGRCALOVRD[1]": {
               "dir": "INPUT",
               "wire": "BGRCALOVRD1"
           },
-          "BGRCALOVRD2": {
+          "BGRCALOVRD[2]": {
               "dir": "INPUT",
               "wire": "BGRCALOVRD2"
           },
-          "BGRCALOVRD3": {
+          "BGRCALOVRD[3]": {
               "dir": "INPUT",
               "wire": "BGRCALOVRD3"
           },
-          "BGRCALOVRD4": {
+          "BGRCALOVRD[4]": {
               "dir": "INPUT",
               "wire": "BGRCALOVRD4"
           },
@@ -184,67 +184,67 @@
               "dir": "INPUT",
               "wire": "BGRCALOVRDENB"
           },
-          "DMONITOROUT0": {
+          "DMONITOROUT[0]": {
               "dir": "OUTPUT",
               "wire": "DMONITOROUT0"
           },
-          "DMONITOROUT1": {
+          "DMONITOROUT[1]": {
               "dir": "OUTPUT",
               "wire": "DMONITOROUT1"
           },
-          "DMONITOROUT2": {
+          "DMONITOROUT[2]": {
               "dir": "OUTPUT",
               "wire": "DMONITOROUT2"
           },
-          "DMONITOROUT3": {
+          "DMONITOROUT[3]": {
               "dir": "OUTPUT",
               "wire": "DMONITOROUT3"
           },
-          "DMONITOROUT4": {
+          "DMONITOROUT[4]": {
               "dir": "OUTPUT",
               "wire": "DMONITOROUT4"
           },
-          "DMONITOROUT5": {
+          "DMONITOROUT[5]": {
               "dir": "OUTPUT",
               "wire": "DMONITOROUT5"
           },
-          "DMONITOROUT6": {
+          "DMONITOROUT[6]": {
               "dir": "OUTPUT",
               "wire": "DMONITOROUT6"
           },
-          "DMONITOROUT7": {
+          "DMONITOROUT[7]": {
               "dir": "OUTPUT",
               "wire": "DMONITOROUT7"
           },
-          "DRPADDR0": {
+          "DRPADDR[0]": {
               "dir": "INPUT",
               "wire": "DRPADDR0"
           },
-          "DRPADDR1": {
+          "DRPADDR[1]": {
               "dir": "INPUT",
               "wire": "DRPADDR1"
           },
-          "DRPADDR2": {
+          "DRPADDR[2]": {
               "dir": "INPUT",
               "wire": "DRPADDR2"
           },
-          "DRPADDR3": {
+          "DRPADDR[3]": {
               "dir": "INPUT",
               "wire": "DRPADDR3"
           },
-          "DRPADDR4": {
+          "DRPADDR[4]": {
               "dir": "INPUT",
               "wire": "DRPADDR4"
           },
-          "DRPADDR5": {
+          "DRPADDR[5]": {
               "dir": "INPUT",
               "wire": "DRPADDR5"
           },
-          "DRPADDR6": {
+          "DRPADDR[6]": {
               "dir": "INPUT",
               "wire": "DRPADDR6"
           },
-          "DRPADDR7": {
+          "DRPADDR[7]": {
               "dir": "INPUT",
               "wire": "DRPADDR7"
           },
@@ -252,131 +252,131 @@
               "dir": "INPUT",
               "wire": "DRPCLK"
           },
-          "DRPDI0": {
+          "DRPDI[0]": {
               "dir": "INPUT",
               "wire": "DRPDI0"
           },
-          "DRPDI1": {
+          "DRPDI[1]": {
               "dir": "INPUT",
               "wire": "DRPDI1"
           },
-          "DRPDI2": {
+          "DRPDI[2]": {
               "dir": "INPUT",
               "wire": "DRPDI2"
           },
-          "DRPDI3": {
+          "DRPDI[3]": {
               "dir": "INPUT",
               "wire": "DRPDI3"
           },
-          "DRPDI4": {
+          "DRPDI[4]": {
               "dir": "INPUT",
               "wire": "DRPDI4"
           },
-          "DRPDI5": {
+          "DRPDI[5]": {
               "dir": "INPUT",
               "wire": "DRPDI5"
           },
-          "DRPDI6": {
+          "DRPDI[6]": {
               "dir": "INPUT",
               "wire": "DRPDI6"
           },
-          "DRPDI7": {
+          "DRPDI[7]": {
               "dir": "INPUT",
               "wire": "DRPDI7"
           },
-          "DRPDI8": {
+          "DRPDI[8]": {
               "dir": "INPUT",
               "wire": "DRPDI8"
           },
-          "DRPDI9": {
+          "DRPDI[9]": {
               "dir": "INPUT",
               "wire": "DRPDI9"
           },
-          "DRPDI10": {
+          "DRPDI[10]": {
               "dir": "INPUT",
               "wire": "DRPDI10"
           },
-          "DRPDI11": {
+          "DRPDI[11]": {
               "dir": "INPUT",
               "wire": "DRPDI11"
           },
-          "DRPDI12": {
+          "DRPDI[12]": {
               "dir": "INPUT",
               "wire": "DRPDI12"
           },
-          "DRPDI13": {
+          "DRPDI[13]": {
               "dir": "INPUT",
               "wire": "DRPDI13"
           },
-          "DRPDI14": {
+          "DRPDI[14]": {
               "dir": "INPUT",
               "wire": "DRPDI14"
           },
-          "DRPDI15": {
+          "DRPDI[15]": {
               "dir": "INPUT",
               "wire": "DRPDI15"
           },
-          "DRPDO0": {
+          "DRPDO[0]": {
               "dir": "OUTPUT",
               "wire": "DRPDO0"
           },
-          "DRPDO1": {
+          "DRPDO[1]": {
               "dir": "OUTPUT",
               "wire": "DRPDO1"
           },
-          "DRPDO2": {
+          "DRPDO[2]": {
               "dir": "OUTPUT",
               "wire": "DRPDO2"
           },
-          "DRPDO3": {
+          "DRPDO[3]": {
               "dir": "OUTPUT",
               "wire": "DRPDO3"
           },
-          "DRPDO4": {
+          "DRPDO[4]": {
               "dir": "OUTPUT",
               "wire": "DRPDO4"
           },
-          "DRPDO5": {
+          "DRPDO[5]": {
               "dir": "OUTPUT",
               "wire": "DRPDO5"
           },
-          "DRPDO6": {
+          "DRPDO[6]": {
               "dir": "OUTPUT",
               "wire": "DRPDO6"
           },
-          "DRPDO7": {
+          "DRPDO[7]": {
               "dir": "OUTPUT",
               "wire": "DRPDO7"
           },
-          "DRPDO8": {
+          "DRPDO[8]": {
               "dir": "OUTPUT",
               "wire": "DRPDO8"
           },
-          "DRPDO9": {
+          "DRPDO[9]": {
               "dir": "OUTPUT",
               "wire": "DRPDO9"
           },
-          "DRPDO10": {
+          "DRPDO[10]": {
               "dir": "OUTPUT",
               "wire": "DRPDO10"
           },
-          "DRPDO11": {
+          "DRPDO[11]": {
               "dir": "OUTPUT",
               "wire": "DRPDO11"
           },
-          "DRPDO12": {
+          "DRPDO[12]": {
               "dir": "OUTPUT",
               "wire": "DRPDO12"
           },
-          "DRPDO13": {
+          "DRPDO[13]": {
               "dir": "OUTPUT",
               "wire": "DRPDO13"
           },
-          "DRPDO14": {
+          "DRPDO[14]": {
               "dir": "OUTPUT",
               "wire": "DRPDO14"
           },
-          "DRPDO15": {
+          "DRPDO[15]": {
               "dir": "OUTPUT",
               "wire": "DRPDO15"
           },
@@ -456,15 +456,15 @@
               "dir": "OUTPUT",
               "wire": "PLL0REFCLKLOST"
           },
-          "PLL0REFCLKSEL0": {
+          "PLL0REFCLKSEL[0]": {
               "dir": "INPUT",
               "wire": "PLL0REFCLKSEL0"
           },
-          "PLL0REFCLKSEL1": {
+          "PLL0REFCLKSEL[1]": {
               "dir": "INPUT",
               "wire": "PLL0REFCLKSEL1"
           },
-          "PLL0REFCLKSEL2": {
+          "PLL0REFCLKSEL[2]": {
               "dir": "INPUT",
               "wire": "PLL0REFCLKSEL2"
           },
@@ -504,15 +504,15 @@
               "dir": "OUTPUT",
               "wire": "PLL1REFCLKLOST"
           },
-          "PLL1REFCLKSEL0": {
+          "PLL1REFCLKSEL[0]": {
               "dir": "INPUT",
               "wire": "PLL1REFCLKSEL0"
           },
-          "PLL1REFCLKSEL1": {
+          "PLL1REFCLKSEL[1]": {
               "dir": "INPUT",
               "wire": "PLL1REFCLKSEL1"
           },
-          "PLL1REFCLKSEL2": {
+          "PLL1REFCLKSEL[2]": {
               "dir": "INPUT",
               "wire": "PLL1REFCLKSEL2"
           },
@@ -520,183 +520,183 @@
               "dir": "INPUT",
               "wire": "PLL1RESET"
           },
-          "PLLRSVD10": {
+          "PLLRSVD1[0]": {
               "dir": "INPUT",
               "wire": "PLLRSVD10"
           },
-          "PLLRSVD11": {
+          "PLLRSVD1[1]": {
               "dir": "INPUT",
               "wire": "PLLRSVD11"
           },
-          "PLLRSVD12": {
+          "PLLRSVD1[2]": {
               "dir": "INPUT",
               "wire": "PLLRSVD12"
           },
-          "PLLRSVD13": {
+          "PLLRSVD1[3]": {
               "dir": "INPUT",
               "wire": "PLLRSVD13"
           },
-          "PLLRSVD14": {
+          "PLLRSVD1[4]": {
               "dir": "INPUT",
               "wire": "PLLRSVD14"
           },
-          "PLLRSVD15": {
+          "PLLRSVD1[5]": {
               "dir": "INPUT",
               "wire": "PLLRSVD15"
           },
-          "PLLRSVD16": {
+          "PLLRSVD1[6]": {
               "dir": "INPUT",
               "wire": "PLLRSVD16"
           },
-          "PLLRSVD17": {
+          "PLLRSVD1[7]": {
               "dir": "INPUT",
               "wire": "PLLRSVD17"
           },
-          "PLLRSVD18": {
+          "PLLRSVD1[8]": {
               "dir": "INPUT",
               "wire": "PLLRSVD18"
           },
-          "PLLRSVD19": {
+          "PLLRSVD1[9]": {
               "dir": "INPUT",
               "wire": "PLLRSVD19"
           },
-          "PLLRSVD110": {
+          "PLLRSVD1[10]": {
               "dir": "INPUT",
               "wire": "PLLRSVD110"
           },
-          "PLLRSVD111": {
+          "PLLRSVD1[11]": {
               "dir": "INPUT",
               "wire": "PLLRSVD111"
           },
-          "PLLRSVD112": {
+          "PLLRSVD1[12]": {
               "dir": "INPUT",
               "wire": "PLLRSVD112"
           },
-          "PLLRSVD113": {
+          "PLLRSVD1[13]": {
               "dir": "INPUT",
               "wire": "PLLRSVD113"
           },
-          "PLLRSVD114": {
+          "PLLRSVD1[14]": {
               "dir": "INPUT",
               "wire": "PLLRSVD114"
           },
-          "PLLRSVD115": {
+          "PLLRSVD1[15]": {
               "dir": "INPUT",
               "wire": "PLLRSVD115"
           },
-          "PLLRSVD20": {
+          "PLLRSVD2[0]": {
               "dir": "INPUT",
               "wire": "PLLRSVD20"
           },
-          "PLLRSVD21": {
+          "PLLRSVD2[1]": {
               "dir": "INPUT",
               "wire": "PLLRSVD21"
           },
-          "PLLRSVD22": {
+          "PLLRSVD2[2]": {
               "dir": "INPUT",
               "wire": "PLLRSVD22"
           },
-          "PLLRSVD23": {
+          "PLLRSVD2[3]": {
               "dir": "INPUT",
               "wire": "PLLRSVD23"
           },
-          "PLLRSVD24": {
+          "PLLRSVD2[4]": {
               "dir": "INPUT",
               "wire": "PLLRSVD24"
           },
-          "PMARSVD0": {
+          "PMARSVD[0]": {
               "dir": "INPUT",
               "wire": "PMARSVD0"
           },
-          "PMARSVD1": {
+          "PMARSVD[1]": {
               "dir": "INPUT",
               "wire": "PMARSVD1"
           },
-          "PMARSVD2": {
+          "PMARSVD[2]": {
               "dir": "INPUT",
               "wire": "PMARSVD2"
           },
-          "PMARSVD3": {
+          "PMARSVD[3]": {
               "dir": "INPUT",
               "wire": "PMARSVD3"
           },
-          "PMARSVD4": {
+          "PMARSVD[4]": {
               "dir": "INPUT",
               "wire": "PMARSVD4"
           },
-          "PMARSVD5": {
+          "PMARSVD[5]": {
               "dir": "INPUT",
               "wire": "PMARSVD5"
           },
-          "PMARSVD6": {
+          "PMARSVD[6]": {
               "dir": "INPUT",
               "wire": "PMARSVD6"
           },
-          "PMARSVD7": {
+          "PMARSVD[7]": {
               "dir": "INPUT",
               "wire": "PMARSVD7"
           },
-          "PMARSVDOUT0": {
+          "PMARSVDOUT[0]": {
               "dir": "OUTPUT",
               "wire": "PMARSVDOUT0"
           },
-          "PMARSVDOUT1": {
+          "PMARSVDOUT[1]": {
               "dir": "OUTPUT",
               "wire": "PMARSVDOUT1"
           },
-          "PMARSVDOUT2": {
+          "PMARSVDOUT[2]": {
               "dir": "OUTPUT",
               "wire": "PMARSVDOUT2"
           },
-          "PMARSVDOUT3": {
+          "PMARSVDOUT[3]": {
               "dir": "OUTPUT",
               "wire": "PMARSVDOUT3"
           },
-          "PMARSVDOUT4": {
+          "PMARSVDOUT[4]": {
               "dir": "OUTPUT",
               "wire": "PMARSVDOUT4"
           },
-          "PMARSVDOUT5": {
+          "PMARSVDOUT[5]": {
               "dir": "OUTPUT",
               "wire": "PMARSVDOUT5"
           },
-          "PMARSVDOUT6": {
+          "PMARSVDOUT[6]": {
               "dir": "OUTPUT",
               "wire": "PMARSVDOUT6"
           },
-          "PMARSVDOUT7": {
+          "PMARSVDOUT[7]": {
               "dir": "OUTPUT",
               "wire": "PMARSVDOUT7"
           },
-          "PMARSVDOUT8": {
+          "PMARSVDOUT[8]": {
               "dir": "OUTPUT",
               "wire": "PMARSVDOUT8"
           },
-          "PMARSVDOUT9": {
+          "PMARSVDOUT[9]": {
               "dir": "OUTPUT",
               "wire": "PMARSVDOUT9"
           },
-          "PMARSVDOUT10": {
+          "PMARSVDOUT[10]": {
               "dir": "OUTPUT",
               "wire": "PMARSVDOUT10"
           },
-          "PMARSVDOUT11": {
+          "PMARSVDOUT[11]": {
               "dir": "OUTPUT",
               "wire": "PMARSVDOUT11"
           },
-          "PMARSVDOUT12": {
+          "PMARSVDOUT[12]": {
               "dir": "OUTPUT",
               "wire": "PMARSVDOUT12"
           },
-          "PMARSVDOUT13": {
+          "PMARSVDOUT[13]": {
               "dir": "OUTPUT",
               "wire": "PMARSVDOUT13"
           },
-          "PMARSVDOUT14": {
+          "PMARSVDOUT[14]": {
               "dir": "OUTPUT",
               "wire": "PMARSVDOUT14"
           },
-          "PMARSVDOUT15": {
+          "PMARSVDOUT[15]": {
               "dir": "OUTPUT",
               "wire": "PMARSVDOUT15"
           },
