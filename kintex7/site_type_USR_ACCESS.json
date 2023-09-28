@@ -1,0 +1,321 @@
+{
+  "USR_ACCESS": {
+    "bels": {
+      "USR_ACCESS": {
+        "type": "USR_ACCESS_USR_ACCESS",
+        "class": "BEL",
+        "pins": {
+          "CFGCLK": {
+            "dir": "OUTPUT",
+            "wire": "CFGCLK"
+          },
+          "DATA0": {
+            "dir": "OUTPUT",
+            "wire": "DATA0"
+          },
+          "DATA1": {
+            "dir": "OUTPUT",
+            "wire": "DATA1"
+          },
+          "DATA2": {
+            "dir": "OUTPUT",
+            "wire": "DATA2"
+          },
+          "DATA3": {
+            "dir": "OUTPUT",
+            "wire": "DATA3"
+          },
+          "DATA4": {
+            "dir": "OUTPUT",
+            "wire": "DATA4"
+          },
+          "DATA5": {
+            "dir": "OUTPUT",
+            "wire": "DATA5"
+          },
+          "DATA6": {
+            "dir": "OUTPUT",
+            "wire": "DATA6"
+          },
+          "DATA7": {
+            "dir": "OUTPUT",
+            "wire": "DATA7"
+          },
+          "DATA8": {
+            "dir": "OUTPUT",
+            "wire": "DATA8"
+          },
+          "DATA9": {
+            "dir": "OUTPUT",
+            "wire": "DATA9"
+          },
+          "DATA10": {
+            "dir": "OUTPUT",
+            "wire": "DATA10"
+          },
+          "DATA11": {
+            "dir": "OUTPUT",
+            "wire": "DATA11"
+          },
+          "DATA12": {
+            "dir": "OUTPUT",
+            "wire": "DATA12"
+          },
+          "DATA13": {
+            "dir": "OUTPUT",
+            "wire": "DATA13"
+          },
+          "DATA14": {
+            "dir": "OUTPUT",
+            "wire": "DATA14"
+          },
+          "DATA15": {
+            "dir": "OUTPUT",
+            "wire": "DATA15"
+          },
+          "DATA16": {
+            "dir": "OUTPUT",
+            "wire": "DATA16"
+          },
+          "DATA17": {
+            "dir": "OUTPUT",
+            "wire": "DATA17"
+          },
+          "DATA18": {
+            "dir": "OUTPUT",
+            "wire": "DATA18"
+          },
+          "DATA19": {
+            "dir": "OUTPUT",
+            "wire": "DATA19"
+          },
+          "DATA20": {
+            "dir": "OUTPUT",
+            "wire": "DATA20"
+          },
+          "DATA21": {
+            "dir": "OUTPUT",
+            "wire": "DATA21"
+          },
+          "DATA22": {
+            "dir": "OUTPUT",
+            "wire": "DATA22"
+          },
+          "DATA23": {
+            "dir": "OUTPUT",
+            "wire": "DATA23"
+          },
+          "DATA24": {
+            "dir": "OUTPUT",
+            "wire": "DATA24"
+          },
+          "DATA25": {
+            "dir": "OUTPUT",
+            "wire": "DATA25"
+          },
+          "DATA26": {
+            "dir": "OUTPUT",
+            "wire": "DATA26"
+          },
+          "DATA27": {
+            "dir": "OUTPUT",
+            "wire": "DATA27"
+          },
+          "DATA28": {
+            "dir": "OUTPUT",
+            "wire": "DATA28"
+          },
+          "DATA29": {
+            "dir": "OUTPUT",
+            "wire": "DATA29"
+          },
+          "DATA30": {
+            "dir": "OUTPUT",
+            "wire": "DATA30"
+          },
+          "DATA31": {
+            "dir": "OUTPUT",
+            "wire": "DATA31"
+          },
+          "DATAVALID": {
+            "dir": "OUTPUT",
+            "wire": "DATAVALID"
+          }
+        }
+      }
+    },
+    "pips": [],
+    "pins": {
+      "CFGCLK": {
+        "primary": "CFGCLK",
+        "wire": "CFGCLK",
+        "dir": "OUTPUT"
+      },
+      "DATA0": {
+        "primary": "DATA0",
+        "wire": "DATA0",
+        "dir": "OUTPUT"
+      },
+      "DATA1": {
+        "primary": "DATA1",
+        "wire": "DATA1",
+        "dir": "OUTPUT"
+      },
+      "DATA2": {
+        "primary": "DATA2",
+        "wire": "DATA2",
+        "dir": "OUTPUT"
+      },
+      "DATA3": {
+        "primary": "DATA3",
+        "wire": "DATA3",
+        "dir": "OUTPUT"
+      },
+      "DATA4": {
+        "primary": "DATA4",
+        "wire": "DATA4",
+        "dir": "OUTPUT"
+      },
+      "DATA5": {
+        "primary": "DATA5",
+        "wire": "DATA5",
+        "dir": "OUTPUT"
+      },
+      "DATA6": {
+        "primary": "DATA6",
+        "wire": "DATA6",
+        "dir": "OUTPUT"
+      },
+      "DATA7": {
+        "primary": "DATA7",
+        "wire": "DATA7",
+        "dir": "OUTPUT"
+      },
+      "DATA8": {
+        "primary": "DATA8",
+        "wire": "DATA8",
+        "dir": "OUTPUT"
+      },
+      "DATA9": {
+        "primary": "DATA9",
+        "wire": "DATA9",
+        "dir": "OUTPUT"
+      },
+      "DATA10": {
+        "primary": "DATA10",
+        "wire": "DATA10",
+        "dir": "OUTPUT"
+      },
+      "DATA11": {
+        "primary": "DATA11",
+        "wire": "DATA11",
+        "dir": "OUTPUT"
+      },
+      "DATA12": {
+        "primary": "DATA12",
+        "wire": "DATA12",
+        "dir": "OUTPUT"
+      },
+      "DATA13": {
+        "primary": "DATA13",
+        "wire": "DATA13",
+        "dir": "OUTPUT"
+      },
+      "DATA14": {
+        "primary": "DATA14",
+        "wire": "DATA14",
+        "dir": "OUTPUT"
+      },
+      "DATA15": {
+        "primary": "DATA15",
+        "wire": "DATA15",
+        "dir": "OUTPUT"
+      },
+      "DATA16": {
+        "primary": "DATA16",
+        "wire": "DATA16",
+        "dir": "OUTPUT"
+      },
+      "DATA17": {
+        "primary": "DATA17",
+        "wire": "DATA17",
+        "dir": "OUTPUT"
+      },
+      "DATA18": {
+        "primary": "DATA18",
+        "wire": "DATA18",
+        "dir": "OUTPUT"
+      },
+      "DATA19": {
+        "primary": "DATA19",
+        "wire": "DATA19",
+        "dir": "OUTPUT"
+      },
+      "DATA20": {
+        "primary": "DATA20",
+        "wire": "DATA20",
+        "dir": "OUTPUT"
+      },
+      "DATA21": {
+        "primary": "DATA21",
+        "wire": "DATA21",
+        "dir": "OUTPUT"
+      },
+      "DATA22": {
+        "primary": "DATA22",
+        "wire": "DATA22",
+        "dir": "OUTPUT"
+      },
+      "DATA23": {
+        "primary": "DATA23",
+        "wire": "DATA23",
+        "dir": "OUTPUT"
+      },
+      "DATA24": {
+        "primary": "DATA24",
+        "wire": "DATA24",
+        "dir": "OUTPUT"
+      },
+      "DATA25": {
+        "primary": "DATA25",
+        "wire": "DATA25",
+        "dir": "OUTPUT"
+      },
+      "DATA26": {
+        "primary": "DATA26",
+        "wire": "DATA26",
+        "dir": "OUTPUT"
+      },
+      "DATA27": {
+        "primary": "DATA27",
+        "wire": "DATA27",
+        "dir": "OUTPUT"
+      },
+      "DATA28": {
+        "primary": "DATA28",
+        "wire": "DATA28",
+        "dir": "OUTPUT"
+      },
+      "DATA29": {
+        "primary": "DATA29",
+        "wire": "DATA29",
+        "dir": "OUTPUT"
+      },
+      "DATA30": {
+        "primary": "DATA30",
+        "wire": "DATA30",
+        "dir": "OUTPUT"
+      },
+      "DATA31": {
+        "primary": "DATA31",
+        "wire": "DATA31",
+        "dir": "OUTPUT"
+      },
+      "DATAVALID": {
+        "primary": "DATAVALID",
+        "wire": "DATAVALID",
+        "dir": "OUTPUT"
+      }
+    }
+  }
+}

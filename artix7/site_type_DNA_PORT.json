@@ -1,0 +1,60 @@
+{
+  "DNA_PORT": {
+    "bels": {
+      "DNA_PORT": {
+        "type": "DNA_PORT_DNA_PORT",
+        "class": "BEL",
+        "pins": {
+          "DOUT": {
+              "dir": "OUTPUT",
+              "wire": "LOCKED"
+          },
+          "CL": {
+            "dir": "INPUT",
+            "wire": "CL"
+          },
+          "DIN": {
+            "dir": "INPUT",
+            "wire": "DIN"
+          },
+          "READ": {
+            "dir": "INPUT",
+            "wire": "READ"
+          },
+          "SHIFT": {
+            "dir": "INPUT",
+            "wire": "SHIFT"
+          }
+        }
+      }
+    },
+    "pips": [],
+    "pins": {
+      "DOUT": {
+        "primary": "DOUT",
+        "wire": "DOUT",
+        "dir": "OUTPUT"
+      },
+      "CL": {
+        "primary": "CL",
+        "wire": "CL",
+        "dir": "INPUT"
+      },
+      "DIN": {
+        "primary": "DIN",
+        "wire": "DIN",
+        "dir": "INPUT"
+      },
+      "READ": {
+        "primary": "READ",
+        "wire": "READ",
+        "dir": "INPUT"
+      },
+      "SHIFT": {
+        "primary": "SHIFT",
+        "wire": "SHIFT",
+        "dir": "INPUT"
+      }
+    }
+  }
+}

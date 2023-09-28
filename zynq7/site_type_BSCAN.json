@@ -1,0 +1,114 @@
+{
+  "BSCAN": {
+    "bels": {
+      "BSCAN": {
+        "type": "BSCAN",
+        "class": "BEL",
+        "pins": {
+          "CAPTURE": {
+          "dir": "OUTPUT",
+          "wire": "CAPTURE"
+          },
+          "DRCK": {
+          "dir": "OUTPUT",
+          "wire": "DRCK"
+          },
+          "RESET": {
+          "dir": "OUTPUT",
+          "wire": "RESET"
+          },
+          "RUNTEST": {
+          "dir": "OUTPUT",
+          "wire": "RUNTEST"
+          },
+          "SEL": {
+          "dir": "OUTPUT",
+          "wire": "SEL"
+          },
+          "SHIFT": {
+          "dir": "OUTPUT",
+          "wire": "SHIFT"
+          },
+          "TCK": {
+          "dir": "OUTPUT",
+          "wire": "TCK"
+          },
+          "TDI": {
+          "dir": "OUTPUT",
+          "wire": "TDI"
+          },
+          "TDO": {
+          "dir": "INPUT",
+          "wire": "TDO"
+          },
+          "TMS": {
+          "dir": "OUTPUT",
+          "wire": "TMS"
+          },
+          "UPDATE": {
+          "dir": "OUTPUT",
+          "wire": "UPDATE"
+          }
+        }
+      }
+    },
+    "pips": [],
+    "pins": {
+      "CAPTURE": {
+        "primary": "CAPTURE",
+        "wire": "CAPTURE",
+        "dir": "OUTPUT"
+      },
+      "DRCK": {
+        "primary": "DRCK",
+        "wire": "DRCK",
+        "dir": "OUTPUT"
+      },
+      "RESET": {
+        "primary": "RESET",
+        "wire": "RESET",
+        "dir": "OUTPUT"
+      },
+      "RUNTEST": {
+        "primary": "RUNTEST",
+        "wire": "RUNTEST",
+        "dir": "OUTPUT"
+      },
+      "SEL": {
+        "primary": "SEL",
+        "wire": "SEL",
+        "dir": "OUTPUT"
+      },
+      "SHIFT": {
+        "primary": "SHIFT",
+        "wire": "SHIFT",
+        "dir": "OUTPUT"
+      },
+      "TCK": {
+        "primary": "TCK",
+        "wire": "TCK",
+        "dir": "OUTPUT"
+      },
+      "TDI": {
+        "primary": "TDI",
+        "wire": "TDI",
+        "dir": "OUTPUT"
+      },
+      "TDO": {
+        "primary": "TDO",
+        "wire": "TDO",
+        "dir": "INPUT"
+      },
+      "TMS": {
+        "primary": "TMS",
+        "wire": "TMS",
+        "dir": "OUTPUT"
+      },
+      "UPDATE": {
+        "primary": "UPDATE",
+        "wire": "UPDATE",
+        "dir": "OUTPUT"
+      }
+    }
+  }
+}

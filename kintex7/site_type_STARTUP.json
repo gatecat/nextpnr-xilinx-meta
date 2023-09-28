@@ -1,0 +1,132 @@
+{
+  "STARTUP": {
+    "bels": {
+      "STARTUP": {
+        "type": "STARTUP_STARTUP",
+        "class": "BEL",
+        "pins": {
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "CLK"
+          },
+          "GSR": {
+            "dir": "INPUT",
+            "wire": "GSR"
+          },
+          "GTS": {
+            "dir": "INPUT",
+            "wire": "GTS"
+          },
+          "KEYCLEARB": {
+            "dir": "INPUT",
+            "wire": "KEYCLEARB"
+          },
+          "PACK": {
+            "dir": "INPUT",
+            "wire": "PACK"
+          },
+          "USRCCLKO": {
+            "dir": "INPUT",
+            "wire": "USRCCLKO"
+          },
+          "USRCCLKTS": {
+            "dir": "INPUT",
+            "wire": "USRCCLKTS"
+          },
+          "USRDONEO": {
+            "dir": "INPUT",
+            "wire": "USRDONEO"
+          },
+          "USRDONETS": {
+            "dir": "INPUT",
+            "wire": "USRDONETS"
+          },
+          "CFGCLK": {
+            "dir": "OUTPUT",
+            "wire": "CFGCLK"
+          },
+          "CFGMCLK": {
+            "dir": "OUTPUT",
+            "wire": "CFGMCLK"
+          },
+          "EOS": {
+            "dir": "OUTPUT",
+            "wire": "EOS"
+          },
+          "PREQ": {
+            "dir": "OUTPUT",
+            "wire": "PREQ"
+          }
+        }
+      }
+    },
+    "pips": [],
+    "pins": {
+      "CLK": {
+        "primary": "CLK",
+        "wire": "CLK",
+        "dir": "INPUT"
+      },
+      "GSR": {
+        "primary": "GSR",
+        "wire": "GSR",
+        "dir": "INPUT"
+      },
+      "GTS": {
+        "primary": "GTS",
+        "wire": "GTS",
+        "dir": "INPUT"
+      },
+      "KEYCLEARB": {
+        "primary": "KEYCLEARB",
+        "wire": "KEYCLEARB",
+        "dir": "INPUT"
+      },
+      "PACK": {
+        "primary": "PACK",
+        "wire": "PACK",
+        "dir": "INPUT"
+      },
+      "USRCCLKO": {
+        "primary": "USRCCLKO",
+        "wire": "USRCCLKO",
+        "dir": "INPUT"
+      },
+      "USRCCLKTS": {
+        "primary": "USRCCLKTS",
+        "wire": "USRCCLKTS",
+        "dir": "INPUT"
+      },
+      "USRDONEO": {
+        "primary": "USRDONEO",
+        "wire": "USRDONEO",
+        "dir": "INPUT"
+      },
+      "USRDONETS": {
+        "primary": "USRDONETS",
+        "wire": "USRDONETS",
+        "dir": "INPUT"
+      },
+      "CFGCLK": {
+        "primary": "CFGCLK",
+        "wire": "CFGCLK",
+        "dir": "OUTPUT"
+      },
+      "CFGMCLK": {
+        "primary": "CFGMCLK",
+        "wire": "CFGMCLK",
+        "dir": "OUTPUT"
+      },
+      "EOS": {
+        "primary": "EOS",
+        "wire": "EOS",
+        "dir": "OUTPUT"
+      },
+      "PREQ": {
+        "primary": "PREQ",
+        "wire": "PREQ",
+        "dir": "OUTPUT"
+      }
+    }
+  }
+}

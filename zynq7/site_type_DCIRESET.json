@@ -1,0 +1,33 @@
+{
+  "DCIRESET": {
+    "bels": {
+      "DCIRESET": {
+        "type": "DCIRESET_DCIRESET",
+        "class": "BEL",
+        "pins": {
+          "LOCKED": {
+              "dir": "OUTPUT",
+              "wire": "LOCKED"
+          },
+          "RST": {
+            "dir": "INPUT",
+            "wire": "RST"
+          }
+        }
+      }
+    },
+    "pips": [],
+    "pins": {
+      "LOCKED": {
+        "primary": "LOCKED",
+        "wire": "LOCKED",
+          "dir": "OUTPUT"
+      },
+      "RST": {
+        "primary": "RST",
+        "wire": "RST",
+        "dir": "INPUT"
+      }
+    }
+  }
+}
