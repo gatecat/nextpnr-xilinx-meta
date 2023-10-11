@@ -7,7 +7,7 @@
         "pins": {
           "DOUT": {
               "dir": "OUTPUT",
-              "wire": "LOCKED"
+              "wire": "DOUT"
           },
           "CLK": {
             "dir": "INPUT",

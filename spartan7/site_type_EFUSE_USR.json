@@ -138,11 +138,6 @@
     },
     "pips": [],
     "pins": {
-      "LOCKED": {
-        "primary": "LOCKED",
-        "wire": "LOCKED",
-        "dir": "OUTPUT"
-      },
       "EFUSEUSR0": {
         "primary": "EFUSEUSR0",
         "wire": "EFUSEUSR0",
