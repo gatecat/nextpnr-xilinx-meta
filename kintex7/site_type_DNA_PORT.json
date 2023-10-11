@@ -9,9 +9,9 @@
               "dir": "OUTPUT",
               "wire": "LOCKED"
           },
-          "CL": {
+          "CLK": {
             "dir": "INPUT",
-            "wire": "CL"
+            "wire": "CLK"
           },
           "DIN": {
             "dir": "INPUT",
@@ -35,9 +35,9 @@
         "wire": "DOUT",
         "dir": "OUTPUT"
       },
-      "CL": {
-        "primary": "CL",
-        "wire": "CL",
+      "CLK": {
+        "primary": "CLK",
+        "wire": "CLK",
         "dir": "INPUT"
       },
       "DIN": {
