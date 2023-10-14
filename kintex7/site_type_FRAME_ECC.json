@@ -1,0 +1,510 @@
+{
+  "FRAME_ECC": {
+    "bels": {
+      "FRAME_ECC": {
+        "type": "FRAME_ECC_FRAME_ECC",
+        "class": "BEL",
+        "pins": {
+          "CRCERROR": {
+            "dir": "OUTPUT",
+            "wire": "CRCERROR"
+          },
+          "ECCERROR": {
+            "dir": "OUTPUT",
+            "wire": "ECCERROR"
+          },
+          "ECCERRORSINGLE": {
+            "dir": "OUTPUT",
+            "wire": "ECCERRORSINGLE"
+          },
+          "FAR0": {
+            "dir": "OUTPUT",
+            "wire": "FAR0"
+          },
+          "FAR1": {
+            "dir": "OUTPUT",
+            "wire": "FAR1"
+          },
+          "FAR2": {
+            "dir": "OUTPUT",
+            "wire": "FAR2"
+          },
+          "FAR3": {
+            "dir": "OUTPUT",
+            "wire": "FAR3"
+          },
+          "FAR4": {
+            "dir": "OUTPUT",
+            "wire": "FAR4"
+          },
+          "FAR5": {
+            "dir": "OUTPUT",
+            "wire": "FAR5"
+          },
+          "FAR6": {
+            "dir": "OUTPUT",
+            "wire": "FAR6"
+          },
+          "FAR7": {
+            "dir": "OUTPUT",
+            "wire": "FAR7"
+          },
+          "FAR8": {
+            "dir": "OUTPUT",
+            "wire": "FAR8"
+          },
+          "FAR9": {
+            "dir": "OUTPUT",
+            "wire": "FAR9"
+          },
+          "FAR10": {
+            "dir": "OUTPUT",
+            "wire": "FAR10"
+          },
+          "FAR11": {
+            "dir": "OUTPUT",
+            "wire": "FAR11"
+          },
+          "FAR12": {
+            "dir": "OUTPUT",
+            "wire": "FAR12"
+          },
+          "FAR13": {
+            "dir": "OUTPUT",
+            "wire": "FAR13"
+          },
+          "FAR14": {
+            "dir": "OUTPUT",
+            "wire": "FAR14"
+          },
+          "FAR15": {
+            "dir": "OUTPUT",
+            "wire": "FAR15"
+          },
+          "FAR16": {
+            "dir": "OUTPUT",
+            "wire": "FAR16"
+          },
+          "FAR17": {
+            "dir": "OUTPUT",
+            "wire": "FAR17"
+          },
+          "FAR18": {
+            "dir": "OUTPUT",
+            "wire": "FAR18"
+          },
+          "FAR19": {
+            "dir": "OUTPUT",
+            "wire": "FAR19"
+          },
+          "FAR20": {
+            "dir": "OUTPUT",
+            "wire": "FAR20"
+          },
+          "FAR21": {
+            "dir": "OUTPUT",
+            "wire": "FAR21"
+          },
+          "FAR22": {
+            "dir": "OUTPUT",
+            "wire": "FAR22"
+          },
+          "FAR23": {
+            "dir": "OUTPUT",
+            "wire": "FAR23"
+          },
+          "FAR24": {
+            "dir": "OUTPUT",
+            "wire": "FAR24"
+          },
+          "FAR25": {
+            "dir": "OUTPUT",
+            "wire": "FAR25"
+          },
+          "SYNBIT0": {
+            "dir": "OUTPUT",
+            "wire": "SYNBIT0"
+          },
+          "SYNBIT1": {
+            "dir": "OUTPUT",
+            "wire": "SYNBIT1"
+          },
+          "SYNBIT2": {
+            "dir": "OUTPUT",
+            "wire": "SYNBIT2"
+          },
+          "SYNBIT3": {
+            "dir": "OUTPUT",
+            "wire": "SYNBIT3"
+          },
+          "SYNBIT4": {
+            "dir": "OUTPUT",
+            "wire": "SYNBIT4"
+          },
+          "SYNDROME0": {
+            "dir": "OUTPUT",
+            "wire": "SYNDROME0"
+          },
+          "SYNDROME1": {
+            "dir": "OUTPUT",
+            "wire": "SYNDROME1"
+          },
+          "SYNDROME2": {
+            "dir": "OUTPUT",
+            "wire": "SYNDROME2"
+          },
+          "SYNDROME3": {
+            "dir": "OUTPUT",
+            "wire": "SYNDROME3"
+          },
+          "SYNDROME4": {
+            "dir": "OUTPUT",
+            "wire": "SYNDROME4"
+          },
+          "SYNDROME5": {
+            "dir": "OUTPUT",
+            "wire": "SYNDROME5"
+          },
+          "SYNDROME6": {
+            "dir": "OUTPUT",
+            "wire": "SYNDROME6"
+          },
+          "SYNDROME7": {
+            "dir": "OUTPUT",
+            "wire": "SYNDROME7"
+          },
+          "SYNDROME8": {
+            "dir": "OUTPUT",
+            "wire": "SYNDROME8"
+          },
+          "SYNDROME9": {
+            "dir": "OUTPUT",
+            "wire": "SYNDROME9"
+          },
+          "SYNDROME10": {
+            "dir": "OUTPUT",
+            "wire": "SYNDROME10"
+          },
+          "SYNDROME11": {
+            "dir": "OUTPUT",
+            "wire": "SYNDROME11"
+          },
+          "SYNDROME12": {
+            "dir": "OUTPUT",
+            "wire": "SYNDROME12"
+          },
+          "SYNDROMEVALID": {
+            "dir": "OUTPUT",
+            "wire": "SYNDROMEVALID"
+          },
+          "SYNWORD0": {
+            "dir": "OUTPUT",
+            "wire": "SYNWORD0"
+          },
+          "SYNWORD1": {
+            "dir": "OUTPUT",
+            "wire": "SYNWORD1"
+          },
+          "SYNWORD2": {
+            "dir": "OUTPUT",
+            "wire": "SYNWORD2"
+          },
+          "SYNWORD3": {
+            "dir": "OUTPUT",
+            "wire": "SYNWORD3"
+          },
+          "SYNWORD4": {
+            "dir": "OUTPUT",
+            "wire": "SYNWORD4"
+          },
+          "SYNWORD5": {
+            "dir": "OUTPUT",
+            "wire": "SYNWORD5"
+          },
+          "SYNWORD6": {
+            "dir": "OUTPUT",
+            "wire": "SYNWORD6"
+          }
+        }
+      }
+    },
+    "pips": [],
+    "pins": {
+      "CRCERROR": {
+        "primary": "CRCERROR",
+        "wire": "CRCERROR",
+        "dir": "OUTPUT"
+      },
+      "ECCERROR": {
+        "primary": "ECCERROR",
+        "wire": "ECCERROR",
+        "dir": "OUTPUT"
+      },
+      "ECCERRORSINGLE": {
+        "primary": "ECCERRORSINGLE",
+        "wire": "ECCERRORSINGLE",
+        "dir": "OUTPUT"
+      },
+      "FAR0": {
+        "primary": "FAR0",
+        "wire": "FAR0",
+        "dir": "OUTPUT"
+      },
+      "FAR1": {
+        "primary": "FAR1",
+        "wire": "FAR1",
+        "dir": "OUTPUT"
+      },
+      "FAR2": {
+        "primary": "FAR2",
+        "wire": "FAR2",
+        "dir": "OUTPUT"
+      },
+      "FAR3": {
+        "primary": "FAR3",
+        "wire": "FAR3",
+        "dir": "OUTPUT"
+      },
+      "FAR4": {
+        "primary": "FAR4",
+        "wire": "FAR4",
+        "dir": "OUTPUT"
+      },
+      "FAR5": {
+        "primary": "FAR5",
+        "wire": "FAR5",
+        "dir": "OUTPUT"
+      },
+      "FAR6": {
+        "primary": "FAR6",
+        "wire": "FAR6",
+        "dir": "OUTPUT"
+      },
+      "FAR7": {
+        "primary": "FAR7",
+        "wire": "FAR7",
+        "dir": "OUTPUT"
+      },
+      "FAR8": {
+        "primary": "FAR8",
+        "wire": "FAR8",
+        "dir": "OUTPUT"
+      },
+      "FAR9": {
+        "primary": "FAR9",
+        "wire": "FAR9",
+        "dir": "OUTPUT"
+      },
+      "FAR10": {
+        "primary": "FAR10",
+        "wire": "FAR10",
+        "dir": "OUTPUT"
+      },
+      "FAR11": {
+        "primary": "FAR11",
+        "wire": "FAR11",
+        "dir": "OUTPUT"
+      },
+      "FAR12": {
+        "primary": "FAR12",
+        "wire": "FAR12",
+        "dir": "OUTPUT"
+      },
+      "FAR13": {
+        "primary": "FAR13",
+        "wire": "FAR13",
+        "dir": "OUTPUT"
+      },
+      "FAR14": {
+        "primary": "FAR14",
+        "wire": "FAR14",
+        "dir": "OUTPUT"
+      },
+      "FAR15": {
+        "primary": "FAR15",
+        "wire": "FAR15",
+        "dir": "OUTPUT"
+      },
+      "FAR16": {
+        "primary": "FAR16",
+        "wire": "FAR16",
+        "dir": "OUTPUT"
+      },
+      "FAR17": {
+        "primary": "FAR17",
+        "wire": "FAR17",
+        "dir": "OUTPUT"
+      },
+      "FAR18": {
+        "primary": "FAR18",
+        "wire": "FAR18",
+        "dir": "OUTPUT"
+      },
+      "FAR19": {
+        "primary": "FAR19",
+        "wire": "FAR19",
+        "dir": "OUTPUT"
+      },
+      "FAR20": {
+        "primary": "FAR20",
+        "wire": "FAR20",
+        "dir": "OUTPUT"
+      },
+      "FAR21": {
+        "primary": "FAR21",
+        "wire": "FAR21",
+        "dir": "OUTPUT"
+      },
+      "FAR22": {
+        "primary": "FAR22",
+        "wire": "FAR22",
+        "dir": "OUTPUT"
+      },
+      "FAR23": {
+        "primary": "FAR23",
+        "wire": "FAR23",
+        "dir": "OUTPUT"
+      },
+      "FAR24": {
+        "primary": "FAR24",
+        "wire": "FAR24",
+        "dir": "OUTPUT"
+      },
+      "FAR25": {
+        "primary": "FAR25",
+        "wire": "FAR25",
+        "dir": "OUTPUT"
+      },
+      "SYNBIT0": {
+        "primary": "SYNBIT0",
+        "wire": "SYNBIT0",
+        "dir": "OUTPUT"
+      },
+      "SYNBIT1": {
+        "primary": "SYNBIT1",
+        "wire": "SYNBIT1",
+        "dir": "OUTPUT"
+      },
+      "SYNBIT2": {
+        "primary": "SYNBIT2",
+        "wire": "SYNBIT2",
+        "dir": "OUTPUT"
+      },
+      "SYNBIT3": {
+        "primary": "SYNBIT3",
+        "wire": "SYNBIT3",
+        "dir": "OUTPUT"
+      },
+      "SYNBIT4": {
+        "primary": "SYNBIT4",
+        "wire": "SYNBIT4",
+        "dir": "OUTPUT"
+      },
+      "SYNDROME0": {
+        "primary": "SYNDROME0",
+        "wire": "SYNDROME0",
+        "dir": "OUTPUT"
+      },
+      "SYNDROME1": {
+        "primary": "SYNDROME1",
+        "wire": "SYNDROME1",
+        "dir": "OUTPUT"
+      },
+      "SYNDROME2": {
+        "primary": "SYNDROME2",
+        "wire": "SYNDROME2",
+        "dir": "OUTPUT"
+      },
+      "SYNDROME3": {
+        "primary": "SYNDROME3",
+        "wire": "SYNDROME3",
+        "dir": "OUTPUT"
+      },
+      "SYNDROME4": {
+        "primary": "SYNDROME4",
+        "wire": "SYNDROME4",
+        "dir": "OUTPUT"
+      },
+      "SYNDROME5": {
+        "primary": "SYNDROME5",
+        "wire": "SYNDROME5",
+        "dir": "OUTPUT"
+      },
+      "SYNDROME6": {
+        "primary": "SYNDROME6",
+        "wire": "SYNDROME6",
+        "dir": "OUTPUT"
+      },
+      "SYNDROME7": {
+        "primary": "SYNDROME7",
+        "wire": "SYNDROME7",
+        "dir": "OUTPUT"
+      },
+      "SYNDROME8": {
+        "primary": "SYNDROME8",
+        "wire": "SYNDROME8",
+        "dir": "OUTPUT"
+      },
+      "SYNDROME9": {
+        "primary": "SYNDROME9",
+        "wire": "SYNDROME9",
+        "dir": "OUTPUT"
+      },
+      "SYNDROME10": {
+        "primary": "SYNDROME10",
+        "wire": "SYNDROME10",
+        "dir": "OUTPUT"
+      },
+      "SYNDROME11": {
+        "primary": "SYNDROME11",
+        "wire": "SYNDROME11",
+        "dir": "OUTPUT"
+      },
+      "SYNDROME12": {
+        "primary": "SYNDROME12",
+        "wire": "SYNDROME12",
+        "dir": "OUTPUT"
+      },
+      "SYNDROMEVALID": {
+        "primary": "SYNDROMEVALID",
+        "wire": "SYNDROMEVALID",
+        "dir": "OUTPUT"
+      },
+      "SYNWORD0": {
+        "primary": "SYNWORD0",
+        "wire": "SYNWORD0",
+        "dir": "OUTPUT"
+      },
+      "SYNWORD1": {
+        "primary": "SYNWORD1",
+        "wire": "SYNWORD1",
+        "dir": "OUTPUT"
+      },
+      "SYNWORD2": {
+        "primary": "SYNWORD2",
+        "wire": "SYNWORD2",
+        "dir": "OUTPUT"
+      },
+      "SYNWORD3": {
+        "primary": "SYNWORD3",
+        "wire": "SYNWORD3",
+        "dir": "OUTPUT"
+      },
+      "SYNWORD4": {
+        "primary": "SYNWORD4",
+        "wire": "SYNWORD4",
+        "dir": "OUTPUT"
+      },
+      "SYNWORD5": {
+        "primary": "SYNWORD5",
+        "wire": "SYNWORD5",
+        "dir": "OUTPUT"
+      },
+      "SYNWORD6": {
+        "primary": "SYNWORD6",
+        "wire": "SYNWORD6",
+        "dir": "OUTPUT"
+      }
+    }
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "EFUSE_USR": {
+    "bels": {
+      "EFUSE_USR": {
+        "type": "EFUSE_USR_EFUSE_USR",
+        "class": "BEL",
+        "pins": {
+          "EFUSEUSR0": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR0"
+          },
+          "EFUSEUSR1": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR1"
+          },
+          "EFUSEUSR2": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR2"
+          },
+          "EFUSEUSR3": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR3"
+          },
+          "EFUSEUSR4": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR4"
+          },
+          "EFUSEUSR5": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR5"
+          },
+          "EFUSEUSR6": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR6"
+          },
+          "EFUSEUSR7": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR7"
+          },
+          "EFUSEUSR8": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR8"
+          },
+          "EFUSEUSR9": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR9"
+          },
+          "EFUSEUSR10": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR10"
+          },
+          "EFUSEUSR11": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR11"
+          },
+          "EFUSEUSR12": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR12"
+          },
+          "EFUSEUSR13": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR13"
+          },
+          "EFUSEUSR14": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR14"
+          },
+          "EFUSEUSR15": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR15"
+          },
+          "EFUSEUSR16": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR16"
+          },
+          "EFUSEUSR17": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR17"
+          },
+          "EFUSEUSR18": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR18"
+          },
+          "EFUSEUSR19": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR19"
+          },
+          "EFUSEUSR20": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR20"
+          },
+          "EFUSEUSR21": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR21"
+          },
+          "EFUSEUSR22": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR22"
+          },
+          "EFUSEUSR23": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR23"
+          },
+          "EFUSEUSR24": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR24"
+          },
+          "EFUSEUSR25": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR25"
+          },
+          "EFUSEUSR26": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR26"
+          },
+          "EFUSEUSR27": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR27"
+          },
+          "EFUSEUSR28": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR28"
+          },
+          "EFUSEUSR29": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR29"
+          },
+          "EFUSEUSR30": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR30"
+          },
+          "EFUSEUSR31": {
+            "dir": "OUTPUT",
+            "wire": "EFUSEUSR31"
+          }
+        }
+      }
+    },
+    "pips": [],
+    "pins": {
+      "EFUSEUSR0": {
+        "primary": "EFUSEUSR0",
+        "wire": "EFUSEUSR0",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR1": {
+        "primary": "EFUSEUSR1",
+        "wire": "EFUSEUSR1",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR2": {
+        "primary": "EFUSEUSR2",
+        "wire": "EFUSEUSR2",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR3": {
+        "primary": "EFUSEUSR3",
+        "wire": "EFUSEUSR3",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR4": {
+        "primary": "EFUSEUSR4",
+        "wire": "EFUSEUSR4",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR5": {
+        "primary": "EFUSEUSR5",
+        "wire": "EFUSEUSR5",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR6": {
+        "primary": "EFUSEUSR6",
+        "wire": "EFUSEUSR6",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR7": {
+        "primary": "EFUSEUSR7",
+        "wire": "EFUSEUSR7",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR8": {
+        "primary": "EFUSEUSR8",
+        "wire": "EFUSEUSR8",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR9": {
+        "primary": "EFUSEUSR9",
+        "wire": "EFUSEUSR9",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR10": {
+        "primary": "EFUSEUSR10",
+        "wire": "EFUSEUSR10",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR11": {
+        "primary": "EFUSEUSR11",
+        "wire": "EFUSEUSR11",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR12": {
+        "primary": "EFUSEUSR12",
+        "wire": "EFUSEUSR12",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR13": {
+        "primary": "EFUSEUSR13",
+        "wire": "EFUSEUSR13",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR14": {
+        "primary": "EFUSEUSR14",
+        "wire": "EFUSEUSR14",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR15": {
+        "primary": "EFUSEUSR15",
+        "wire": "EFUSEUSR15",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR16": {
+        "primary": "EFUSEUSR16",
+        "wire": "EFUSEUSR16",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR17": {
+        "primary": "EFUSEUSR17",
+        "wire": "EFUSEUSR17",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR18": {
+        "primary": "EFUSEUSR18",
+        "wire": "EFUSEUSR18",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR19": {
+        "primary": "EFUSEUSR19",
+        "wire": "EFUSEUSR19",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR20": {
+        "primary": "EFUSEUSR20",
+        "wire": "EFUSEUSR20",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR21": {
+        "primary": "EFUSEUSR21",
+        "wire": "EFUSEUSR21",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR22": {
+        "primary": "EFUSEUSR22",
+        "wire": "EFUSEUSR22",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR23": {
+        "primary": "EFUSEUSR23",
+        "wire": "EFUSEUSR23",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR24": {
+        "primary": "EFUSEUSR24",
+        "wire": "EFUSEUSR24",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR25": {
+        "primary": "EFUSEUSR25",
+        "wire": "EFUSEUSR25",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR26": {
+        "primary": "EFUSEUSR26",
+        "wire": "EFUSEUSR26",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR27": {
+        "primary": "EFUSEUSR27",
+        "wire": "EFUSEUSR27",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR28": {
+        "primary": "EFUSEUSR28",
+        "wire": "EFUSEUSR28",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR29": {
+        "primary": "EFUSEUSR29",
+        "wire": "EFUSEUSR29",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR30": {
+        "primary": "EFUSEUSR30",
+        "wire": "EFUSEUSR30",
+        "dir": "OUTPUT"
+      },
+      "EFUSEUSR31": {
+        "primary": "EFUSEUSR31",
+        "wire": "EFUSEUSR31",
+        "dir": "OUTPUT"
+      }
+    }
+  }
+}
