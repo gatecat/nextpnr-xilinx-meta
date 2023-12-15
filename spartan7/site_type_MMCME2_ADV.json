@@ -1,0 +1,1635 @@
+{
+  "MMCME2_ADV": {
+    "bels": {
+      "MMCME2_ADV": {
+        "type": "MMCME2_ADV_MMCME2_ADV",
+        "class": "BEL",
+        "pins": {
+          "CLKFBIN": {
+            "dir": "INPUT",
+            "wire": "CLKFBIN"
+          },
+          "CLKIN1": {
+            "dir": "INPUT",
+            "wire": "CLKIN1"
+          },
+          "CLKIN2": {
+            "dir": "INPUT",
+            "wire": "CLKIN2"
+          },
+          "CLKINSEL": {
+            "dir": "INPUT",
+            "wire": "CLKINSELINV_OUT"
+          },
+          "CLKINSTOPPED": {
+            "primary": "CLKINSTOPPED",
+            "wire": "CLKINSTOPPED",
+            "dir": "OUTPUT"
+          },
+          "PSCLK": {
+            "dir": "INPUT",
+            "wire": "PSCLK"
+          },
+          "PSDONE": {
+            "dir": "OUTPUT",
+            "wire": "PSDONE"
+          },
+          "PSEN": {
+            "dir": "INPUT",
+            "wire": "PSENINV_OUT"
+          },
+          "PSINCDEC": {
+            "dir": "INPUT",
+            "wire": "PSINCDECINV_OUT"
+          },
+          "DADDR0": {
+            "dir": "INPUT",
+            "wire": "DADDR0"
+          },
+          "DADDR1": {
+            "dir": "INPUT",
+            "wire": "DADDR1"
+          },
+          "DADDR2": {
+            "dir": "INPUT",
+            "wire": "DADDR2"
+          },
+          "DADDR3": {
+            "dir": "INPUT",
+            "wire": "DADDR3"
+          },
+          "DADDR4": {
+            "dir": "INPUT",
+            "wire": "DADDR4"
+          },
+          "DADDR5": {
+            "dir": "INPUT",
+            "wire": "DADDR5"
+          },
+          "DADDR6": {
+            "dir": "INPUT",
+            "wire": "DADDR6"
+          },
+          "DCLK": {
+            "dir": "INPUT",
+            "wire": "DCLK"
+          },
+          "DEN": {
+            "dir": "INPUT",
+            "wire": "DEN"
+          },
+          "DI0": {
+            "dir": "INPUT",
+            "wire": "DI0"
+          },
+          "DI1": {
+            "dir": "INPUT",
+            "wire": "DI1"
+          },
+          "DI2": {
+            "dir": "INPUT",
+            "wire": "DI2"
+          },
+          "DI3": {
+            "dir": "INPUT",
+            "wire": "DI3"
+          },
+          "DI4": {
+            "dir": "INPUT",
+            "wire": "DI4"
+          },
+          "DI5": {
+            "dir": "INPUT",
+            "wire": "DI5"
+          },
+          "DI6": {
+            "dir": "INPUT",
+            "wire": "DI6"
+          },
+          "DI7": {
+            "dir": "INPUT",
+            "wire": "DI7"
+          },
+          "DI8": {
+            "dir": "INPUT",
+            "wire": "DI8"
+          },
+          "DI9": {
+            "dir": "INPUT",
+            "wire": "DI9"
+          },
+          "DI10": {
+            "dir": "INPUT",
+            "wire": "DI10"
+          },
+          "DI11": {
+            "dir": "INPUT",
+            "wire": "DI11"
+          },
+          "DI12": {
+            "dir": "INPUT",
+            "wire": "DI12"
+          },
+          "DI13": {
+            "dir": "INPUT",
+            "wire": "DI13"
+          },
+          "DI14": {
+            "dir": "INPUT",
+            "wire": "DI14"
+          },
+          "DI15": {
+            "dir": "INPUT",
+            "wire": "DI15"
+          },
+          "DWE": {
+            "dir": "INPUT",
+            "wire": "DWE"
+          },
+          "PWRDWN": {
+            "dir": "INPUT",
+            "wire": "PWRDWNINV_OUT"
+          },
+          "RST": {
+            "dir": "INPUT",
+            "wire": "RSTINV_OUT"
+          },
+          "TESTIN0": {
+            "dir": "INPUT",
+            "wire": "TESTIN0"
+          },
+          "TESTIN1": {
+            "dir": "INPUT",
+            "wire": "TESTIN1"
+          },
+          "TESTIN2": {
+            "dir": "INPUT",
+            "wire": "TESTIN2"
+          },
+          "TESTIN3": {
+            "dir": "INPUT",
+            "wire": "TESTIN3"
+          },
+          "TESTIN4": {
+            "dir": "INPUT",
+            "wire": "TESTIN4"
+          },
+          "TESTIN5": {
+            "dir": "INPUT",
+            "wire": "TESTIN5"
+          },
+          "TESTIN6": {
+            "dir": "INPUT",
+            "wire": "TESTIN6"
+          },
+          "TESTIN7": {
+            "dir": "INPUT",
+            "wire": "TESTIN7"
+          },
+          "TESTIN8": {
+            "dir": "INPUT",
+            "wire": "TESTIN8"
+          },
+          "TESTIN9": {
+            "dir": "INPUT",
+            "wire": "TESTIN9"
+          },
+          "TESTIN10": {
+            "dir": "INPUT",
+            "wire": "TESTIN10"
+          },
+          "TESTIN11": {
+            "dir": "INPUT",
+            "wire": "TESTIN11"
+          },
+          "TESTIN12": {
+            "dir": "INPUT",
+            "wire": "TESTIN12"
+          },
+          "TESTIN13": {
+            "dir": "INPUT",
+            "wire": "TESTIN13"
+          },
+          "TESTIN14": {
+            "dir": "INPUT",
+            "wire": "TESTIN14"
+          },
+          "TESTIN15": {
+            "dir": "INPUT",
+            "wire": "TESTIN15"
+          },
+          "TESTIN16": {
+            "dir": "INPUT",
+            "wire": "TESTIN16"
+          },
+          "TESTIN17": {
+            "dir": "INPUT",
+            "wire": "TESTIN17"
+          },
+          "TESTIN18": {
+            "dir": "INPUT",
+            "wire": "TESTIN18"
+          },
+          "TESTIN19": {
+            "dir": "INPUT",
+            "wire": "TESTIN19"
+          },
+          "TESTIN20": {
+            "dir": "INPUT",
+            "wire": "TESTIN20"
+          },
+          "TESTIN21": {
+            "dir": "INPUT",
+            "wire": "TESTIN21"
+          },
+          "TESTIN22": {
+            "dir": "INPUT",
+            "wire": "TESTIN22"
+          },
+          "TESTIN23": {
+            "dir": "INPUT",
+            "wire": "TESTIN23"
+          },
+          "TESTIN24": {
+            "dir": "INPUT",
+            "wire": "TESTIN24"
+          },
+          "TESTIN25": {
+            "dir": "INPUT",
+            "wire": "TESTIN25"
+          },
+          "TESTIN26": {
+            "dir": "INPUT",
+            "wire": "TESTIN26"
+          },
+          "TESTIN27": {
+            "dir": "INPUT",
+            "wire": "TESTIN27"
+          },
+          "TESTIN28": {
+            "dir": "INPUT",
+            "wire": "TESTIN28"
+          },
+          "TESTIN29": {
+            "dir": "INPUT",
+            "wire": "TESTIN29"
+          },
+          "TESTIN30": {
+            "dir": "INPUT",
+            "wire": "TESTIN30"
+          },
+          "TESTIN31": {
+            "dir": "INPUT",
+            "wire": "TESTIN31"
+          },
+          "CLKFBOUT": {
+            "dir": "OUTPUT",
+            "wire": "CLKFBOUT"
+          },
+          "CLKFBOUTB": {
+            "dir": "OUTPUT",
+            "wire": "CLKFBOUTB"
+          },
+          "CLKFBSTOPPED": {
+            "dir": "OUTPUT",
+            "wire": "CLKFBSTOPPED"
+          },
+          "CLKOUT0": {
+            "dir": "OUTPUT",
+            "wire": "CLKOUT0"
+          },
+          "CLKOUT1": {
+            "dir": "OUTPUT",
+            "wire": "CLKOUT1"
+          },
+          "CLKOUT2": {
+            "dir": "OUTPUT",
+            "wire": "CLKOUT2"
+          },
+          "CLKOUT3": {
+            "dir": "OUTPUT",
+            "wire": "CLKOUT3"
+          },
+          "CLKOUT4": {
+            "dir": "OUTPUT",
+            "wire": "CLKOUT4"
+          },
+          "CLKOUT5": {
+            "dir": "OUTPUT",
+            "wire": "CLKOUT5"
+          },
+          "CLKOUT6": {
+            "dir": "OUTPUT",
+            "wire": "CLKOUT6"
+          },
+          "DO0": {
+            "dir": "OUTPUT",
+            "wire": "DO0"
+          },
+          "DO1": {
+            "dir": "OUTPUT",
+            "wire": "DO1"
+          },
+          "DO2": {
+            "dir": "OUTPUT",
+            "wire": "DO2"
+          },
+          "DO3": {
+            "dir": "OUTPUT",
+            "wire": "DO3"
+          },
+          "DO4": {
+            "dir": "OUTPUT",
+            "wire": "DO4"
+          },
+          "DO5": {
+            "dir": "OUTPUT",
+            "wire": "DO5"
+          },
+          "DO6": {
+            "dir": "OUTPUT",
+            "wire": "DO6"
+          },
+          "DO7": {
+            "dir": "OUTPUT",
+            "wire": "DO7"
+          },
+          "DO8": {
+            "dir": "OUTPUT",
+            "wire": "DO8"
+          },
+          "DO9": {
+            "dir": "OUTPUT",
+            "wire": "DO9"
+          },
+          "DO10": {
+            "dir": "OUTPUT",
+            "wire": "DO10"
+          },
+          "DO11": {
+            "dir": "OUTPUT",
+            "wire": "DO11"
+          },
+          "DO12": {
+            "dir": "OUTPUT",
+            "wire": "DO12"
+          },
+          "DO13": {
+            "dir": "OUTPUT",
+            "wire": "DO13"
+          },
+          "DO14": {
+            "dir": "OUTPUT",
+            "wire": "DO14"
+          },
+          "DO15": {
+            "dir": "OUTPUT",
+            "wire": "DO15"
+          },
+          "DRDY": {
+            "dir": "OUTPUT",
+            "wire": "DRDY"
+          },
+          "LOCKED": {
+            "dir": "OUTPUT",
+            "wire": "LOCKED"
+          },
+          "TESTOUT0": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT0"
+          },
+          "TESTOUT1": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT1"
+          },
+          "TESTOUT2": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT2"
+          },
+          "TESTOUT3": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT3"
+          },
+          "TESTOUT4": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT4"
+          },
+          "TESTOUT5": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT5"
+          },
+          "TESTOUT6": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT6"
+          },
+          "TESTOUT7": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT7"
+          },
+          "TESTOUT8": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT8"
+          },
+          "TESTOUT9": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT9"
+          },
+          "TESTOUT10": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT10"
+          },
+          "TESTOUT11": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT11"
+          },
+          "TESTOUT12": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT12"
+          },
+          "TESTOUT13": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT13"
+          },
+          "TESTOUT14": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT14"
+          },
+          "TESTOUT15": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT15"
+          },
+          "TESTOUT16": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT16"
+          },
+          "TESTOUT17": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT17"
+          },
+          "TESTOUT18": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT18"
+          },
+          "TESTOUT19": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT19"
+          },
+          "TESTOUT20": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT20"
+          },
+          "TESTOUT21": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT21"
+          },
+          "TESTOUT22": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT22"
+          },
+          "TESTOUT23": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT23"
+          },
+          "TESTOUT24": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT24"
+          },
+          "TESTOUT25": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT25"
+          },
+          "TESTOUT26": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT26"
+          },
+          "TESTOUT27": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT27"
+          },
+          "TESTOUT28": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT28"
+          },
+          "TESTOUT29": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT29"
+          },
+          "TESTOUT30": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT30"
+          },
+          "TESTOUT31": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT31"
+          },
+          "TESTOUT32": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT32"
+          },
+          "TESTOUT33": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT33"
+          },
+          "TESTOUT34": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT34"
+          },
+          "TESTOUT35": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT35"
+          },
+          "TESTOUT36": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT36"
+          },
+          "TESTOUT37": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT37"
+          },
+          "TESTOUT38": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT38"
+          },
+          "TESTOUT39": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT39"
+          },
+          "TESTOUT40": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT40"
+          },
+          "TESTOUT41": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT41"
+          },
+          "TESTOUT42": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT42"
+          },
+          "TESTOUT43": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT43"
+          },
+          "TESTOUT44": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT44"
+          },
+          "TESTOUT45": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT45"
+          },
+          "TESTOUT46": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT46"
+          },
+          "TESTOUT47": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT47"
+          },
+          "TESTOUT48": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT48"
+          },
+          "TESTOUT49": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT49"
+          },
+          "TESTOUT50": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT50"
+          },
+          "TESTOUT51": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT51"
+          },
+          "TESTOUT52": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT52"
+          },
+          "TESTOUT53": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT53"
+          },
+          "TESTOUT54": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT54"
+          },
+          "TESTOUT55": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT55"
+          },
+          "TESTOUT56": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT56"
+          },
+          "TESTOUT57": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT57"
+          },
+          "TESTOUT58": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT58"
+          },
+          "TESTOUT59": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT59"
+          },
+          "TESTOUT60": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT60"
+          },
+          "TESTOUT61": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT61"
+          },
+          "TESTOUT62": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT62"
+          },
+          "TESTOUT63": {
+            "dir": "OUTPUT",
+            "wire": "TESTOUT63"
+          },
+          "TMUXOUT": {
+            "dir": "OUTPUT",
+            "wire": "TMUXOUT"
+          }
+        }
+      },
+      "RSTINV": {
+        "type": "MMCME2_ADV_RSTINV",
+        "class": "RBEL",
+        "pins": {
+          "RST": {
+            "dir": "INPUT",
+            "wire": "RST"
+          },
+          "RST_B": {
+            "dir": "INPUT",
+            "wire": "RST"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "RSTINV_OUT"
+          }
+        }
+      },
+      "PWRDWNINV": {
+        "type": "MMCME2_ADV_PWRDWNINV",
+        "class": "RBEL",
+        "pins": {
+          "PWRDWN": {
+            "dir": "INPUT",
+            "wire": "PWRDWN"
+          },
+          "PWRDWN_B": {
+            "dir": "INPUT",
+            "wire": "PWRDWN"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "PWRDWNINV_OUT"
+          }
+        }
+      },
+      "PSINCDECINV": {
+        "type": "MMCME2_ADV_PSINCDECINV",
+        "class": "RBEL",
+        "pins": {
+          "PSINCDEC": {
+            "dir": "INPUT",
+            "wire": "PSINCDEC"
+          },
+          "PSINCDEC_B": {
+            "dir": "INPUT",
+            "wire": "PSINCDEC"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "PSINCDECINV_OUT"
+          }
+        }
+      },
+      "PSENINV": {
+        "type": "MMCME2_ADV_PSENINV",
+        "class": "RBEL",
+        "pins": {
+          "PSEN": {
+            "dir": "INPUT",
+            "wire": "PSEN"
+          },
+          "PSEN_B": {
+            "dir": "INPUT",
+            "wire": "PSEN"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "PSENINV_OUT"
+          }
+        }
+      },
+      "CLKINSELINV": {
+        "type": "MMCME2_ADV_CLKINSELINV",
+        "class": "RBEL",
+        "pins": {
+          "CLKINSEL": {
+            "dir": "INPUT",
+            "wire": "CLKINSEL"
+          },
+          "CLKINSEL_B": {
+            "dir": "INPUT",
+            "wire": "CLKINSEL"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "CLKINSELINV_OUT"
+          }
+        }
+      }
+    },
+    "pips": [
+      {
+        "bel": "RSTINV",
+        "from_pin": "RST",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "RSTINV",
+        "from_pin": "RST_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "PWRDWNINV",
+        "from_pin": "PWRDWN",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "PWRDWNINV",
+        "from_pin": "PWRDWN_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "PSINCDECINV",
+        "from_pin": "PSINCDEC",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "PSINCDECINV",
+        "from_pin": "PSINCDEC_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "PSENINV",
+        "from_pin": "PSEN",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "PSENINV",
+        "from_pin": "PSEN_B",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKINSELINV",
+        "from_pin": "CLKINSEL",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "CLKINSELINV",
+        "from_pin": "CLKINSEL_B",
+        "to_pin": "OUT"
+      }
+    ],
+    "pins": {
+      "CLKFBIN": {
+        "primary": "CLKFBIN",
+        "wire": "CLKFBIN",
+        "dir": "INPUT"
+      },
+      "CLKIN1": {
+        "primary": "CLKIN1",
+        "wire": "CLKIN1",
+        "dir": "INPUT"
+      },
+      "CLKIN2": {
+        "primary": "CLKIN2",
+        "wire": "CLKIN2",
+        "dir": "INPUT"
+      },
+      "DADDR0": {
+        "primary": "DADDR0",
+        "wire": "DADDR0",
+        "dir": "INPUT"
+      },
+      "DADDR1": {
+        "primary": "DADDR1",
+        "wire": "DADDR1",
+        "dir": "INPUT"
+      },
+      "DADDR2": {
+        "primary": "DADDR2",
+        "wire": "DADDR2",
+        "dir": "INPUT"
+      },
+      "DADDR3": {
+        "primary": "DADDR3",
+        "wire": "DADDR3",
+        "dir": "INPUT"
+      },
+      "DADDR4": {
+        "primary": "DADDR4",
+        "wire": "DADDR4",
+        "dir": "INPUT"
+      },
+      "DADDR5": {
+        "primary": "DADDR5",
+        "wire": "DADDR5",
+        "dir": "INPUT"
+      },
+      "DADDR6": {
+        "primary": "DADDR6",
+        "wire": "DADDR6",
+        "dir": "INPUT"
+      },
+      "DCLK": {
+        "primary": "DCLK",
+        "wire": "DCLK",
+        "dir": "INPUT"
+      },
+      "DEN": {
+        "primary": "DEN",
+        "wire": "DEN",
+        "dir": "INPUT"
+      },
+      "DI0": {
+        "primary": "DI0",
+        "wire": "DI0",
+        "dir": "INPUT"
+      },
+      "DI1": {
+        "primary": "DI1",
+        "wire": "DI1",
+        "dir": "INPUT"
+      },
+      "DI2": {
+        "primary": "DI2",
+        "wire": "DI2",
+        "dir": "INPUT"
+      },
+      "DI3": {
+        "primary": "DI3",
+        "wire": "DI3",
+        "dir": "INPUT"
+      },
+      "DI4": {
+        "primary": "DI4",
+        "wire": "DI4",
+        "dir": "INPUT"
+      },
+      "DI5": {
+        "primary": "DI5",
+        "wire": "DI5",
+        "dir": "INPUT"
+      },
+      "DI6": {
+        "primary": "DI6",
+        "wire": "DI6",
+        "dir": "INPUT"
+      },
+      "DI7": {
+        "primary": "DI7",
+        "wire": "DI7",
+        "dir": "INPUT"
+      },
+      "DI8": {
+        "primary": "DI8",
+        "wire": "DI8",
+        "dir": "INPUT"
+      },
+      "DI9": {
+        "primary": "DI9",
+        "wire": "DI9",
+        "dir": "INPUT"
+      },
+      "DI10": {
+        "primary": "DI10",
+        "wire": "DI10",
+        "dir": "INPUT"
+      },
+      "DI11": {
+        "primary": "DI11",
+        "wire": "DI11",
+        "dir": "INPUT"
+      },
+      "DI12": {
+        "primary": "DI12",
+        "wire": "DI12",
+        "dir": "INPUT"
+      },
+      "DI13": {
+        "primary": "DI13",
+        "wire": "DI13",
+        "dir": "INPUT"
+      },
+      "DI14": {
+        "primary": "DI14",
+        "wire": "DI14",
+        "dir": "INPUT"
+      },
+      "DI15": {
+        "primary": "DI15",
+        "wire": "DI15",
+        "dir": "INPUT"
+      },
+      "DWE": {
+        "primary": "DWE",
+        "wire": "DWE",
+        "dir": "INPUT"
+      },
+      "TESTIN0": {
+        "primary": "TESTIN0",
+        "wire": "TESTIN0",
+        "dir": "INPUT"
+      },
+      "TESTIN1": {
+        "primary": "TESTIN1",
+        "wire": "TESTIN1",
+        "dir": "INPUT"
+      },
+      "TESTIN2": {
+        "primary": "TESTIN2",
+        "wire": "TESTIN2",
+        "dir": "INPUT"
+      },
+      "TESTIN3": {
+        "primary": "TESTIN3",
+        "wire": "TESTIN3",
+        "dir": "INPUT"
+      },
+      "TESTIN4": {
+        "primary": "TESTIN4",
+        "wire": "TESTIN4",
+        "dir": "INPUT"
+      },
+      "TESTIN5": {
+        "primary": "TESTIN5",
+        "wire": "TESTIN5",
+        "dir": "INPUT"
+      },
+      "TESTIN6": {
+        "primary": "TESTIN6",
+        "wire": "TESTIN6",
+        "dir": "INPUT"
+      },
+      "TESTIN7": {
+        "primary": "TESTIN7",
+        "wire": "TESTIN7",
+        "dir": "INPUT"
+      },
+      "TESTIN8": {
+        "primary": "TESTIN8",
+        "wire": "TESTIN8",
+        "dir": "INPUT"
+      },
+      "TESTIN9": {
+        "primary": "TESTIN9",
+        "wire": "TESTIN9",
+        "dir": "INPUT"
+      },
+      "TESTIN10": {
+        "primary": "TESTIN10",
+        "wire": "TESTIN10",
+        "dir": "INPUT"
+      },
+      "TESTIN11": {
+        "primary": "TESTIN11",
+        "wire": "TESTIN11",
+        "dir": "INPUT"
+      },
+      "TESTIN12": {
+        "primary": "TESTIN12",
+        "wire": "TESTIN12",
+        "dir": "INPUT"
+      },
+      "TESTIN13": {
+        "primary": "TESTIN13",
+        "wire": "TESTIN13",
+        "dir": "INPUT"
+      },
+      "TESTIN14": {
+        "primary": "TESTIN14",
+        "wire": "TESTIN14",
+        "dir": "INPUT"
+      },
+      "TESTIN15": {
+        "primary": "TESTIN15",
+        "wire": "TESTIN15",
+        "dir": "INPUT"
+      },
+      "TESTIN16": {
+        "primary": "TESTIN16",
+        "wire": "TESTIN16",
+        "dir": "INPUT"
+      },
+      "TESTIN17": {
+        "primary": "TESTIN17",
+        "wire": "TESTIN17",
+        "dir": "INPUT"
+      },
+      "TESTIN18": {
+        "primary": "TESTIN18",
+        "wire": "TESTIN18",
+        "dir": "INPUT"
+      },
+      "TESTIN19": {
+        "primary": "TESTIN19",
+        "wire": "TESTIN19",
+        "dir": "INPUT"
+      },
+      "TESTIN20": {
+        "primary": "TESTIN20",
+        "wire": "TESTIN20",
+        "dir": "INPUT"
+      },
+      "TESTIN21": {
+        "primary": "TESTIN21",
+        "wire": "TESTIN21",
+        "dir": "INPUT"
+      },
+      "TESTIN22": {
+        "primary": "TESTIN22",
+        "wire": "TESTIN22",
+        "dir": "INPUT"
+      },
+      "TESTIN23": {
+        "primary": "TESTIN23",
+        "wire": "TESTIN23",
+        "dir": "INPUT"
+      },
+      "TESTIN24": {
+        "primary": "TESTIN24",
+        "wire": "TESTIN24",
+        "dir": "INPUT"
+      },
+      "TESTIN25": {
+        "primary": "TESTIN25",
+        "wire": "TESTIN25",
+        "dir": "INPUT"
+      },
+      "TESTIN26": {
+        "primary": "TESTIN26",
+        "wire": "TESTIN26",
+        "dir": "INPUT"
+      },
+      "TESTIN27": {
+        "primary": "TESTIN27",
+        "wire": "TESTIN27",
+        "dir": "INPUT"
+      },
+      "TESTIN28": {
+        "primary": "TESTIN28",
+        "wire": "TESTIN28",
+        "dir": "INPUT"
+      },
+      "TESTIN29": {
+        "primary": "TESTIN29",
+        "wire": "TESTIN29",
+        "dir": "INPUT"
+      },
+      "TESTIN30": {
+        "primary": "TESTIN30",
+        "wire": "TESTIN30",
+        "dir": "INPUT"
+      },
+      "TESTIN31": {
+        "primary": "TESTIN31",
+        "wire": "TESTIN31",
+        "dir": "INPUT"
+      },
+      "CLKFBOUT": {
+        "primary": "CLKFBOUT",
+        "wire": "CLKFBOUT",
+        "dir": "OUTPUT"
+      },
+      "CLKFBOUTB": {
+        "primary": "CLKFBOUTB",
+        "wire": "CLKFBOUTB",
+        "dir": "OUTPUT"
+      },
+      "CLKFBSTOPPED": {
+        "primary": "CLKFBSTOPPED",
+        "wire": "CLKFBSTOPPED",
+        "dir": "OUTPUT"
+      },
+      "CLKOUT0": {
+        "primary": "CLKOUT0",
+        "wire": "CLKOUT0",
+        "dir": "OUTPUT"
+      },
+      "CLKOUT0B": {
+        "primary": "CLKOUT0B",
+        "wire": "CLKOUT0B",
+        "dir": "OUTPUT"
+      },
+      "CLKOUT1": {
+        "primary": "CLKOUT1",
+        "wire": "CLKOUT1",
+        "dir": "OUTPUT"
+      },
+      "CLKOUT1B": {
+        "primary": "CLKOUT1B",
+        "wire": "CLKOUT1B",
+        "dir": "OUTPUT"
+      },
+      "CLKOUT2": {
+        "primary": "CLKOUT2",
+        "wire": "CLKOUT2",
+        "dir": "OUTPUT"
+      },
+      "CLKOUT2B": {
+        "primary": "CLKOUT2B",
+        "wire": "CLKOUT2B",
+        "dir": "OUTPUT"
+      },
+      "CLKOUT3": {
+        "primary": "CLKOUT3",
+        "wire": "CLKOUT3",
+        "dir": "OUTPUT"
+      },
+      "CLKOUT3B": {
+        "primary": "CLKOUT3B",
+        "wire": "CLKOUT3B",
+        "dir": "OUTPUT"
+      },
+      "CLKOUT4": {
+        "primary": "CLKOUT4",
+        "wire": "CLKOUT4",
+        "dir": "OUTPUT"
+      },
+      "CLKOUT5": {
+        "primary": "CLKOUT5",
+        "wire": "CLKOUT5",
+        "dir": "OUTPUT"
+      },
+      "CLKOUT6": {
+        "primary": "CLKOUT6",
+        "wire": "CLKOUT6",
+        "dir": "OUTPUT"
+      },
+      "DO0": {
+        "primary": "DO0",
+        "wire": "DO0",
+        "dir": "OUTPUT"
+      },
+      "DO1": {
+        "primary": "DO1",
+        "wire": "DO1",
+        "dir": "OUTPUT"
+      },
+      "DO2": {
+        "primary": "DO2",
+        "wire": "DO2",
+        "dir": "OUTPUT"
+      },
+      "DO3": {
+        "primary": "DO3",
+        "wire": "DO3",
+        "dir": "OUTPUT"
+      },
+      "DO4": {
+        "primary": "DO4",
+        "wire": "DO4",
+        "dir": "OUTPUT"
+      },
+      "DO5": {
+        "primary": "DO5",
+        "wire": "DO5",
+        "dir": "OUTPUT"
+      },
+      "DO6": {
+        "primary": "DO6",
+        "wire": "DO6",
+        "dir": "OUTPUT"
+      },
+      "DO7": {
+        "primary": "DO7",
+        "wire": "DO7",
+        "dir": "OUTPUT"
+      },
+      "DO8": {
+        "primary": "DO8",
+        "wire": "DO8",
+        "dir": "OUTPUT"
+      },
+      "DO9": {
+        "primary": "DO9",
+        "wire": "DO9",
+        "dir": "OUTPUT"
+      },
+      "DO10": {
+        "primary": "DO10",
+        "wire": "DO10",
+        "dir": "OUTPUT"
+      },
+      "DO11": {
+        "primary": "DO11",
+        "wire": "DO11",
+        "dir": "OUTPUT"
+      },
+      "DO12": {
+        "primary": "DO12",
+        "wire": "DO12",
+        "dir": "OUTPUT"
+      },
+      "DO13": {
+        "primary": "DO13",
+        "wire": "DO13",
+        "dir": "OUTPUT"
+      },
+      "DO14": {
+        "primary": "DO14",
+        "wire": "DO14",
+        "dir": "OUTPUT"
+      },
+      "DO15": {
+        "primary": "DO15",
+        "wire": "DO15",
+        "dir": "OUTPUT"
+      },
+      "DRDY": {
+        "primary": "DRDY",
+        "wire": "DRDY",
+        "dir": "OUTPUT"
+      },
+      "LOCKED": {
+        "primary": "LOCKED",
+        "wire": "LOCKED",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT0": {
+        "primary": "TESTOUT0",
+        "wire": "TESTOUT0",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT1": {
+        "primary": "TESTOUT1",
+        "wire": "TESTOUT1",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT2": {
+        "primary": "TESTOUT2",
+        "wire": "TESTOUT2",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT3": {
+        "primary": "TESTOUT3",
+        "wire": "TESTOUT3",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT4": {
+        "primary": "TESTOUT4",
+        "wire": "TESTOUT4",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT5": {
+        "primary": "TESTOUT5",
+        "wire": "TESTOUT5",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT6": {
+        "primary": "TESTOUT6",
+        "wire": "TESTOUT6",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT7": {
+        "primary": "TESTOUT7",
+        "wire": "TESTOUT7",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT8": {
+        "primary": "TESTOUT8",
+        "wire": "TESTOUT8",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT9": {
+        "primary": "TESTOUT9",
+        "wire": "TESTOUT9",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT10": {
+        "primary": "TESTOUT10",
+        "wire": "TESTOUT10",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT11": {
+        "primary": "TESTOUT11",
+        "wire": "TESTOUT11",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT12": {
+        "primary": "TESTOUT12",
+        "wire": "TESTOUT12",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT13": {
+        "primary": "TESTOUT13",
+        "wire": "TESTOUT13",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT14": {
+        "primary": "TESTOUT14",
+        "wire": "TESTOUT14",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT15": {
+        "primary": "TESTOUT15",
+        "wire": "TESTOUT15",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT16": {
+        "primary": "TESTOUT16",
+        "wire": "TESTOUT16",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT17": {
+        "primary": "TESTOUT17",
+        "wire": "TESTOUT17",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT18": {
+        "primary": "TESTOUT18",
+        "wire": "TESTOUT18",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT19": {
+        "primary": "TESTOUT19",
+        "wire": "TESTOUT19",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT20": {
+        "primary": "TESTOUT20",
+        "wire": "TESTOUT20",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT21": {
+        "primary": "TESTOUT21",
+        "wire": "TESTOUT21",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT22": {
+        "primary": "TESTOUT22",
+        "wire": "TESTOUT22",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT23": {
+        "primary": "TESTOUT23",
+        "wire": "TESTOUT23",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT24": {
+        "primary": "TESTOUT24",
+        "wire": "TESTOUT24",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT25": {
+        "primary": "TESTOUT25",
+        "wire": "TESTOUT25",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT26": {
+        "primary": "TESTOUT26",
+        "wire": "TESTOUT26",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT27": {
+        "primary": "TESTOUT27",
+        "wire": "TESTOUT27",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT28": {
+        "primary": "TESTOUT28",
+        "wire": "TESTOUT28",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT29": {
+        "primary": "TESTOUT29",
+        "wire": "TESTOUT29",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT30": {
+        "primary": "TESTOUT30",
+        "wire": "TESTOUT30",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT31": {
+        "primary": "TESTOUT31",
+        "wire": "TESTOUT31",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT32": {
+        "primary": "TESTOUT32",
+        "wire": "TESTOUT32",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT33": {
+        "primary": "TESTOUT33",
+        "wire": "TESTOUT33",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT34": {
+        "primary": "TESTOUT34",
+        "wire": "TESTOUT34",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT35": {
+        "primary": "TESTOUT35",
+        "wire": "TESTOUT35",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT36": {
+        "primary": "TESTOUT36",
+        "wire": "TESTOUT36",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT37": {
+        "primary": "TESTOUT37",
+        "wire": "TESTOUT37",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT38": {
+        "primary": "TESTOUT38",
+        "wire": "TESTOUT38",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT39": {
+        "primary": "TESTOUT39",
+        "wire": "TESTOUT39",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT40": {
+        "primary": "TESTOUT40",
+        "wire": "TESTOUT40",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT41": {
+        "primary": "TESTOUT41",
+        "wire": "TESTOUT41",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT42": {
+        "primary": "TESTOUT42",
+        "wire": "TESTOUT42",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT43": {
+        "primary": "TESTOUT43",
+        "wire": "TESTOUT43",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT44": {
+        "primary": "TESTOUT44",
+        "wire": "TESTOUT44",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT45": {
+        "primary": "TESTOUT45",
+        "wire": "TESTOUT45",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT46": {
+        "primary": "TESTOUT46",
+        "wire": "TESTOUT46",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT47": {
+        "primary": "TESTOUT47",
+        "wire": "TESTOUT47",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT48": {
+        "primary": "TESTOUT48",
+        "wire": "TESTOUT48",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT49": {
+        "primary": "TESTOUT49",
+        "wire": "TESTOUT49",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT50": {
+        "primary": "TESTOUT50",
+        "wire": "TESTOUT50",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT51": {
+        "primary": "TESTOUT51",
+        "wire": "TESTOUT51",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT52": {
+        "primary": "TESTOUT52",
+        "wire": "TESTOUT52",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT53": {
+        "primary": "TESTOUT53",
+        "wire": "TESTOUT53",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT54": {
+        "primary": "TESTOUT54",
+        "wire": "TESTOUT54",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT55": {
+        "primary": "TESTOUT55",
+        "wire": "TESTOUT55",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT56": {
+        "primary": "TESTOUT56",
+        "wire": "TESTOUT56",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT57": {
+        "primary": "TESTOUT57",
+        "wire": "TESTOUT57",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT58": {
+        "primary": "TESTOUT58",
+        "wire": "TESTOUT58",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT59": {
+        "primary": "TESTOUT59",
+        "wire": "TESTOUT59",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT60": {
+        "primary": "TESTOUT60",
+        "wire": "TESTOUT60",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT61": {
+        "primary": "TESTOUT61",
+        "wire": "TESTOUT61",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT62": {
+        "primary": "TESTOUT62",
+        "wire": "TESTOUT62",
+        "dir": "OUTPUT"
+      },
+      "TESTOUT63": {
+        "primary": "TESTOUT63",
+        "wire": "TESTOUT63",
+        "dir": "OUTPUT"
+      },
+      "TMUXOUT": {
+        "primary": "TMUXOUT",
+        "wire": "TMUXOUT",
+        "dir": "OUTPUT"
+      },
+      "RST": {
+        "primary": "RST",
+        "wire": "RST",
+        "dir": "INPUT"
+      },
+      "PWRDWN": {
+        "primary": "PWRDWN",
+        "wire": "PWRDWN",
+        "dir": "INPUT"
+      },
+      "CLKINSEL": {
+        "primary": "CLKINSEL",
+        "wire": "CLKINSEL",
+        "dir": "INPUT"
+      },
+      "CLKINSTOPPED": {
+        "primary": "CLKINSTOPPED",
+        "wire": "CLKINSTOPPED",
+        "dir": "OUTPUT"
+      },
+      "PSCLK": {
+        "primary": "PSCLK",
+        "wire": "PSCLK",
+        "dir": "INPUT"
+      },
+      "PSDONE": {
+        "primary": "PSDONE",
+        "wire": "PSDONE",
+        "dir": "OUTPUT"
+      },
+      "PSEN": {
+        "primary": "PSEN",
+        "wire": "PSEN",
+        "dir": "INPUT"
+      },
+      "PSINCDEC": {
+        "primary": "PSINCDEC",
+        "wire": "PSINCDEC",
+        "dir": "INPUT"
+      }
+    }
+  }
+}
