@@ -2,7 +2,7 @@
   "GTPE2_CHANNEL": {
     "bels": {
       "GTPE2_CHANNEL": {
-        "type": "GTPE2_CHANNEL_GTPE2_CHANNEL",
+        "type": "GTPE2_CHANNEL",
         "class": "BEL",
         "pins": {
           "CFGRESET": {
