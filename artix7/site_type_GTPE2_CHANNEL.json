@@ -2805,18 +2805,8 @@
         "wire": "CLKRSVD0",
         "dir": "INPUT"
       },
-      "CLKRSVD0_B": {
-        "primary": "CLKRSVD0_B",
-        "wire": "CLKRSVD0",
-        "dir": "INPUT"
-      },
       "CLKRSVD1": {
         "primary": "CLKRSVD1",
-        "wire": "CLKRSVD1",
-        "dir": "INPUT"
-      },
-      "CLKRSVD1_B": {
-        "primary": "CLKRSVD1_B",
         "wire": "CLKRSVD1",
         "dir": "INPUT"
       },
@@ -2827,11 +2817,6 @@
       },
       "DMONITORCLK": {
         "primary": "DMONITORCLK",
-        "wire": "DMONITORCLK",
-        "dir": "INPUT"
-      },
-      "DMONITORCLK_B": {
-        "primary": "DMONITORCLK_B",
         "wire": "DMONITORCLK",
         "dir": "INPUT"
       },
@@ -2957,11 +2942,6 @@
       },
       "DRPCLK": {
         "primary": "DRPCLK",
-        "wire": "DRPCLK",
-        "dir": "INPUT"
-      },
-      "DRPCLK_B": {
-        "primary": "DRPCLK_B",
         "wire": "DRPCLK",
         "dir": "INPUT"
       },
@@ -3515,18 +3495,8 @@
         "wire": "PMASCANCLK0",
         "dir": "INPUT"
       },
-      "PMASCANCLK0_B": {
-        "primary": "PMASCANCLK0_B",
-        "wire": "PMASCANCLK0",
-        "dir": "INPUT"
-      },
       "PMASCANCLK1": {
         "primary": "PMASCANCLK1",
-        "wire": "PMASCANCLK1",
-        "dir": "INPUT"
-      },
-      "PMASCANCLK1_B": {
-        "primary": "PMASCANCLK1_B",
         "wire": "PMASCANCLK1",
         "dir": "INPUT"
       },
@@ -3535,18 +3505,8 @@
         "wire": "PMASCANCLK2",
         "dir": "INPUT"
       },
-      "PMASCANCLK2_B": {
-        "primary": "PMASCANCLK2_B",
-        "wire": "PMASCANCLK2",
-        "dir": "INPUT"
-      },
       "PMASCANCLK3": {
         "primary": "PMASCANCLK3",
-        "wire": "PMASCANCLK3",
-        "dir": "INPUT"
-      },
-      "PMASCANCLK3_B": {
-        "primary": "PMASCANCLK3_B",
         "wire": "PMASCANCLK3",
         "dir": "INPUT"
       },
@@ -4660,16 +4620,6 @@
         "wire": "RXUSRCLK2",
         "dir": "INPUT"
       },
-      "RXUSRCLK2_B": {
-        "primary": "RXUSRCLK2_B",
-        "wire": "RXUSRCLK2",
-        "dir": "INPUT"
-      },
-      "RXUSRCLK_B": {
-        "primary": "RXUSRCLK_B",
-        "wire": "RXUSRCLK",
-        "dir": "INPUT"
-      },
       "RXVALID": {
         "primary": "RXVALID",
         "wire": "RXVALID",
@@ -4677,11 +4627,6 @@
       },
       "SCANCLK": {
         "primary": "SCANCLK",
-        "wire": "SCANCLK",
-        "dir": "INPUT"
-      },
-      "SCANCLK_B": {
-        "primary": "SCANCLK_B",
         "wire": "SCANCLK",
         "dir": "INPUT"
       },
@@ -4765,28 +4710,13 @@
         "wire": "SIGVALIDCLK",
         "dir": "INPUT"
       },
-      "SIGVALIDCLK_B": {
-        "primary": "SIGVALIDCLK_B",
-        "wire": "SIGVALIDCLK",
-        "dir": "INPUT"
-      },
       "TSTCLK0": {
         "primary": "TSTCLK0",
         "wire": "TSTCLK0",
         "dir": "INPUT"
       },
-      "TSTCLK0_B": {
-        "primary": "TSTCLK0_B",
-        "wire": "TSTCLK0",
-        "dir": "INPUT"
-      },
       "TSTCLK1": {
         "primary": "TSTCLK1",
-        "wire": "TSTCLK1",
-        "dir": "INPUT"
-      },
-      "TSTCLK1_B": {
-        "primary": "TSTCLK1_B",
         "wire": "TSTCLK1",
         "dir": "INPUT"
       },
@@ -5445,11 +5375,6 @@
         "wire": "TXPHDLYTSTCLK",
         "dir": "INPUT"
       },
-      "TXPHDLYTSTCLK_B": {
-        "primary": "TXPHDLYTSTCLK_B",
-        "wire": "TXPHDLYTSTCLK",
-        "dir": "INPUT"
-      },
       "TXPHINIT": {
         "primary": "TXPHINIT",
         "wire": "TXPHINIT",
@@ -5753,16 +5678,6 @@
       "TXUSRCLK2": {
         "primary": "TXUSRCLK2",
         "wire": "TXUSRCLK2",
-        "dir": "INPUT"
-      },
-      "TXUSRCLK2_B": {
-        "primary": "TXUSRCLK2_B",
-        "wire": "TXUSRCLK2",
-        "dir": "INPUT"
-      },
-      "TXUSRCLK_B": {
-        "primary": "TXUSRCLK_B",
-        "wire": "TXUSRCLK",
         "dir": "INPUT"
       }
     }
