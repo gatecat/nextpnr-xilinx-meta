@@ -3290,11 +3290,6 @@
         "wire": "LOOPBACK2",
         "dir": "INPUT"
       },
-      "OUT": {
-        "primary": "OUT",
-        "wire": "TXUSRCLK2INV_OUT",
-        "dir": "OUTPUT"
-      },
       "PCSRSVDIN0": {
         "primary": "PCSRSVDIN0",
         "wire": "PCSRSVDIN0",
