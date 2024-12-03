@@ -1,0 +1,57 @@
+{
+  "BUFR": {
+    "bels": {
+      "BUFR": {
+        "type": "BUFR_BUFR",
+        "class": "BEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "CE"
+          },
+          "I": {
+            "dir": "INPUT",
+            "wire": "I"
+          },
+          "CLR": {
+            "dir": "INPUT",
+            "wire": "CLR"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "O"
+          }
+        }
+      }
+    },
+    "pips": [
+      {
+      "bel": "BUFR",
+      "from_pin": "I",
+      "to_pin": "O"
+      }
+    ],
+    "pins": {
+      "I": {
+        "primary": "I",
+        "wire": "I",
+        "dir": "INPUT"
+      },
+      "CLR": {
+        "primary": "CLR",
+        "wire": "CLR",
+        "dir": "INPUT"
+      },
+      "O": {
+        "primary": "O",
+        "wire": "O",
+        "dir": "OUTPUT"
+      },
+      "CE": {
+        "primary": "CE",
+        "wire": "CE",
+        "dir": "INPUT"
+      }
+    }
+  }
+}
