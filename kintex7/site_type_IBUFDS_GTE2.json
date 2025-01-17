@@ -1,0 +1,87 @@
+{
+    "IBUFDS_GTE2": {
+      "bels": {
+        "CLKTESTSIGINV": {
+          "class": "RBEL",
+          "pins": {
+              "CLKTESTSIG": {
+                  "dir": "INPUT",
+                  "wire": "CLKTESTSIG"
+              },
+              "CLKTESTSIG_B": {
+                  "dir": "INPUT",
+                  "wire": "CLKTESTSIG"
+              },
+              "OUT": {
+                  "dir": "OUTPUT",
+                  "wire": "CLKTESTSIGINV_OUT"
+              }
+          },
+          "type": "IBUFDS_GTE2_CLKTESTSIGINV"
+        },
+        "IBUFDS_GTE2": {
+          "type": "IBUFDS_GTE2",
+          "class": "BEL",
+          "pins": {
+            "I": {
+              "dir": "INPUT",
+              "wire": "I"
+            },
+            "IB": {
+              "dir": "INPUT",
+              "wire": "IB"
+            },
+            "CEB": {
+              "dir": "INPUT",
+              "wire": "CEB"
+            },
+            "CLKTESTSIG": {
+              "dir": "INPUT",
+              "wire": "CLKTESTSIGINV_OUT"
+            },
+            "O": {
+              "dir": "OUTPUT",
+              "wire": "O"
+            },
+            "ODIV2": {
+              "dir": "OUTPUT",
+              "wire": "ODIV2"
+            }
+          }
+        }
+      },
+      "pips": [],
+      "pins": {
+        "I": {
+          "primary": "I",
+          "wire": "I",
+          "dir": "INPUT"
+        },
+        "IB": {
+          "primary": "IB",
+          "wire": "IB",
+          "dir": "INPUT"
+        },
+        "CLKTESTSIG": {
+          "primary": "CLKTESTSIG",
+          "wire": "CLKTESTSIGINV_OUT",
+          "dir": "INPUT"
+        },
+        "CEB": {
+          "primary": "CEB",
+          "wire": "CEB",
+          "dir": "INPUT"
+        },
+        "O": {
+          "primary": "O",
+          "wire": "O",
+          "dir": "OUTPUT"
+        },
+        "ODIV2": {
+          "primary": "ODIV2",
+          "wire": "ODIV2",
+          "dir": "OUTPUT"
+        }
+      }
+    }
+  }
