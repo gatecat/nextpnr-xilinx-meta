@@ -1,0 +1,1364 @@
+{
+    "GTXE2_COMMON": {
+        "bels": {
+            "GTXE2_COMMON": {
+                "class": "BEL",
+                "pins": {
+                    "BGBYPASSB": {
+                        "dir": "INPUT",
+                        "wire": "BGBYPASSB"
+                    },
+                    "BGMONITORENB": {
+                        "dir": "INPUT",
+                        "wire": "BGMONITORENB"
+                    },
+                    "BGPDB": {
+                        "dir": "INPUT",
+                        "wire": "BGPDB"
+                    },
+                    "BGRCALOVRD0": {
+                        "dir": "INPUT",
+                        "wire": "BGRCALOVRD0"
+                    },
+                    "BGRCALOVRD1": {
+                        "dir": "INPUT",
+                        "wire": "BGRCALOVRD1"
+                    },
+                    "BGRCALOVRD2": {
+                        "dir": "INPUT",
+                        "wire": "BGRCALOVRD2"
+                    },
+                    "BGRCALOVRD3": {
+                        "dir": "INPUT",
+                        "wire": "BGRCALOVRD3"
+                    },
+                    "BGRCALOVRD4": {
+                        "dir": "INPUT",
+                        "wire": "BGRCALOVRD4"
+                    },
+                    "DRPADDR0": {
+                        "dir": "INPUT",
+                        "wire": "DRPADDR0"
+                    },
+                    "DRPADDR1": {
+                        "dir": "INPUT",
+                        "wire": "DRPADDR1"
+                    },
+                    "DRPADDR2": {
+                        "dir": "INPUT",
+                        "wire": "DRPADDR2"
+                    },
+                    "DRPADDR3": {
+                        "dir": "INPUT",
+                        "wire": "DRPADDR3"
+                    },
+                    "DRPADDR4": {
+                        "dir": "INPUT",
+                        "wire": "DRPADDR4"
+                    },
+                    "DRPADDR5": {
+                        "dir": "INPUT",
+                        "wire": "DRPADDR5"
+                    },
+                    "DRPADDR6": {
+                        "dir": "INPUT",
+                        "wire": "DRPADDR6"
+                    },
+                    "DRPADDR7": {
+                        "dir": "INPUT",
+                        "wire": "DRPADDR7"
+                    },
+                    "DRPCLK": {
+                        "dir": "INPUT",
+                        "wire": "DRPCLKINV_OUT"
+                    },
+                    "DRPDI0": {
+                        "dir": "INPUT",
+                        "wire": "DRPDI0"
+                    },
+                    "DRPDI1": {
+                        "dir": "INPUT",
+                        "wire": "DRPDI1"
+                    },
+                    "DRPDI2": {
+                        "dir": "INPUT",
+                        "wire": "DRPDI2"
+                    },
+                    "DRPDI3": {
+                        "dir": "INPUT",
+                        "wire": "DRPDI3"
+                    },
+                    "DRPDI4": {
+                        "dir": "INPUT",
+                        "wire": "DRPDI4"
+                    },
+                    "DRPDI5": {
+                        "dir": "INPUT",
+                        "wire": "DRPDI5"
+                    },
+                    "DRPDI6": {
+                        "dir": "INPUT",
+                        "wire": "DRPDI6"
+                    },
+                    "DRPDI7": {
+                        "dir": "INPUT",
+                        "wire": "DRPDI7"
+                    },
+                    "DRPDI8": {
+                        "dir": "INPUT",
+                        "wire": "DRPDI8"
+                    },
+                    "DRPDI9": {
+                        "dir": "INPUT",
+                        "wire": "DRPDI9"
+                    },
+                    "DRPDI10": {
+                        "dir": "INPUT",
+                        "wire": "DRPDI10"
+                    },
+                    "DRPDI11": {
+                        "dir": "INPUT",
+                        "wire": "DRPDI11"
+                    },
+                    "DRPDI12": {
+                        "dir": "INPUT",
+                        "wire": "DRPDI12"
+                    },
+                    "DRPDI13": {
+                        "dir": "INPUT",
+                        "wire": "DRPDI13"
+                    },
+                    "DRPDI14": {
+                        "dir": "INPUT",
+                        "wire": "DRPDI14"
+                    },
+                    "DRPDI15": {
+                        "dir": "INPUT",
+                        "wire": "DRPDI15"
+                    },
+                    "DRPDO0": {
+                        "dir": "OUTPUT",
+                        "wire": "DRPDO0"
+                    },
+                    "DRPDO1": {
+                        "dir": "OUTPUT",
+                        "wire": "DRPDO1"
+                    },
+                    "DRPDO2": {
+                        "dir": "OUTPUT",
+                        "wire": "DRPDO2"
+                    },
+                    "DRPDO3": {
+                        "dir": "OUTPUT",
+                        "wire": "DRPDO3"
+                    },
+                    "DRPDO4": {
+                        "dir": "OUTPUT",
+                        "wire": "DRPDO4"
+                    },
+                    "DRPDO5": {
+                        "dir": "OUTPUT",
+                        "wire": "DRPDO5"
+                    },
+                    "DRPDO6": {
+                        "dir": "OUTPUT",
+                        "wire": "DRPDO6"
+                    },
+                    "DRPDO7": {
+                        "dir": "OUTPUT",
+                        "wire": "DRPDO7"
+                    },
+                    "DRPDO8": {
+                        "dir": "OUTPUT",
+                        "wire": "DRPDO8"
+                    },
+                    "DRPDO9": {
+                        "dir": "OUTPUT",
+                        "wire": "DRPDO9"
+                    },
+                    "DRPDO10": {
+                        "dir": "OUTPUT",
+                        "wire": "DRPDO10"
+                    },
+                    "DRPDO11": {
+                        "dir": "OUTPUT",
+                        "wire": "DRPDO11"
+                    },
+                    "DRPDO12": {
+                        "dir": "OUTPUT",
+                        "wire": "DRPDO12"
+                    },
+                    "DRPDO13": {
+                        "dir": "OUTPUT",
+                        "wire": "DRPDO13"
+                    },
+                    "DRPDO14": {
+                        "dir": "OUTPUT",
+                        "wire": "DRPDO14"
+                    },
+                    "DRPDO15": {
+                        "dir": "OUTPUT",
+                        "wire": "DRPDO15"
+                    },
+                    "DRPEN": {
+                        "dir": "INPUT",
+                        "wire": "DRPEN"
+                    },
+                    "DRPRDY": {
+                        "dir": "OUTPUT",
+                        "wire": "DRPRDY"
+                    },
+                    "DRPWE": {
+                        "dir": "INPUT",
+                        "wire": "DRPWE"
+                    },
+                    "GTGREFCLK": {
+                        "dir": "INPUT",
+                        "wire": "GTGREFCLKINV_OUT"
+                    },
+                    "GTNORTHREFCLK0": {
+                        "dir": "INPUT",
+                        "wire": "GTNORTHREFCLK0"
+                    },
+                    "GTNORTHREFCLK1": {
+                        "dir": "INPUT",
+                        "wire": "GTNORTHREFCLK1"
+                    },
+                    "GTREFCLK0": {
+                        "dir": "INPUT",
+                        "wire": "GTREFCLK0"
+                    },
+                    "GTREFCLK1": {
+                        "dir": "INPUT",
+                        "wire": "GTREFCLK1"
+                    },
+                    "GTSOUTHREFCLK0": {
+                        "dir": "INPUT",
+                        "wire": "GTSOUTHREFCLK0"
+                    },
+                    "GTSOUTHREFCLK1": {
+                        "dir": "INPUT",
+                        "wire": "GTSOUTHREFCLK1"
+                    },
+                    "PMARSVD0": {
+                        "dir": "INPUT",
+                        "wire": "PMARSVD0"
+                    },
+                    "PMARSVD1": {
+                        "dir": "INPUT",
+                        "wire": "PMARSVD1"
+                    },
+                    "PMARSVD2": {
+                        "dir": "INPUT",
+                        "wire": "PMARSVD2"
+                    },
+                    "PMARSVD3": {
+                        "dir": "INPUT",
+                        "wire": "PMARSVD3"
+                    },
+                    "PMARSVD4": {
+                        "dir": "INPUT",
+                        "wire": "PMARSVD4"
+                    },
+                    "PMARSVD5": {
+                        "dir": "INPUT",
+                        "wire": "PMARSVD5"
+                    },
+                    "PMARSVD6": {
+                        "dir": "INPUT",
+                        "wire": "PMARSVD6"
+                    },
+                    "PMARSVD7": {
+                        "dir": "INPUT",
+                        "wire": "PMARSVD7"
+                    },
+                    "PMASCANCLK0": {
+                        "dir": "INPUT",
+                        "wire": "PMASCANCLK0INV_OUT"
+                    },
+                    "PMASCANCLK1": {
+                        "dir": "INPUT",
+                        "wire": "PMASCANCLK1INV_OUT"
+                    },
+                    "PMASCANENB": {
+                        "dir": "INPUT",
+                        "wire": "PMASCANENB"
+                    },
+                    "PMASCANIN0": {
+                        "dir": "INPUT",
+                        "wire": "PMASCANIN0"
+                    },
+                    "PMASCANIN1": {
+                        "dir": "INPUT",
+                        "wire": "PMASCANIN1"
+                    },
+                    "PMASCANIN2": {
+                        "dir": "INPUT",
+                        "wire": "PMASCANIN2"
+                    },
+                    "PMASCANIN3": {
+                        "dir": "INPUT",
+                        "wire": "PMASCANIN3"
+                    },
+                    "PMASCANIN4": {
+                        "dir": "INPUT",
+                        "wire": "PMASCANIN4"
+                    },
+                    "PMASCANOUT0": {
+                        "dir": "OUTPUT",
+                        "wire": "PMASCANOUT0"
+                    },
+                    "PMASCANOUT1": {
+                        "dir": "OUTPUT",
+                        "wire": "PMASCANOUT1"
+                    },
+                    "PMASCANOUT2": {
+                        "dir": "OUTPUT",
+                        "wire": "PMASCANOUT2"
+                    },
+                    "PMASCANOUT3": {
+                        "dir": "OUTPUT",
+                        "wire": "PMASCANOUT3"
+                    },
+                    "PMASCANOUT4": {
+                        "dir": "OUTPUT",
+                        "wire": "PMASCANOUT4"
+                    },
+                    "QDPMASCANMODEB": {
+                        "dir": "INPUT",
+                        "wire": "QDPMASCANMODEB"
+                    },
+                    "QDPMASCANRSTEN": {
+                        "dir": "INPUT",
+                        "wire": "QDPMASCANRSTEN"
+                    },
+                    "QPLLCLKSPARE0": {
+                        "dir": "INPUT",
+                        "wire": "QPLLCLKSPARE0INV_OUT"
+                    },
+                    "QPLLCLKSPARE1": {
+                        "dir": "INPUT",
+                        "wire": "QPLLCLKSPARE1INV_OUT"
+                    },
+                    "QPLLDMONITOR0": {
+                        "dir": "OUTPUT",
+                        "wire": "QPLLDMONITOR0"
+                    },
+                    "QPLLDMONITOR1": {
+                        "dir": "OUTPUT",
+                        "wire": "QPLLDMONITOR1"
+                    },
+                    "QPLLDMONITOR2": {
+                        "dir": "OUTPUT",
+                        "wire": "QPLLDMONITOR2"
+                    },
+                    "QPLLDMONITOR3": {
+                        "dir": "OUTPUT",
+                        "wire": "QPLLDMONITOR3"
+                    },
+                    "QPLLDMONITOR4": {
+                        "dir": "OUTPUT",
+                        "wire": "QPLLDMONITOR4"
+                    },
+                    "QPLLDMONITOR5": {
+                        "dir": "OUTPUT",
+                        "wire": "QPLLDMONITOR5"
+                    },
+                    "QPLLDMONITOR6": {
+                        "dir": "OUTPUT",
+                        "wire": "QPLLDMONITOR6"
+                    },
+                    "QPLLDMONITOR7": {
+                        "dir": "OUTPUT",
+                        "wire": "QPLLDMONITOR7"
+                    },
+                    "QPLLFBCLKLOST": {
+                        "dir": "OUTPUT",
+                        "wire": "QPLLFBCLKLOST"
+                    },
+                    "QPLLLOCK": {
+                        "dir": "OUTPUT",
+                        "wire": "QPLLLOCK"
+                    },
+                    "QPLLLOCKDETCLK": {
+                        "dir": "INPUT",
+                        "wire": "QPLLLOCKDETCLKINV_OUT"
+                    },
+                    "QPLLLOCKEN": {
+                        "dir": "INPUT",
+                        "wire": "QPLLLOCKEN"
+                    },
+                    "QPLLOUTCLK": {
+                        "dir": "OUTPUT",
+                        "wire": "QPLLOUTCLK"
+                    },
+                    "QPLLOUTREFCLK": {
+                        "dir": "OUTPUT",
+                        "wire": "QPLLOUTREFCLK"
+                    },
+                    "QPLLOUTRESET": {
+                        "dir": "INPUT",
+                        "wire": "QPLLOUTRESET"
+                    },
+                    "QPLLPD": {
+                        "dir": "INPUT",
+                        "wire": "QPLLPD"
+                    },
+                    "QPLLREFCLKLOST": {
+                        "dir": "OUTPUT",
+                        "wire": "QPLLREFCLKLOST"
+                    },
+                    "QPLLREFCLKSEL0": {
+                        "dir": "INPUT",
+                        "wire": "QPLLREFCLKSEL0"
+                    },
+                    "QPLLREFCLKSEL1": {
+                        "dir": "INPUT",
+                        "wire": "QPLLREFCLKSEL1"
+                    },
+                    "QPLLREFCLKSEL2": {
+                        "dir": "INPUT",
+                        "wire": "QPLLREFCLKSEL2"
+                    },
+                    "QPLLRESET": {
+                        "dir": "INPUT",
+                        "wire": "QPLLRESET"
+                    },
+                    "QPLLRSVD10": {
+                        "dir": "INPUT",
+                        "wire": "QPLLRSVD10"
+                    },
+                    "QPLLRSVD11": {
+                        "dir": "INPUT",
+                        "wire": "QPLLRSVD11"
+                    },
+                    "QPLLRSVD12": {
+                        "dir": "INPUT",
+                        "wire": "QPLLRSVD12"
+                    },
+                    "QPLLRSVD13": {
+                        "dir": "INPUT",
+                        "wire": "QPLLRSVD13"
+                    },
+                    "QPLLRSVD14": {
+                        "dir": "INPUT",
+                        "wire": "QPLLRSVD14"
+                    },
+                    "QPLLRSVD15": {
+                        "dir": "INPUT",
+                        "wire": "QPLLRSVD15"
+                    },
+                    "QPLLRSVD16": {
+                        "dir": "INPUT",
+                        "wire": "QPLLRSVD16"
+                    },
+                    "QPLLRSVD17": {
+                        "dir": "INPUT",
+                        "wire": "QPLLRSVD17"
+                    },
+                    "QPLLRSVD18": {
+                        "dir": "INPUT",
+                        "wire": "QPLLRSVD18"
+                    },
+                    "QPLLRSVD19": {
+                        "dir": "INPUT",
+                        "wire": "QPLLRSVD19"
+                    },
+                    "QPLLRSVD20": {
+                        "dir": "INPUT",
+                        "wire": "QPLLRSVD20"
+                    },
+                    "QPLLRSVD21": {
+                        "dir": "INPUT",
+                        "wire": "QPLLRSVD21"
+                    },
+                    "QPLLRSVD22": {
+                        "dir": "INPUT",
+                        "wire": "QPLLRSVD22"
+                    },
+                    "QPLLRSVD23": {
+                        "dir": "INPUT",
+                        "wire": "QPLLRSVD23"
+                    },
+                    "QPLLRSVD24": {
+                        "dir": "INPUT",
+                        "wire": "QPLLRSVD24"
+                    },
+                    "QPLLRSVD110": {
+                        "dir": "INPUT",
+                        "wire": "QPLLRSVD110"
+                    },
+                    "QPLLRSVD111": {
+                        "dir": "INPUT",
+                        "wire": "QPLLRSVD111"
+                    },
+                    "QPLLRSVD112": {
+                        "dir": "INPUT",
+                        "wire": "QPLLRSVD112"
+                    },
+                    "QPLLRSVD113": {
+                        "dir": "INPUT",
+                        "wire": "QPLLRSVD113"
+                    },
+                    "QPLLRSVD114": {
+                        "dir": "INPUT",
+                        "wire": "QPLLRSVD114"
+                    },
+                    "QPLLRSVD115": {
+                        "dir": "INPUT",
+                        "wire": "QPLLRSVD115"
+                    },
+                    "RCALENB": {
+                        "dir": "INPUT",
+                        "wire": "RCALENB"
+                    },
+                    "REFCLKOUTMONITOR": {
+                        "dir": "OUTPUT",
+                        "wire": "REFCLKOUTMONITOR"
+                    }
+                },
+                "type": "GTXE2_COMMON_GTXE2_COMMON"
+            },
+            "DRPCLKINV": {
+                "class": "RBEL",
+                "pins": {
+                    "DRPCLK": {
+                        "dir": "INPUT",
+                        "wire": "DRPCLK"
+                    },
+                    "DRPCLK_B": {
+                        "dir": "INPUT",
+                        "wire": "DRPCLK"
+                    },
+                    "OUT": {
+                        "dir": "OUTPUT",
+                        "wire": "DRPCLKINV_OUT"
+                    }
+                },
+                "type": "GTXE2_COMMON_DRPCLKINV"
+            },
+            "GTGREFCLKINV": {
+                "class": "RBEL",
+                "pins": {
+                    "GTGREFCLK": {
+                        "dir": "INPUT",
+                        "wire": "GTGREFCLK"
+                    },
+                    "GTGREFCLK_B": {
+                        "dir": "INPUT",
+                        "wire": "GTGREFCLK"
+                    },
+                    "OUT": {
+                        "dir": "OUTPUT",
+                        "wire": "GTGREFCLKINV_OUT"
+                    }
+                },
+                "type": "GTXE2_COMMON_GTGREFCLKINV"
+            },
+            "PMASCANCLK0INV": {
+                "class": "RBEL",
+                "pins": {
+                    "OUT": {
+                        "dir": "OUTPUT",
+                        "wire": "PMASCANCLK0INV_OUT"
+                    },
+                    "PMASCANCLK0": {
+                        "dir": "INPUT",
+                        "wire": "PMASCANCLK0"
+                    },
+                    "PMASCANCLK0_B": {
+                        "dir": "INPUT",
+                        "wire": "PMASCANCLK0"
+                    }
+                },
+                "type": "GTXE2_COMMON_PMASCANCLK0INV"
+            },
+            "PMASCANCLK1INV": {
+                "class": "RBEL",
+                "pins": {
+                    "OUT": {
+                        "dir": "OUTPUT",
+                        "wire": "PMASCANCLK1INV_OUT"
+                    },
+                    "PMASCANCLK1": {
+                        "dir": "INPUT",
+                        "wire": "PMASCANCLK1"
+                    },
+                    "PMASCANCLK1_B": {
+                        "dir": "INPUT",
+                        "wire": "PMASCANCLK1"
+                    }
+                },
+                "type": "GTXE2_COMMON_PMASCANCLK1INV"
+            },
+            "QPLLCLKSPARE0INV": {
+                "class": "RBEL",
+                "pins": {
+                    "OUT": {
+                        "dir": "OUTPUT",
+                        "wire": "QPLLCLKSPARE0INV_OUT"
+                    },
+                    "QPLLCLKSPARE0": {
+                        "dir": "INPUT",
+                        "wire": "QPLLCLKSPARE0"
+                    },
+                    "QPLLCLKSPARE0_B": {
+                        "dir": "INPUT",
+                        "wire": "QPLLCLKSPARE0"
+                    }
+                },
+                "type": "GTXE2_COMMON_QPLLCLKSPARE0INV"
+            },
+            "QPLLCLKSPARE1INV": {
+                "class": "RBEL",
+                "pins": {
+                    "OUT": {
+                        "dir": "OUTPUT",
+                        "wire": "QPLLCLKSPARE1INV_OUT"
+                    },
+                    "QPLLCLKSPARE1": {
+                        "dir": "INPUT",
+                        "wire": "QPLLCLKSPARE1"
+                    },
+                    "QPLLCLKSPARE1_B": {
+                        "dir": "INPUT",
+                        "wire": "QPLLCLKSPARE1"
+                    }
+                },
+                "type": "GTXE2_COMMON_QPLLCLKSPARE1INV"
+            },
+            "QPLLLOCKDETCLKINV": {
+                "class": "RBEL",
+                "pins": {
+                    "OUT": {
+                        "dir": "OUTPUT",
+                        "wire": "QPLLLOCKDETCLKINV_OUT"
+                    },
+                    "QPLLLOCKDETCLK": {
+                        "dir": "INPUT",
+                        "wire": "QPLLLOCKDETCLK"
+                    },
+                    "QPLLLOCKDETCLK_B": {
+                        "dir": "INPUT",
+                        "wire": "QPLLLOCKDETCLK"
+                    }
+                },
+                "type": "GTXE2_COMMON_QPLLLOCKDETCLKINV"
+            }
+        },
+        "pips": [
+            {
+                "bel": "DRPCLKINV",
+                "from_pin": "DRPCLK",
+                "to_pin": "OUT"
+            },
+            {
+                "bel": "DRPCLKINV",
+                "from_pin": "DRPCLK_B",
+                "to_pin": "OUT"
+            },
+            {
+                "bel": "GTGREFCLKINV",
+                "from_pin": "GTGREFCLK",
+                "to_pin": "OUT"
+            },
+            {
+                "bel": "GTGREFCLKINV",
+                "from_pin": "GTGREFCLK_B",
+                "to_pin": "OUT"
+            },
+            {
+                "bel": "PMASCANCLK0INV",
+                "from_pin": "PMASCANCLK0",
+                "to_pin": "OUT"
+            },
+            {
+                "bel": "PMASCANCLK0INV",
+                "from_pin": "PMASCANCLK0_B",
+                "to_pin": "OUT"
+            },
+            {
+                "bel": "PMASCANCLK1INV",
+                "from_pin": "PMASCANCLK1",
+                "to_pin": "OUT"
+            },
+            {
+                "bel": "PMASCANCLK1INV",
+                "from_pin": "PMASCANCLK1_B",
+                "to_pin": "OUT"
+            },
+            {
+                "bel": "QPLLCLKSPARE0INV",
+                "from_pin": "QPLLCLKSPARE0",
+                "to_pin": "OUT"
+            },
+            {
+                "bel": "QPLLCLKSPARE0INV",
+                "from_pin": "QPLLCLKSPARE0_B",
+                "to_pin": "OUT"
+            },
+            {
+                "bel": "QPLLCLKSPARE1INV",
+                "from_pin": "QPLLCLKSPARE1",
+                "to_pin": "OUT"
+            },
+            {
+                "bel": "QPLLCLKSPARE1INV",
+                "from_pin": "QPLLCLKSPARE1_B",
+                "to_pin": "OUT"
+            },
+            {
+                "bel": "QPLLLOCKDETCLKINV",
+                "from_pin": "QPLLLOCKDETCLK",
+                "to_pin": "OUT"
+            },
+            {
+                "bel": "QPLLLOCKDETCLKINV",
+                "from_pin": "QPLLLOCKDETCLK_B",
+                "to_pin": "OUT"
+            }
+        ],
+        "pins": {
+            "BGBYPASSB": {
+                "primary": "BGBYPASSB",
+                "dir": "INPUT",
+                "wire": "BGBYPASSB"
+            },
+            "BGMONITORENB": {
+                "primary": "BGMONITORENB",
+                "dir": "INPUT",
+                "wire": "BGMONITORENB"
+            },
+            "BGPDB": {
+                "primary": "BGPDB",
+                "dir": "INPUT",
+                "wire": "BGPDB"
+            },
+            "BGRCALOVRD0": {
+                "primary": "BGRCALOVRD0",
+                "dir": "INPUT",
+                "wire": "BGRCALOVRD0"
+            },
+            "BGRCALOVRD1": {
+                "primary": "BGRCALOVRD1",
+                "dir": "INPUT",
+                "wire": "BGRCALOVRD1"
+            },
+            "BGRCALOVRD2": {
+                "primary": "BGRCALOVRD2",
+                "dir": "INPUT",
+                "wire": "BGRCALOVRD2"
+            },
+            "BGRCALOVRD3": {
+                "primary": "BGRCALOVRD3",
+                "dir": "INPUT",
+                "wire": "BGRCALOVRD3"
+            },
+            "BGRCALOVRD4": {
+                "primary": "BGRCALOVRD4",
+                "dir": "INPUT",
+                "wire": "BGRCALOVRD4"
+            },
+            "DRPADDR0": {
+                "primary": "DRPADDR0",
+                "dir": "INPUT",
+                "wire": "DRPADDR0"
+            },
+            "DRPADDR1": {
+                "primary": "DRPADDR1",
+                "dir": "INPUT",
+                "wire": "DRPADDR1"
+            },
+            "DRPADDR2": {
+                "primary": "DRPADDR2",
+                "dir": "INPUT",
+                "wire": "DRPADDR2"
+            },
+            "DRPADDR3": {
+                "primary": "DRPADDR3",
+                "dir": "INPUT",
+                "wire": "DRPADDR3"
+            },
+            "DRPADDR4": {
+                "primary": "DRPADDR4",
+                "dir": "INPUT",
+                "wire": "DRPADDR4"
+            },
+            "DRPADDR5": {
+                "primary": "DRPADDR5",
+                "dir": "INPUT",
+                "wire": "DRPADDR5"
+            },
+            "DRPADDR6": {
+                "primary": "DRPADDR6",
+                "dir": "INPUT",
+                "wire": "DRPADDR6"
+            },
+            "DRPADDR7": {
+                "primary": "DRPADDR7",
+                "dir": "INPUT",
+                "wire": "DRPADDR7"
+            },
+            "DRPCLK": {
+                "primary": "DRPCLK",
+                "dir": "INPUT",
+                "wire": "DRPCLK"
+            },
+            "DRPDI0": {
+                "primary": "DRPDI0",
+                "dir": "INPUT",
+                "wire": "DRPDI0"
+            },
+            "DRPDI1": {
+                "primary": "DRPDI1",
+                "dir": "INPUT",
+                "wire": "DRPDI1"
+            },
+            "DRPDI2": {
+                "primary": "DRPDI2",
+                "dir": "INPUT",
+                "wire": "DRPDI2"
+            },
+            "DRPDI3": {
+                "primary": "DRPDI3",
+                "dir": "INPUT",
+                "wire": "DRPDI3"
+            },
+            "DRPDI4": {
+                "primary": "DRPDI4",
+                "dir": "INPUT",
+                "wire": "DRPDI4"
+            },
+            "DRPDI5": {
+                "primary": "DRPDI5",
+                "dir": "INPUT",
+                "wire": "DRPDI5"
+            },
+            "DRPDI6": {
+                "primary": "DRPDI6",
+                "dir": "INPUT",
+                "wire": "DRPDI6"
+            },
+            "DRPDI7": {
+                "primary": "DRPDI7",
+                "dir": "INPUT",
+                "wire": "DRPDI7"
+            },
+            "DRPDI8": {
+                "primary": "DRPDI8",
+                "dir": "INPUT",
+                "wire": "DRPDI8"
+            },
+            "DRPDI9": {
+                "primary": "DRPDI9",
+                "dir": "INPUT",
+                "wire": "DRPDI9"
+            },
+            "DRPDI10": {
+                "primary": "DRPDI10",
+                "dir": "INPUT",
+                "wire": "DRPDI10"
+            },
+            "DRPDI11": {
+                "primary": "DRPDI11",
+                "dir": "INPUT",
+                "wire": "DRPDI11"
+            },
+            "DRPDI12": {
+                "primary": "DRPDI12",
+                "dir": "INPUT",
+                "wire": "DRPDI12"
+            },
+            "DRPDI13": {
+                "primary": "DRPDI13",
+                "dir": "INPUT",
+                "wire": "DRPDI13"
+            },
+            "DRPDI14": {
+                "primary": "DRPDI14",
+                "dir": "INPUT",
+                "wire": "DRPDI14"
+            },
+            "DRPDI15": {
+                "primary": "DRPDI15",
+                "dir": "INPUT",
+                "wire": "DRPDI15"
+            },
+            "DRPDO0": {
+                "primary": "DRPDO0",
+                "dir": "OUTPUT",
+                "wire": "DRPDO0"
+            },
+            "DRPDO1": {
+                "primary": "DRPDO1",
+                "dir": "OUTPUT",
+                "wire": "DRPDO1"
+            },
+            "DRPDO2": {
+                "primary": "DRPDO2",
+                "dir": "OUTPUT",
+                "wire": "DRPDO2"
+            },
+            "DRPDO3": {
+                "primary": "DRPDO3",
+                "dir": "OUTPUT",
+                "wire": "DRPDO3"
+            },
+            "DRPDO4": {
+                "primary": "DRPDO4",
+                "dir": "OUTPUT",
+                "wire": "DRPDO4"
+            },
+            "DRPDO5": {
+                "primary": "DRPDO5",
+                "dir": "OUTPUT",
+                "wire": "DRPDO5"
+            },
+            "DRPDO6": {
+                "primary": "DRPDO6",
+                "dir": "OUTPUT",
+                "wire": "DRPDO6"
+            },
+            "DRPDO7": {
+                "primary": "DRPDO7",
+                "dir": "OUTPUT",
+                "wire": "DRPDO7"
+            },
+            "DRPDO8": {
+                "primary": "DRPDO8",
+                "dir": "OUTPUT",
+                "wire": "DRPDO8"
+            },
+            "DRPDO9": {
+                "primary": "DRPDO9",
+                "dir": "OUTPUT",
+                "wire": "DRPDO9"
+            },
+            "DRPDO10": {
+                "primary": "DRPDO10",
+                "dir": "OUTPUT",
+                "wire": "DRPDO10"
+            },
+            "DRPDO11": {
+                "primary": "DRPDO11",
+                "dir": "OUTPUT",
+                "wire": "DRPDO11"
+            },
+            "DRPDO12": {
+                "primary": "DRPDO12",
+                "dir": "OUTPUT",
+                "wire": "DRPDO12"
+            },
+            "DRPDO13": {
+                "primary": "DRPDO13",
+                "dir": "OUTPUT",
+                "wire": "DRPDO13"
+            },
+            "DRPDO14": {
+                "primary": "DRPDO14",
+                "dir": "OUTPUT",
+                "wire": "DRPDO14"
+            },
+            "DRPDO15": {
+                "primary": "DRPDO15",
+                "dir": "OUTPUT",
+                "wire": "DRPDO15"
+            },
+            "DRPEN": {
+                "primary": "DRPEN",
+                "dir": "INPUT",
+                "wire": "DRPEN"
+            },
+            "DRPRDY": {
+                "primary": "DRPRDY",
+                "dir": "OUTPUT",
+                "wire": "DRPRDY"
+            },
+            "DRPWE": {
+                "primary": "DRPWE",
+                "dir": "INPUT",
+                "wire": "DRPWE"
+            },
+            "GTGREFCLK": {
+                "primary": "GTGREFCLK",
+                "dir": "INPUT",
+                "wire": "GTGREFCLK"
+            },
+            "GTNORTHREFCLK0": {
+                "primary": "GTNORTHREFCLK0",
+                "dir": "INPUT",
+                "wire": "GTNORTHREFCLK0"
+            },
+            "GTNORTHREFCLK1": {
+                "primary": "GTNORTHREFCLK1",
+                "dir": "INPUT",
+                "wire": "GTNORTHREFCLK1"
+            },
+            "GTREFCLK0": {
+                "primary": "GTREFCLK0",
+                "dir": "INPUT",
+                "wire": "GTREFCLK0"
+            },
+            "GTREFCLK1": {
+                "primary": "GTREFCLK1",
+                "dir": "INPUT",
+                "wire": "GTREFCLK1"
+            },
+            "GTSOUTHREFCLK0": {
+                "primary": "GTSOUTHREFCLK0",
+                "dir": "INPUT",
+                "wire": "GTSOUTHREFCLK0"
+            },
+            "GTSOUTHREFCLK1": {
+                "primary": "GTSOUTHREFCLK1",
+                "dir": "INPUT",
+                "wire": "GTSOUTHREFCLK1"
+            },
+            "PMARSVD0": {
+                "primary": "PMARSVD0",
+                "dir": "INPUT",
+                "wire": "PMARSVD0"
+            },
+            "PMARSVD1": {
+                "primary": "PMARSVD1",
+                "dir": "INPUT",
+                "wire": "PMARSVD1"
+            },
+            "PMARSVD2": {
+                "primary": "PMARSVD2",
+                "dir": "INPUT",
+                "wire": "PMARSVD2"
+            },
+            "PMARSVD3": {
+                "primary": "PMARSVD3",
+                "dir": "INPUT",
+                "wire": "PMARSVD3"
+            },
+            "PMARSVD4": {
+                "primary": "PMARSVD4",
+                "dir": "INPUT",
+                "wire": "PMARSVD4"
+            },
+            "PMARSVD5": {
+                "primary": "PMARSVD5",
+                "dir": "INPUT",
+                "wire": "PMARSVD5"
+            },
+            "PMARSVD6": {
+                "primary": "PMARSVD6",
+                "dir": "INPUT",
+                "wire": "PMARSVD6"
+            },
+            "PMARSVD7": {
+                "primary": "PMARSVD7",
+                "dir": "INPUT",
+                "wire": "PMARSVD7"
+            },
+            "PMASCANCLK0": {
+                "primary": "PMASCANCLK0",
+                "dir": "INPUT",
+                "wire": "PMASCANCLK0"
+            },
+            "PMASCANCLK1": {
+                "primary": "PMASCANCLK1",
+                "dir": "INPUT",
+                "wire": "PMASCANCLK1"
+            },
+            "PMASCANENB": {
+                "primary": "PMASCANENB",
+                "dir": "INPUT",
+                "wire": "PMASCANENB"
+            },
+            "PMASCANIN0": {
+                "primary": "PMASCANIN0",
+                "dir": "INPUT",
+                "wire": "PMASCANIN0"
+            },
+            "PMASCANIN1": {
+                "primary": "PMASCANIN1",
+                "dir": "INPUT",
+                "wire": "PMASCANIN1"
+            },
+            "PMASCANIN2": {
+                "primary": "PMASCANIN2",
+                "dir": "INPUT",
+                "wire": "PMASCANIN2"
+            },
+            "PMASCANIN3": {
+                "primary": "PMASCANIN3",
+                "dir": "INPUT",
+                "wire": "PMASCANIN3"
+            },
+            "PMASCANIN4": {
+                "primary": "PMASCANIN4",
+                "dir": "INPUT",
+                "wire": "PMASCANIN4"
+            },
+            "PMASCANOUT0": {
+                "primary": "PMASCANOUT0",
+                "dir": "OUTPUT",
+                "wire": "PMASCANOUT0"
+            },
+            "PMASCANOUT1": {
+                "primary": "PMASCANOUT1",
+                "dir": "OUTPUT",
+                "wire": "PMASCANOUT1"
+            },
+            "PMASCANOUT2": {
+                "primary": "PMASCANOUT2",
+                "dir": "OUTPUT",
+                "wire": "PMASCANOUT2"
+            },
+            "PMASCANOUT3": {
+                "primary": "PMASCANOUT3",
+                "dir": "OUTPUT",
+                "wire": "PMASCANOUT3"
+            },
+            "PMASCANOUT4": {
+                "primary": "PMASCANOUT4",
+                "dir": "OUTPUT",
+                "wire": "PMASCANOUT4"
+            },
+            "QDPMASCANMODEB": {
+                "primary": "QDPMASCANMODEB",
+                "dir": "INPUT",
+                "wire": "QDPMASCANMODEB"
+            },
+            "QDPMASCANRSTEN": {
+                "primary": "QDPMASCANRSTEN",
+                "dir": "INPUT",
+                "wire": "QDPMASCANRSTEN"
+            },
+            "QPLLCLKSPARE0": {
+                "primary": "QPLLCLKSPARE0",
+                "dir": "INPUT",
+                "wire": "QPLLCLKSPARE0"
+            },
+            "QPLLCLKSPARE1": {
+                "primary": "QPLLCLKSPARE1",
+                "dir": "INPUT",
+                "wire": "QPLLCLKSPARE1"
+            },
+            "QPLLDMONITOR0": {
+                "primary": "QPLLDMONITOR0",
+                "dir": "OUTPUT",
+                "wire": "QPLLDMONITOR0"
+            },
+            "QPLLDMONITOR1": {
+                "primary": "QPLLDMONITOR1",
+                "dir": "OUTPUT",
+                "wire": "QPLLDMONITOR1"
+            },
+            "QPLLDMONITOR2": {
+                "primary": "QPLLDMONITOR2",
+                "dir": "OUTPUT",
+                "wire": "QPLLDMONITOR2"
+            },
+            "QPLLDMONITOR3": {
+                "primary": "QPLLDMONITOR3",
+                "dir": "OUTPUT",
+                "wire": "QPLLDMONITOR3"
+            },
+            "QPLLDMONITOR4": {
+                "primary": "QPLLDMONITOR4",
+                "dir": "OUTPUT",
+                "wire": "QPLLDMONITOR4"
+            },
+            "QPLLDMONITOR5": {
+                "primary": "QPLLDMONITOR5",
+                "dir": "OUTPUT",
+                "wire": "QPLLDMONITOR5"
+            },
+            "QPLLDMONITOR6": {
+                "primary": "QPLLDMONITOR6",
+                "dir": "OUTPUT",
+                "wire": "QPLLDMONITOR6"
+            },
+            "QPLLDMONITOR7": {
+                "primary": "QPLLDMONITOR7",
+                "dir": "OUTPUT",
+                "wire": "QPLLDMONITOR7"
+            },
+            "QPLLFBCLKLOST": {
+                "primary": "QPLLFBCLKLOST",
+                "dir": "OUTPUT",
+                "wire": "QPLLFBCLKLOST"
+            },
+            "QPLLLOCK": {
+                "primary": "QPLLLOCK",
+                "dir": "OUTPUT",
+                "wire": "QPLLLOCK"
+            },
+            "QPLLLOCKDETCLK": {
+                "primary": "QPLLLOCKDETCLK",
+                "dir": "INPUT",
+                "wire": "QPLLLOCKDETCLK"
+            },
+            "QPLLLOCKEN": {
+                "primary": "QPLLLOCKEN",
+                "dir": "INPUT",
+                "wire": "QPLLLOCKEN"
+            },
+            "QPLLOUTCLK": {
+                "primary": "QPLLOUTCLK",
+                "dir": "OUTPUT",
+                "wire": "QPLLOUTCLK"
+            },
+            "QPLLOUTREFCLK": {
+                "primary": "QPLLOUTREFCLK",
+                "dir": "OUTPUT",
+                "wire": "QPLLOUTREFCLK"
+            },
+            "QPLLOUTRESET": {
+                "primary": "QPLLOUTRESET",
+                "dir": "INPUT",
+                "wire": "QPLLOUTRESET"
+            },
+            "QPLLPD": {
+                "primary": "QPLLPD",
+                "dir": "INPUT",
+                "wire": "QPLLPD"
+            },
+            "QPLLREFCLKLOST": {
+                "primary": "QPLLREFCLKLOST",
+                "dir": "OUTPUT",
+                "wire": "QPLLREFCLKLOST"
+            },
+            "QPLLREFCLKSEL0": {
+                "primary": "QPLLREFCLKSEL0",
+                "dir": "INPUT",
+                "wire": "QPLLREFCLKSEL0"
+            },
+            "QPLLREFCLKSEL1": {
+                "primary": "QPLLREFCLKSEL1",
+                "dir": "INPUT",
+                "wire": "QPLLREFCLKSEL1"
+            },
+            "QPLLREFCLKSEL2": {
+                "primary": "QPLLREFCLKSEL2",
+                "dir": "INPUT",
+                "wire": "QPLLREFCLKSEL2"
+            },
+            "QPLLRESET": {
+                "primary": "QPLLRESET",
+                "dir": "INPUT",
+                "wire": "QPLLRESET"
+            },
+            "QPLLRSVD10": {
+                "primary": "QPLLRSVD10",
+                "dir": "INPUT",
+                "wire": "QPLLRSVD10"
+            },
+            "QPLLRSVD11": {
+                "primary": "QPLLRSVD11",
+                "dir": "INPUT",
+                "wire": "QPLLRSVD11"
+            },
+            "QPLLRSVD12": {
+                "primary": "QPLLRSVD12",
+                "dir": "INPUT",
+                "wire": "QPLLRSVD12"
+            },
+            "QPLLRSVD13": {
+                "primary": "QPLLRSVD13",
+                "dir": "INPUT",
+                "wire": "QPLLRSVD13"
+            },
+            "QPLLRSVD14": {
+                "primary": "QPLLRSVD14",
+                "dir": "INPUT",
+                "wire": "QPLLRSVD14"
+            },
+            "QPLLRSVD15": {
+                "primary": "QPLLRSVD15",
+                "dir": "INPUT",
+                "wire": "QPLLRSVD15"
+            },
+            "QPLLRSVD16": {
+                "primary": "QPLLRSVD16",
+                "dir": "INPUT",
+                "wire": "QPLLRSVD16"
+            },
+            "QPLLRSVD17": {
+                "primary": "QPLLRSVD17",
+                "dir": "INPUT",
+                "wire": "QPLLRSVD17"
+            },
+            "QPLLRSVD18": {
+                "primary": "QPLLRSVD18",
+                "dir": "INPUT",
+                "wire": "QPLLRSVD18"
+            },
+            "QPLLRSVD19": {
+                "primary": "QPLLRSVD19",
+                "dir": "INPUT",
+                "wire": "QPLLRSVD19"
+            },
+            "QPLLRSVD20": {
+                "primary": "QPLLRSVD20",
+                "dir": "INPUT",
+                "wire": "QPLLRSVD20"
+            },
+            "QPLLRSVD21": {
+                "primary": "QPLLRSVD21",
+                "dir": "INPUT",
+                "wire": "QPLLRSVD21"
+            },
+            "QPLLRSVD22": {
+                "primary": "QPLLRSVD22",
+                "dir": "INPUT",
+                "wire": "QPLLRSVD22"
+            },
+            "QPLLRSVD23": {
+                "primary": "QPLLRSVD23",
+                "dir": "INPUT",
+                "wire": "QPLLRSVD23"
+            },
+            "QPLLRSVD24": {
+                "primary": "QPLLRSVD24",
+                "dir": "INPUT",
+                "wire": "QPLLRSVD24"
+            },
+            "QPLLRSVD110": {
+                "primary": "QPLLRSVD110",
+                "dir": "INPUT",
+                "wire": "QPLLRSVD110"
+            },
+            "QPLLRSVD111": {
+                "primary": "QPLLRSVD111",
+                "dir": "INPUT",
+                "wire": "QPLLRSVD111"
+            },
+            "QPLLRSVD112": {
+                "primary": "QPLLRSVD112",
+                "dir": "INPUT",
+                "wire": "QPLLRSVD112"
+            },
+            "QPLLRSVD113": {
+                "primary": "QPLLRSVD113",
+                "dir": "INPUT",
+                "wire": "QPLLRSVD113"
+            },
+            "QPLLRSVD114": {
+                "primary": "QPLLRSVD114",
+                "dir": "INPUT",
+                "wire": "QPLLRSVD114"
+            },
+            "QPLLRSVD115": {
+                "primary": "QPLLRSVD115",
+                "dir": "INPUT",
+                "wire": "QPLLRSVD115"
+            },
+            "RCALENB": {
+                "primary": "RCALENB",
+                "dir": "INPUT",
+                "wire": "RCALENB"
+            },
+            "REFCLKOUTMONITOR": {
+                "primary": "REFCLKOUTMONITOR",
+                "dir": "OUTPUT",
+                "wire": "REFCLKOUTMONITOR"
+            }
+        }
+    }
+}
