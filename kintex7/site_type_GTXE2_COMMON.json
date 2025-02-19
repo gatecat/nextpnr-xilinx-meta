@@ -517,7 +517,7 @@
                         "wire": "REFCLKOUTMONITOR"
                     }
                 },
-                "type": "GTXE2_COMMON_GTXE2_COMMON"
+                "type": "GTXE2_COMMON"
             },
             "DRPCLKINV": {
                 "class": "RBEL",

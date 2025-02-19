@@ -2741,7 +2741,7 @@
                         "wire": "TXUSRCLK2INV_OUT"
                     }
                 },
-                "type": "GTXE2_CHANNEL_GTXE2_CHANNEL"
+                "type": "GTXE2_CHANNEL"
             },
             "CPLLLOCKDETCLKINV": {
                 "class": "RBEL",
