@@ -1,0 +1,38 @@
+{
+  "OPAD": {
+    "bels": {
+      "PAD": {
+        "type": "PAD",
+        "class": "BEL",
+        "pins": {
+          "PAD": {
+            "dir": "BIDIR",
+            "wire": "OPAD_O"
+          }
+        }
+      },
+      "OPAD" : {
+        "type": "BUFFER",
+        "class": "BEL",
+        "pins": {
+          "I": {
+            "dir": "INPUT",
+            "wire": "I"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "OPAD_O"
+          }
+        }
+      }
+    },
+    "pips": [],
+    "pins": {
+      "I": {
+        "primary": "I",
+        "wire": "I",
+        "dir": "INPUT"
+      }
+    }
+  }
+}
